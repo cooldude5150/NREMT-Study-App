@@ -30,6 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const questionText = document.getElementById('question-text');
     const optionsContainer = document.getElementById('options-container');
     const submitBtn = document.getElementById('submit-btn');
+    const hintBtn = document.getElementById('hint-btn');
+    const hintDisplay = document.getElementById('hint-display');
     
     // New Features Elements
     const infoBtn = document.getElementById('info-btn');
@@ -224,6 +226,13 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.removeAttribute('disabled');
         submitBtn.classList.remove('hidden');
         nextBtn.classList.add('hidden');
+        hintDisplay.classList.add('hidden');
+        hintDisplay.textContent = '';
+        if (isChallengeMode) {
+            hintBtn.style.display = 'none';
+        } else {
+            hintBtn.style.display = 'inline-block';
+        }
         optionsContainer.innerHTML = '';
         selectedOption = null;
         if (sortableInstance) {
@@ -342,6 +351,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    hintBtn.addEventListener('click', () => {
+        const q = quizQuestions[currentQuestionIndex];
+        if (q && q.hint) {
+            hintDisplay.textContent = q.hint;
+            hintDisplay.classList.remove('hidden');
+        }
+    });
+
     submitBtn.addEventListener('click', () => {
         const q = quizQuestions[currentQuestionIndex];
         let isCorrect = false;
@@ -424,6 +441,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         submitBtn.classList.add('hidden');
+        hintBtn.style.display = 'none';
         
         // Show Feedback
         showFeedback(isCorrect, q.explanation);
