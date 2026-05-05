@@ -9,6 +9,14 @@
 4. Double click "index.html"
 5. Open in prefered browser.
 
+# Features
+- Study Resources
+- Categorization of Questions
+- Challenge Mode
+- True NREMT Exam Simulation
+- Clean UI
+- 100% Free
+
 # Troubleshooting
 - Open in Google Chrome if prefered browser is not working.
 - Clean install of browser.
