@@ -242,7 +242,7 @@ window.questionBank = {
                 "Periods of gradually increasing rate and depth of breathing, followed by periods of gradually decreasing rate and depth, ending with a period of apnea.",
                 "Continuous, high-pitched stridor on inhalation that indicates a severe upper airway obstruction or anaphylaxis."
             ],
-            "answer": "Increasing rate and depth of breathing, followed by decreasing rate and depth, ending with a period of apnea.",
+            "answer": "Periods of gradually increasing rate and depth of breathing, followed by periods of gradually decreasing rate and depth, ending with a period of apnea.",
             "explanation": "Cheyne-Stokes is a cyclical pattern of crescendo-decrescendo breathing followed by apnea, commonly seen in severe head injuries or stroke."
         },
         {
@@ -294,7 +294,7 @@ window.questionBank = {
                 "No, administering Nitroglycerin within 24-48 hours of taking an erectile dysfunction medication can cause a fatal drop in blood pressure.",
                 "No, because the erectile dysfunction medication will completely neutralize the effects of the Nitroglycerin, rendering it useless."
             ],
-            "answer": "No, Nitroglycerin is absolutely contraindicated if ED medications have been taken within the last 24 to 48 hours.",
+            "answer": "No, administering Nitroglycerin within 24-48 hours of taking an erectile dysfunction medication can cause a fatal drop in blood pressure.",
             "explanation": "Combining Nitrates and PDE5 inhibitors (ED meds) causes massive, uncontrollable, and often fatal vasodilation/hypotension."
         },
         {
@@ -452,7 +452,7 @@ window.questionBank = {
                 "Remove the object only if it is completely obstructing the airway and cannot be secured in place, then apply direct pressure.",
                 "Push the object completely through the cheek to the outside to clear the airway and bandage both sides securely."
             ],
-            "answer": "Carefully remove the object to clear the airway and apply pressure on the inside and outside of the cheek.",
+            "answer": "Remove the object only if it is completely obstructing the airway and cannot be secured in place, then apply direct pressure.",
             "explanation": "Impaled objects are NEVER removed, EXCEPT for two reasons: It is in the cheek causing an airway obstruction, or it is in the chest interfering with CPR."
         },
         {
@@ -533,7 +533,7 @@ window.questionBank = {
                 "The timeframe in which a patient must be found and extricated from a vehicle before hypothermia sets in.",
                 "The exact amount of time it takes for a patient in hypovolemic shock to lose their entire circulating blood volume."
             ],
-            "answer": "The 60 minutes from the time the injury occurs to the time the patient receives definitive care in surgery.",
+            "answer": "The critical 60-minute timeframe from the moment of injury to definitive surgical care in a hospital setting.",
             "explanation": "Trauma patients must ideally reach the operating room within 60 minutes of the INJURY occurring, not when EMS arrives."
         },
         {
@@ -882,7 +882,7 @@ window.questionBank = {
                 "No. Oxygen is strictly contraindicated for any patient with a systolic blood pressure greater than 120 mmHg.",
                 "No. Current AHA guidelines state to withhold oxygen if the SpO2 is > 94% and there are no signs of respiratory distress."
             ],
-            "answer": "No, AHA guidelines state oxygen is not indicated if SpO2 is above 94% and there is no respiratory distress.",
+            "answer": "No. Current AHA guidelines state to withhold oxygen if the SpO2 is > 94% and there are no signs of respiratory distress.",
             "explanation": "The NREMT frequently tests this new standard. Giving high-flow oxygen to a heart attack patient with normal O2 levels can actually cause vasoconstriction and worsen the infarct."
         },
         {
@@ -907,7 +907,7 @@ window.questionBank = {
                 "A CPAP machine provides continuous positive airway pressure to a spontaneously breathing patient, while a BVM forces ventilations into an apneic or hypoventilating patient.",
                 "A CPAP machine requires surgical placement into the trachea, while a BVM is placed completely externally over the face."
             ],
-            "answer": "CPAP is for patients who are spontaneously breathing; a BVM is for patients who are apneic or breathing inadequately.",
+            "answer": "A CPAP machine provides continuous positive airway pressure to a spontaneously breathing patient, while a BVM forces ventilations into an apneic or hypoventilating patient.",
             "explanation": "CPAP requires the patient to be awake and breathing on their own to push against the continuous pressure. If they stop breathing, you MUST switch to a BVM."
         },
         {
@@ -944,7 +944,7 @@ window.questionBank = {
                 "Immediately suction the baby's airway (mouth then nose) before stimulating them to cry or providing positive pressure ventilations.",
                 "Immediately begin chest compressions at a ratio of 3:1 while providing high-flow oxygen via blow-by administration."
             ],
-            "answer": "Suction the mouth and then the nose using a bulb syringe before stimulating the baby.",
+            "answer": "Immediately suction the baby's airway (mouth then nose) before stimulating them to cry or providing positive pressure ventilations.",
             "explanation": "If a baby is born through meconium and is depressed (not crying), you MUST suction the airway before you stimulate them. If you stimulate them first, they will gasp and aspirate the toxic meconium into their lungs."
         },
         {
@@ -1143,7 +1143,7 @@ window.questionBank = {
                 "The presence of severe internal tissue damage and potentially fatal cardiac arrhythmias that may not be externally visible.",
                 "The danger of the electrical current remaining trapped inside the patient's body and shocking the responding EMTs."
             ],
-            "answer": "Internal tissue damage and lethal cardiac arrhythmias along the path of the current.",
+            "answer": "The presence of severe internal tissue damage and potentially fatal cardiac arrhythmias that may not be externally visible.",
             "explanation": "The visible skin burns are just the tip of the iceberg. The electricity cooks the internal organs and muscles, and stops the heart."
         },
         {
@@ -1265,7 +1265,7 @@ window.questionBank = {
                 "Crowning (the presentation of the baby's head or presenting part at the vaginal opening during contractions).",
                 "The mother reporting a sudden, severe drop in her blood pressure accompanied by intense abdominal pain."
             ],
-            "answer": "Crowning (the baby's head is visible at the vaginal opening during contractions).",
+            "answer": "Crowning (the presentation of the baby's head or presenting part at the vaginal opening during contractions).",
             "explanation": "Crowning means the baby is actively passing through the birth canal. Delivery will occur within minutes or seconds. Do not transport; prepare to deliver."
         },
         {
@@ -2293,7 +2293,7 @@ window.questionBank = {
                 "They have a physiological structure that makes breathing through the mouth difficult, relying almost entirely on the nose.",
                 "They have significantly larger tonsils and adenoids that completely block their oral airway until age one."
             ],
-            "answer": "Their epiglottis sits much higher, protecting the airway but making it physically difficult to breathe through the mouth.",
+            "answer": "They have a physiological structure that makes breathing through the mouth difficult, relying almost entirely on the nose.",
             "explanation": "Because they primarily breathe through their noses, a simple nasal congestion (like a cold) can cause severe respiratory distress in an infant."
         },
         {
@@ -2318,7 +2318,7 @@ window.questionBank = {
                 "It is the protective coating on the umbilical cord that can accidentally strangle the infant.",
                 "It is the thick mucus plug in the cervix that can cause severe maternal bleeding when dislodged."
             ],
-            "answer": "It is the baby's first bowel movement; if inhaled during birth, it can cause severe respiratory distress and infection.",
+            "answer": "It is the baby's first feces, passed into the amniotic fluid, which can cause severe respiratory distress if inhaled.",
             "explanation": "Meconium staining (green/black fluid) indicates fetal distress. If the baby is born limp, their airway must be suctioned vigorously before stimulating them to breathe."
         },
         {
@@ -2361,7 +2361,7 @@ window.questionBank = {
                 "An allergic reaction is a localized inflammatory response, while anaphylaxis involves systemic, life-threatening cardiovascular or respiratory compromise.",
                 "An allergic reaction always presents with severe hypotension, while anaphylaxis primarily presents with a minor skin rash."
             ],
-            "answer": "An allergic reaction is localized; anaphylaxis is a systemic, life-threatening response causing multiple organ systems to fail.",
+            "answer": "An allergic reaction is a localized inflammatory response, while anaphylaxis involves systemic, life-threatening cardiovascular or respiratory compromise.",
             "explanation": "Anaphylaxis is defined by systemic vasodilation (shock) and bronchoconstriction (respiratory failure). A simple allergic reaction might just be hives on the arm."
         },
         {
@@ -2425,7 +2425,7 @@ window.questionBank = {
                 "It binds competitively to opioid receptors in the brain, blocking opioids from attaching and reversing respiratory depression.",
                 "It physically destroys the opioid molecules circulating within the patient's bloodstream and liver."
             ],
-            "answer": "It competitively binds to the opioid receptors in the brain, knocking the opioid molecules off and blocking them.",
+            "answer": "It binds competitively to opioid receptors in the brain, blocking opioids from attaching and reversing respiratory depression.",
             "explanation": "Naloxone is an opioid antagonist. It binds tighter to the receptors than the drug does, instantly reversing the respiratory depression."
         },
         {
@@ -2460,7 +2460,7 @@ window.questionBank = {
                 "To raise the body's core temperature, making it a hostile environment for bacterial or viral replication.",
                 "To stimulate the rapid breakdown of muscle tissue to provide emergency energy for the immune system."
             ],
-            "answer": "To create a hot environment that inhibits the replication and survival of bacteria and viruses.",
+            "answer": "To raise the body's core temperature, making it a hostile environment for bacterial or viral replication.",
             "explanation": "A fever is the body's intentional defense mechanism to cook out the invading pathogens."
         },
         {
@@ -2503,7 +2503,7 @@ window.questionBank = {
                 "It severely dilates the cerebral blood vessels, causing massive internal bleeding inside the brain.",
                 "It completely paralyzes the diaphragm, causing the patient to stop breathing entirely on their own."
             ],
-            "answer": "It blows off too much CO2, causing massive vasoconstriction which starves the brain of oxygen.",
+            "answer": "It severely constricts the cerebral blood vessels, dramatically reducing vital blood flow and oxygen to the brain tissue.",
             "explanation": "Hyperventilation drives down CO2. CO2 is a vasodilator. Low CO2 causes the blood vessels in the brain to constrict so tightly that it causes ischemia (starving the brain of O2)."
         },
         {
@@ -2556,7 +2556,7 @@ window.questionBank = {
                 "The air escapes from the lungs into the bloodstream, causing a massive and fatal pulmonary embolism.",
                 "The severe pain from the collapsed lung causes the patient to go into profound neurogenic shock."
             ],
-            "answer": "The extreme pressure physically crushes the superior and inferior vena cava, stopping blood return to the heart.",
+            "answer": "The trapped air continually increases pressure inside the chest cavity, eventually crushing the heart and completely stopping blood flow.",
             "explanation": "While losing a lung is bad, the actual cause of death is Obstructive Shock. The pressure pushes the mediastinum over, completely kinking the massive veins returning blood to the heart."
         },
         {
@@ -2591,7 +2591,7 @@ window.questionBank = {
                 "Manual compressions only generate about 25-30% of the normal cardiac output and blood pressure produced by a healthy heart.",
                 "Manual compressions only push air into the lungs, completely failing to circulate any blood through the body."
             ],
-            "answer": "CPR relies entirely on changing the pressure inside the chest cavity to force blood out, generating only about 25-30% of normal cardiac output.",
+            "answer": "Manual compressions only generate about 25-30% of the normal cardiac output and blood pressure produced by a healthy heart.",
             "explanation": "This is why uninterrupted, high-quality, deep compressions are vital. Every pause drops that meager 25% output down to zero instantly."
         },
         {
