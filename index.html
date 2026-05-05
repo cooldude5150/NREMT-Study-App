@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NREMT Premium Quiz Framework</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <!-- Landing Screen -->
+        <div id="landing-screen" class="screen active">
+            <header>
+                <div class="header-content">
+                    <h1>NREMT <span>Mastery</span></h1>
+                    <button id="info-btn" class="icon-btn" title="Category Information">ℹ️</button>
+                </div>
+                <p>Advanced Practical Exam Preparation</p>
+            </header>
+            
+            <div class="setup-container">
+                <div class="setup-section">
+                    <h2>Select Category</h2>
+                    <div class="options-grid" id="category-selection">
+                        <button class="setup-btn" data-category="Skills">Skills</button>
+                        <button class="setup-btn" data-category="Questions">Questions</button>
+                        <button class="setup-btn" data-category="Understanding">Understanding</button>
+                        <button class="setup-btn" data-category="Mixed">Mixed</button>
+                    </div>
+                </div>
+
+                <div class="setup-section">
+                    <h2>Number of Questions</h2>
+                    <div class="options-grid" id="length-selection">
+                        <button class="setup-btn" data-length="10">10</button>
+                        <button class="setup-btn" data-length="25">25</button>
+                        <button class="setup-btn" data-length="50">50</button>
+                        <button class="setup-btn" data-length="100">100</button>
+                        <button class="setup-btn" data-length="challenge">Challenge</button>
+                    </div>
+                </div>
+
+                <button id="start-quiz-btn" class="primary-btn" disabled>Start Quiz</button>
+                <button id="open-study-btn" class="secondary-btn">Study Resources</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-bar-container" id="standard-progress">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div id="challenge-tracker" class="challenge-tracker hidden">
+                    <!-- Blips injected via JS -->
+                </div>
+                <div class="quiz-meta">
+                    <span id="question-counter">Question 1/10</span>
+                    <span id="category-badge">Skills</span>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Question goes here?</h2>
+                <div id="options-container" class="options-container">
+                    <!-- Options injected via JS -->
+                </div>
+            </div>
+            
+            <div class="quiz-footer">
+                <button id="submit-btn" class="primary-btn" disabled>Submit Answer</button>
+                <button id="next-btn" class="primary-btn hidden">Next Question</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="results-header">
+                <h2>Quiz Complete</h2>
+                <div class="score-display">
+                    <span id="score-text">0%</span>
+                </div>
+            </div>
+            <div class="results-summary" id="results-summary">
+                <!-- Injected via JS -->
+            </div>
+            <button id="restart-btn" class="primary-btn">Return Home</button>
+        </div>
+
+        <!-- Study Screen -->
+        <div id="study-screen" class="screen">
+            <div class="study-header">
+                <h2>Study Resources</h2>
+                <button id="close-study-btn" class="secondary-btn">Return Home</button>
+            </div>
+            <div class="study-layout">
+                <div class="study-sidebar" id="study-sidebar">
+                    <button class="study-tab active" data-tab="conditions">Common Conditions</button>
+                    <button class="study-tab" data-tab="abbreviations">Abbreviations</button>
+                    <button class="study-tab" data-tab="terms">Key Terms</button>
+                    <button class="study-tab" data-tab="facts">Essential Facts</button>
+                    <button class="study-tab" data-tab="pharmacology">Pharmacology</button>
+                    <button class="study-tab" data-tab="assessment">Assessment Flow</button>
+                    <button class="study-tab" data-tab="triage">START Triage</button>
+                    <button class="study-tab" data-tab="airway">Airway Rules</button>
+                    <button class="study-tab" data-tab="terminology">Medical Terminology</button>
+                    <button class="study-tab" data-tab="pediatrics">OB & Pediatrics</button>
+                </div>
+                <div class="study-content" id="study-content">
+                    <!-- Content injected via JS -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-icon" id="feedback-icon"></div>
+            <h3 id="feedback-title">Correct!</h3>
+            <p id="feedback-explanation">Explanation goes here.</p>
+            <button id="modal-continue-btn" class="primary-btn">Continue</button>
+        </div>
+    </div>
+
+    <!-- Category Info Modal -->
+    <div id="category-info-modal" class="modal hidden">
+        <div class="modal-content info-modal-content">
+            <h3>Quiz Categories Explained</h3>
+            <div class="info-section">
+                <h4>🛠️ Skills</h4>
+                <p>Focuses on practical application, step-by-step procedures, scenario management, and the exact order of operations required for NREMT psychomotor skill sheets.</p>
+            </div>
+            <div class="info-section">
+                <h4>🧠 Understanding</h4>
+                <p>Focuses on the "why" and "how". Deep dives into pathophysiology, anatomy, biological mechanisms of disease, and pharmacology concepts.</p>
+            </div>
+            <div class="info-section">
+                <h4>❓ Questions</h4>
+                <p>Highly specific, tricky, rule-based questions mirroring the most difficult "gotcha" parts of the NREMT cognitive exam (strict dosages, contraindications, numbers).</p>
+            </div>
+            <div class="info-section">
+                <h4>🔀 Mixed</h4>
+                <p>A true NREMT simulation that draws randomly from all 300 questions across all categories.</p>
+            </div>
+            <div class="info-section">
+                <h4>🔥 Challenge Mode</h4>
+                <p>A high-stakes mental endurance test. You must get <strong>10 questions in a row correct</strong>. A single mistake resets your streak to zero.</p>
+            </div>
+            <button id="close-info-btn" class="primary-btn">Got it</button>
+        </div>
+    </div>
+
+    <!-- Script references -->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="studyData.js"></script>
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
