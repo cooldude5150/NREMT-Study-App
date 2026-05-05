@@ -702,3 +702,341 @@ header p {
     box-shadow: 0 0 10px var(--correct-color);
     border-color: var(--correct-color);
 }
+
+
+/* Hint Box */
+.hint-box {
+    background-color: rgba(0, 255, 204, 0.1);
+    border-left: 4px solid var(--neon-teal);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    font-style: italic;
+    color: var(--text-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.hint-box.hidden {
+    display: none;
+}
+
+.quiz-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.hint-btn-style {
+    background: #ffb703;
+    color: #023047;
+}
+
+.hint-btn-style:hover:not(:disabled) {
+    background: #ffc300;
+    box-shadow: 0 0 20px rgba(255, 183, 3, 0.6);
+}
+
+.quiz-footer button {
+    flex: 1;
+}
+
+
+
+#difficulty-badge {
+    background: rgba(255, 183, 3, 0.15);
+    color: #ffb703;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 10px;
+    border: 1px solid rgba(255, 183, 3, 0.3);
+}
+
+
+
+/* === SIMULATED NREMT EXAM === */
+.exam-cta {
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(255, 183, 3, 0.1));
+    border: 1px solid rgba(255, 107, 53, 0.3);
+    border-radius: var(--border-radius);
+}
+
+.exam-cta h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.6rem;
+    color: #ff6b35;
+    margin-bottom: 0.5rem;
+}
+
+.exam-cta p {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.exam-start-btn {
+    background: linear-gradient(135deg, #ff6b35, #ff8c42) !important;
+    color: #fff !important;
+    width: auto !important;
+    padding: 14px 40px !important;
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+}
+
+.exam-start-btn:hover:not(:disabled) {
+    box-shadow: 0 0 25px rgba(255, 107, 53, 0.6) !important;
+    transform: scale(1.03) !important;
+}
+
+/* Exam Instructions Screen */
+.exam-instructions .info-section {
+    margin-bottom: 1.5rem;
+}
+
+.exam-instructions h3 {
+    font-size: 1.4rem;
+    color: #ff6b35;
+    margin-bottom: 0.5rem;
+}
+
+.exam-instructions h4 {
+    font-size: 1.15rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+}
+
+.exam-rules-list {
+    list-style: none;
+    padding: 0;
+}
+
+.exam-rules-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: var(--text-light);
+    font-size: 0.95rem;
+}
+
+.exam-rules-list li:last-child {
+    border-bottom: none;
+}
+
+.exam-rules-list li strong {
+    color: #fff;
+}
+
+.exam-action-btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.exam-action-btns button {
+    flex: 1;
+}
+
+/* Exam Timer */
+.exam-timer {
+    background: rgba(255, 107, 53, 0.15);
+    color: #ff6b35;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    border: 1px solid rgba(255, 107, 53, 0.3);
+    margin-left: auto;
+}
+
+.exam-timer.warning {
+    color: var(--wrong-color);
+    border-color: rgba(244, 67, 54, 0.5);
+    background: rgba(244, 67, 54, 0.15);
+    animation: timer-pulse 1s ease-in-out infinite;
+}
+
+@keyframes timer-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Exam Results Screen */
+.exam-results-container {
+    text-align: center;
+}
+
+.exam-verdict {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.exam-verdict.pass {
+    color: var(--correct-color);
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.exam-verdict.fail {
+    color: var(--wrong-color);
+    background: rgba(244, 67, 54, 0.1);
+    border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.exam-score-display {
+    margin: 1.5rem 0;
+}
+
+.exam-score-display #exam-scaled-score {
+    font-family: 'Outfit', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.exam-score-display .exam-score-label {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    opacity: 0.6;
+}
+
+.exam-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.exam-stat-card {
+    background: var(--bg-panel);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.exam-stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
+.exam-stat-label {
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.exam-breakdown {
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+.exam-breakdown h4 {
+    color: var(--accent-color);
+    margin-bottom: 0.75rem;
+}
+
+.exam-breakdown-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.exam-breakdown-item .breakdown-label {
+    color: var(--text-light);
+}
+
+.exam-breakdown-item .breakdown-value {
+    font-weight: 600;
+}
+
+.exam-breakdown-item .breakdown-value.good {
+    color: var(--correct-color);
+}
+
+.exam-breakdown-item .breakdown-value.poor {
+    color: var(--wrong-color);
+}
+
+
+
+/* Exam Instructions Centering Fix */
+#exam-instructions-screen {
+    align-items: center;
+    text-align: center;
+}
+
+#exam-instructions-screen .setup-container {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+}
+
+#exam-instructions-screen header {
+    text-align: center;
+    width: 100%;
+}
+
+/* Exam quiz-meta fix - prevent overlap */
+.quiz-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+
+/* === Screen Centering Fixes === */
+#exam-instructions-screen,
+#dev-screen,
+#exam-results-screen {
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: center;
+}
+
+#exam-instructions-screen .setup-container,
+#dev-screen .setup-container,
+#exam-results-screen .setup-container {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#dev-screen header,
+#exam-instructions-screen header,
+#exam-results-screen header {
+    width: 100%;
+    text-align: center;
+}
+
+#dev-screen .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+#dev-back-btn,
+#exam-return-btn {
+    max-width: 650px;
+    width: 100%;
+}

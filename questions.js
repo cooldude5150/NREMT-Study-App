@@ -11,7 +11,10 @@ window.questionBank = {
                 "44%"
             ],
             "answer": "36%",
-            "explanation": "Room air is 21%. A nasal cannula adds approximately 4% oxygen for every 1 L/min. So at 4 L/min: 21 + (4 x 4) = 37%, normally rounded in textbooks to 36%."
+            "explanation": "Room air is 21%. A nasal cannula adds approximately 4% oxygen for every 1 L/min. So at 4 L/min: 21 + (4 x 4) = 37%, normally rounded in textbooks to 36%.",
+            "hint": "Guide: Room air is 21%. A nasal cannula adds approximately 4% oxygen for every 1 L/min. So at 4 L/min: 21 + (4 x 4) = 37%, normally rounded in textbooks to _______.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q2",
@@ -24,7 +27,10 @@ window.questionBank = {
                 "45%"
             ],
             "answer": "27%",
-            "explanation": "Anterior torso (chest + abdomen) = 18%. Anterior of one arm = 4.5%. Two anterior arms = 9%. Total = 18 + 9 = 27%."
+            "explanation": "Anterior torso (chest + abdomen) = 18%. Anterior of one arm = 4.5%. Two anterior arms = 9%. Total = 18 + 9 = 27%.",
+            "hint": "Guide: Anterior torso (chest + abdomen) = 18%. Anterior of one arm = 4.5%. Two anterior arms = 9%. Total = 18 + 9 = _______.",
+            "difficulty": 8,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q3",
@@ -37,7 +43,10 @@ window.questionBank = {
                 "30 to 60 breaths/min"
             ],
             "answer": "22 to 34 breaths/min",
-            "explanation": "Normal ranges: Adult (12-20), School-age (18-30), Preschool (22-34), Toddler (24-40), Infant (30-60). It's incredibly easy to confuse preschool and school-age."
+            "explanation": "Normal ranges: Adult (12-20), School-age (18-30), Preschool (22-34), Toddler (24-40), Infant (30-60). It's incredibly easy to confuse preschool and school-age.",
+            "hint": "Guide: Normal ranges: Adult (12-20), School-age (18-30), Preschool (___-___), Toddler (24-40), Infant (30-60). It's incredibly easy to confuse preschool and school-age.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q4",
@@ -50,7 +59,10 @@ window.questionBank = {
                 "30 seconds"
             ],
             "answer": "15 seconds",
-            "explanation": "Adults = 15 seconds max. Children = 10 seconds. Infants = 5 seconds. Suctioning removes oxygen and can cause severe hypoxia."
+            "explanation": "Adults = 15 seconds max. Children = 10 seconds. Infants = 5 seconds. Suctioning removes oxygen and can cause severe hypoxia.",
+            "hint": "Guide: Adults = _______ max. Children = 10 seconds. Infants = 5 seconds. Suctioning removes oxygen and can cause severe hypoxia.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q5",
@@ -63,7 +75,10 @@ window.questionBank = {
                 "3:1"
             ],
             "answer": "15:2",
-            "explanation": "For adults, it is ALWAYS 30:2. For infants and children, one rescuer is 30:2, but TWO rescuers drop the ratio to 15:2."
+            "explanation": "For adults, it is ALWAYS 30:2. For infants and children, one rescuer is 30:2, but TWO rescuers drop the ratio to 15:2.",
+            "hint": "Guide: For adults, it is ALWAYS 30:2. For infants and children, one rescuer is 30:2, but TWO rescuers drop the ratio to _______.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q6",
@@ -76,7 +91,10 @@ window.questionBank = {
                 "9"
             ],
             "answer": "7",
-            "explanation": "Appearance=1 (acrocyanosis), Pulse=2 (>100), Grimace=1 (weak cry), Activity=1 (some flexion), Respiration=2 (good, crying/40rr). Total = 7."
+            "explanation": "Appearance=1 (acrocyanosis), Pulse=2 (>100), Grimace=1 (weak cry), Activity=1 (some flexion), Respiration=2 (good, crying/40rr). Total = 7.",
+            "hint": "Guide: Appearance=1 (acrocyanosis), Pulse=2 (>100), Grimace=1 (weak cry), Activity=1 (some flexion), Respiration=2 (good, crying/40rr). Total = _______.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q7",
@@ -89,7 +107,10 @@ window.questionBank = {
                 "Scoop Stretcher"
             ],
             "answer": "Traction Splint",
-            "explanation": "Traction splints are ONLY indicated for isolated mid-shaft femur fractures. They are contraindicated if there is a suspected pelvic, hip, knee, or lower leg injury."
+            "explanation": "Traction splints are ONLY indicated for isolated mid-shaft femur fractures. They are contraindicated if there is a suspected pelvic, hip, knee, or lower leg injury.",
+            "hint": "Guide: _______s are ONLY indicated for isolated mid-shaft femur fractures. They are contraindicated if there is a suspected pelvic, hip, knee, or lower leg injury.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q8",
@@ -102,7 +123,10 @@ window.questionBank = {
                 "As many as needed until pain is relieved"
             ],
             "answer": "3 doses (1.2 mg)",
-            "explanation": "A maximum of 3 doses (0.4 mg each) can be given, 5 minutes apart, provided the systolic BP remains above 100 mmHg."
+            "explanation": "A maximum of 3 doses (0.4 mg each) can be given, 5 minutes apart, provided the systolic BP remains above 100 mmHg.",
+            "hint": "Guide: A maximum of ___ doses (0.4 mg each) can be given, 5 minutes apart, provided the systolic BP remains above 100 mmHg.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q9",
@@ -115,7 +139,10 @@ window.questionBank = {
                 "70 mmHg"
             ],
             "answer": "80 mmHg",
-            "explanation": "A radial pulse generally disappears if the systolic pressure drops below 80 mmHg. A femoral pulse disappears below 70 mmHg, and carotid below 60 mmHg."
+            "explanation": "A radial pulse generally disappears if the systolic pressure drops below 80 mmHg. A femoral pulse disappears below 70 mmHg, and carotid below 60 mmHg.",
+            "hint": "Guide: A radial pulse generally disappears if the systolic pressure drops below _______. A femoral pulse disappears below 70 mmHg, and carotid below 60 mmHg.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q10",
@@ -128,7 +155,10 @@ window.questionBank = {
                 "From the corner of the mouth to the angle of the jaw."
             ],
             "answer": "From the corner of the mouth to the earlobe.",
-            "explanation": "You measure an OPA from the corner of the mouth to the earlobe (or angle of the jaw). An NPA is measured from the tip of the nose to the earlobe."
+            "explanation": "You measure an OPA from the corner of the mouth to the earlobe (or angle of the jaw). An NPA is measured from the tip of the nose to the earlobe.",
+            "hint": "Guide: You measure an OPA from the corner of the mouth to the earlobe (or angle of the jaw).",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q11",
@@ -141,7 +171,10 @@ window.questionBank = {
                 "Black (Expectant/Deceased)"
             ],
             "answer": "Red (Immediate)",
-            "explanation": "START Triage rule: If respirations are over 30 per minute, immediately tag as RED. Do not proceed to check pulse or mental status."
+            "explanation": "START Triage rule: If respirations are over 30 per minute, immediately tag as RED. Do not proceed to check pulse or mental status.",
+            "hint": "Guide: START Triage rule: If respirations are over 30 per minute, immediately tag as RED.",
+            "difficulty": 8,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q12",
@@ -154,7 +187,10 @@ window.questionBank = {
                 "GCS 10"
             ],
             "answer": "GCS 8",
-            "explanation": "Eye to pain = 2. Verbal (incomprehensible groans) = 2. Motor (withdraws to pain) = 4. Total = 8."
+            "explanation": "Eye to pain = 2. Verbal (incomprehensible groans) = 2. Motor (withdraws to pain) = 4. Total = 8.",
+            "hint": "Guide: Eye to pain = 2. Verbal (incomprehensible groans) = 2. Motor (withdraws to pain) = 4. Total = ___.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q13",
@@ -167,7 +203,10 @@ window.questionBank = {
                 "Hypertension, Tachycardia, Regular Respirations"
             ],
             "answer": "Hypertension, Bradycardia, Irregular Respirations",
-            "explanation": "Cushing's Triad is the exact opposite of shock. Instead of low BP and fast heart rate, you get dangerously high BP (widening pulse pressure), slow heart rate, and irregular breathing (e.g. Cheyne-Stokes)."
+            "explanation": "Cushing's Triad is the exact opposite of shock. Instead of low BP and fast heart rate, you get dangerously high BP (widening pulse pressure), slow heart rate, and irregular breathing (e.g. Cheyne-Stokes).",
+            "hint": "Guide: Cushing's Triad is the exact opposite of shock. Instead of low BP and fast heart rate, you get dangerously high BP (widening pulse pressure), slow heart rate, and irregular breathing (e.g.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q14",
@@ -180,7 +219,10 @@ window.questionBank = {
                 "Pulmonary edema, pink frothy sputum, hypertension"
             ],
             "answer": "JVD, Muffled heart tones, Narrowing pulse pressure",
-            "explanation": "Cardiac tamponade compresses the heart. Fluid in the sac muffles the tones. The heart can't fill (narrow pulse pressure), and blood backs up into the veins (JVD)."
+            "explanation": "Cardiac tamponade compresses the heart. Fluid in the sac muffles the tones. The heart can't fill (narrow pulse pressure), and blood backs up into the veins (JVD).",
+            "hint": "Guide: Cardiac tamponade compresses the heart. Fluid in the sac muffles the tones.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q15",
@@ -191,7 +233,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Unlike adults who remain tachycardic, children will rapidly become bradycardic as a late and ominous sign of severe hypoxia."
+            "explanation": "Unlike adults who remain tachycardic, children will rapidly become bradycardic as a late and ominous sign of severe hypoxia.",
+            "hint": "Guide: Tachycardia is early. Bradycardia in kids is a late, ominous sign of impending cardiac arrest.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q16",
@@ -204,7 +249,10 @@ window.questionBank = {
                 "Spontaneous Abortion"
             ],
             "answer": "Abruptio Placenta",
-            "explanation": "Abruptio placenta (premature separation of placenta) presents with severe pain and often concealed bleeding. Placenta previa presents with painless bright red bleeding."
+            "explanation": "Abruptio placenta (premature separation of placenta) presents with severe pain and often concealed bleeding. Placenta previa presents with painless bright red bleeding.",
+            "hint": "Guide: _______ (premature separation of placenta) presents with severe pain and often concealed bleeding. Placenta previa presents with painless bright red bleeding.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q17",
@@ -217,7 +265,10 @@ window.questionBank = {
                 "Severe swelling in the hands and face"
             ],
             "answer": "The onset of seizures",
-            "explanation": "Preeclampsia is defined by hypertension, swelling, and proteinuria. The moment the patient begins seizing, it is classified as eclampsia."
+            "explanation": "Preeclampsia is defined by hypertension, swelling, and proteinuria. The moment the patient begins seizing, it is classified as eclampsia.",
+            "hint": "Guide: Preeclampsia is defined by hypertension, swelling, and proteinuria.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q18",
@@ -230,7 +281,10 @@ window.questionBank = {
                 "Opioid Overdose"
             ],
             "answer": "Diabetic Ketoacidosis (DKA)",
-            "explanation": "The deep, rapid breathing is called Kussmaul respirations. The body is attempting to blow off carbon dioxide to compensate for the extreme acidity caused by ketones (which smell fruity)."
+            "explanation": "The deep, rapid breathing is called Kussmaul respirations. The body is attempting to blow off carbon dioxide to compensate for the extreme acidity caused by ketones (which smell fruity).",
+            "hint": "Guide: The deep, rapid breathing is called Kussmaul respirations.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q19",
@@ -243,7 +297,10 @@ window.questionBank = {
                 "Continuous, high-pitched stridor on inhalation that indicates a severe upper airway obstruction or anaphylaxis."
             ],
             "answer": "Periods of gradually increasing rate and depth of breathing, followed by periods of gradually decreasing rate and depth, ending with a period of apnea.",
-            "explanation": "Cheyne-Stokes is a cyclical pattern of crescendo-decrescendo breathing followed by apnea, commonly seen in severe head injuries or stroke."
+            "explanation": "Cheyne-Stokes is a cyclical pattern of crescendo-decrescendo breathing followed by apnea, commonly seen in severe head injuries or stroke.",
+            "hint": "Guide: Cheyne-Stokes is a cyclical pattern of breathing fast, then slow, then stopping.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q20",
@@ -256,7 +313,10 @@ window.questionBank = {
                 "Downwards towards the floor of the nasal cavity"
             ],
             "answer": "Towards the septum (the middle wall of the nose)",
-            "explanation": "The bevel should always face the septum to avoid tearing the delicate turbinates on the lateral walls of the nasal cavity."
+            "explanation": "The bevel should always face the septum to avoid tearing the delicate turbinates on the lateral walls of the nasal cavity.",
+            "hint": "Guide: The bevel should always face the septum to avoid tearing the delicate turbinates on the lateral walls of the nasal cavity. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q21",
@@ -269,7 +329,10 @@ window.questionBank = {
                 "The patient's blood pressure is 110/70."
             ],
             "answer": "The patient has a known allergy to NSAIDs or a recent history of gastrointestinal bleeding.",
-            "explanation": "Aspirin prevents platelet aggregation (clotting). If the patient is already bleeding internally (GI bleed), aspirin could be fatal."
+            "explanation": "Aspirin prevents platelet aggregation (clotting). If the patient is already bleeding internally (GI bleed), aspirin could be fatal.",
+            "hint": "Guide: Aspirin prevents platelet aggregation (clotting).",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q22",
@@ -282,7 +345,10 @@ window.questionBank = {
                 "1.0 mg"
             ],
             "answer": "0.15 mg",
-            "explanation": "The adult dose (EpiPen) is 0.3 mg. The pediatric dose (EpiPen Jr) is 0.15 mg. Administered IM in the lateral thigh."
+            "explanation": "The adult dose (EpiPen) is 0.3 mg. The pediatric dose (EpiPen Jr) is 0.15 mg. Administered IM in the lateral thigh.",
+            "hint": "Guide: The adult dose (EpiPen) is 0.3 mg. The pediatric dose (EpiPen Jr) is _______. Administered IM in the lateral thigh.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q23",
@@ -295,7 +361,10 @@ window.questionBank = {
                 "No, because the erectile dysfunction medication will completely neutralize the effects of the Nitroglycerin, rendering it useless."
             ],
             "answer": "No, administering Nitroglycerin within 24-48 hours of taking an erectile dysfunction medication can cause a fatal drop in blood pressure.",
-            "explanation": "Combining Nitrates and PDE5 inhibitors (ED meds) causes massive, uncontrollable, and often fatal vasodilation/hypotension."
+            "explanation": "Combining Nitrates and PDE5 inhibitors (ED meds) causes massive, uncontrollable, and often fatal vasodilation/hypotension.",
+            "hint": "Guide: Nitro + Viagra = a fatal, irreversible drop in blood pressure.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q24",
@@ -308,7 +377,10 @@ window.questionBank = {
                 "A mist inhaled into the lungs (Inhalation)."
             ],
             "answer": "A pill swallowed and digested in the stomach (Oral).",
-            "explanation": "Enteral means 'through the intestines/digestive tract'. Sublingual, while in the mouth, absorbs directly into the venous system and is often classified separately or as a specialized parenteral bypass."
+            "explanation": "Enteral means 'through the intestines/digestive tract'. Sublingual, while in the mouth, absorbs directly into the venous system and is often classified separately or as a specialized parenteral bypass.",
+            "hint": "Guide: Enteral means 'through the intestines/digestive tract'.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q25",
@@ -321,7 +393,10 @@ window.questionBank = {
                 "Prescription beta-blockers"
             ],
             "answer": "Corrosive acids, alkalis, or petroleum products",
-            "explanation": "Charcoal does not bind effectively to corrosives or hydrocarbons. Furthermore, inducing vomiting or charcoal administration can cause fatal secondary chemical burns to the esophagus or aspiration."
+            "explanation": "Charcoal does not bind effectively to corrosives or hydrocarbons. Furthermore, inducing vomiting or charcoal administration can cause fatal secondary chemical burns to the esophagus or aspiration.",
+            "hint": "Guide: Charcoal does not bind effectively to corrosives or hydrocarbons.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q26",
@@ -332,7 +407,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "You must ventilate directly through the stoma (neck hole). If air escapes through the mouth/nose, then you must seal the mouth and nose while ventilating the stoma."
+            "explanation": "You must ventilate directly through the stoma (neck hole). If air escapes through the mouth/nose, then you must seal the mouth and nose while ventilating the stoma.",
+            "hint": "Guide: Ventilate a stoma directly into the neck hole with a pediatric mask.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q27",
@@ -345,7 +423,10 @@ window.questionBank = {
                 "Shock only after administering Epinephrine."
             ],
             "answer": "You may deliver one shock, but withhold further shocks until the patient is warmed.",
-            "explanation": "A severely hypothermic heart is highly irritable and will not respond to drugs or repeated shocks. The standard protocol is usually 1 shock maximum until core temperature is raised."
+            "explanation": "A severely hypothermic heart is highly irritable and will not respond to drugs or repeated shocks. The standard protocol is usually 1 shock maximum until core temperature is raised.",
+            "hint": "Guide: A severely hypothermic heart is highly irritable and will not respond to drugs or repeated shocks.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q28",
@@ -363,7 +444,10 @@ window.questionBank = {
                 "Secure the torso and head to the board",
                 "Tilt the board 15 to 30 degrees to the left"
             ],
-            "explanation": "You must fully immobilize them first. Once secured to the board, you tilt the ENTIRE board to the left to lift the uterus off the inferior vena cava."
+            "explanation": "You must fully immobilize them first. Once secured to the board, you tilt the ENTIRE board to the left to lift the uterus off the inferior vena cava.",
+            "hint": "Guide: You must fully immobilize them first.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q29",
@@ -376,7 +460,10 @@ window.questionBank = {
                 "12 hours"
             ],
             "answer": "3 hours (up to 4.5 in some patients)",
-            "explanation": "The 'window of opportunity' is strictly 3 hours (extended to 4.5 in specific criteria). This is why asking the exact 'last known normal' time is the most critical question in a stroke assessment."
+            "explanation": "The 'window of opportunity' is strictly 3 hours (extended to 4.5 in specific criteria). This is why asking the exact 'last known normal' time is the most critical question in a stroke assessment.",
+            "hint": "Guide: The 'window of opportunity' is strictly ___ hours (extended to ___ in specific criteria). This is why asking the exact 'last known normal' time is the most critical question in a stroke assessment.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q30",
@@ -389,7 +476,10 @@ window.questionBank = {
                 "A seizure mistaken for a stroke."
             ],
             "answer": "A mini-stroke where symptoms completely resolve on their own within 24 hours.",
-            "explanation": "A TIA is a temporary blockage. While symptoms resolve within 24 hours, it is a massive warning sign that a major stroke is imminent."
+            "explanation": "A TIA is a temporary blockage. While symptoms resolve within 24 hours, it is a massive warning sign that a major stroke is imminent.",
+            "hint": "Guide: A TIA is a temporary blockage. While symptoms resolve within ___ hours, it is a massive warning sign that a major stroke is imminent.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q31",
@@ -402,7 +492,10 @@ window.questionBank = {
                 "Transport rapidly."
             ],
             "answer": "Look inside their mouth with a tongue depressor to assess the airway.",
-            "explanation": "This describes Epiglottitis. Inserting anything into the mouth can cause fatal, immediate spasm and complete airway closure."
+            "explanation": "This describes Epiglottitis. Inserting anything into the mouth can cause fatal, immediate spasm and complete airway closure.",
+            "hint": "Guide: This describes Epiglottitis.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q32",
@@ -415,7 +508,10 @@ window.questionBank = {
                 "Right lower quadrant pain that worsens when pressure is released (rebound tenderness)."
             ],
             "answer": "Sudden onset of severe, tearing pain radiating to the back.",
-            "explanation": "A 'tearing' pain in the abdomen/back is the hallmark of a dissecting or rupturing AAA."
+            "explanation": "A 'tearing' pain in the abdomen/back is the hallmark of a dissecting or rupturing AAA.",
+            "hint": "Guide: A 'tearing' pain in the abdomen/back is the hallmark of a dissecting or rupturing AAA. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q33",
@@ -427,7 +523,10 @@ window.questionBank = {
                 "Right Lower Quadrant (RLQ)": "Appendix",
                 "Left Lower Quadrant (LLQ)": "Descending Colon (common site for Diverticulitis)"
             },
-            "explanation": "Knowing quadrant anatomy is a classic NREMT trick. Appendix = RLQ. Gallbladder = RUQ. Spleen = LUQ."
+            "explanation": "Knowing quadrant anatomy is a classic NREMT trick. Appendix = RLQ. Gallbladder = RUQ. Spleen = LUQ.",
+            "hint": "Guide: Knowing quadrant anatomy is a classic NREMT trick. Appendix = RLQ. Gallbladder = RUQ.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q34",
@@ -440,7 +539,10 @@ window.questionBank = {
                 "Bruising behind the ears (Battle's sign) indicating a skull fracture."
             ],
             "answer": "Referred pain to the left shoulder, indicating a ruptured spleen.",
-            "explanation": "Blood leaking from the spleen irritates the diaphragm, which shares nerve pathways with the left shoulder (referred pain)."
+            "explanation": "Blood leaking from the spleen irritates the diaphragm, which shares nerve pathways with the left shoulder (referred pain).",
+            "hint": "Guide: Blood leaking from the spleen irritates the diaphragm, which shares nerve pathways with the left shoulder (referred pain). - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q35",
@@ -453,7 +555,10 @@ window.questionBank = {
                 "Push the object completely through the cheek to the outside to clear the airway and bandage both sides securely."
             ],
             "answer": "Remove the object only if it is completely obstructing the airway and cannot be secured in place, then apply direct pressure.",
-            "explanation": "Impaled objects are NEVER removed, EXCEPT for two reasons: It is in the cheek causing an airway obstruction, or it is in the chest interfering with CPR."
+            "explanation": "Impaled objects are NEVER removed, EXCEPT for two reasons: It is in the cheek causing an airway obstruction, or it is in the chest interfering with CPR.",
+            "hint": "Guide: Only remove an impaled object if it blocks the airway or CPR.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q36",
@@ -464,7 +569,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "NEVER push organs back in. Cover them with a sterile, moist (saline-soaked) trauma dressing, and then an occlusive dressing to keep them warm and wet."
+            "explanation": "NEVER push organs back in. Cover them with a sterile, moist (saline-soaked) trauma dressing, and then an occlusive dressing to keep them warm and wet.",
+            "hint": "Guide: NEVER push exposed organs back in. Cover them with a moist, sterile dressing.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q37",
@@ -477,7 +585,10 @@ window.questionBank = {
                 "Chest pain"
             ],
             "answer": "Tracheal deviation and Jugular Vein Distention (JVD)",
-            "explanation": "As pressure builds up in the chest, it completely crushes the heart and major veins (causing JVD) and pushes the trachea to the opposite side."
+            "explanation": "As pressure builds up in the chest, it completely crushes the heart and major veins (causing JVD) and pushes the trachea to the opposite side.",
+            "hint": "Guide: As pressure builds up in the chest, it completely crushes the heart and major veins (causing JVD) and pushes the trachea to the opposite side. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q38",
@@ -490,7 +601,10 @@ window.questionBank = {
                 "Subcutaneous Emphysema"
             ],
             "answer": "Paradoxical Motion (Flail Chest)",
-            "explanation": "A flail chest occurs when 3 or more ribs are broken in 2 or more places. The detached segment moves opposite (paradoxically) to the rest of the chest."
+            "explanation": "A flail chest occurs when 3 or more ribs are broken in 2 or more places. The detached segment moves opposite (paradoxically) to the rest of the chest.",
+            "hint": "Guide: A flail chest occurs when 3 or more ribs are broken in 2 or more places.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q39",
@@ -508,7 +622,10 @@ window.questionBank = {
                 "Patient struggles to exhale, leading to air trapping",
                 "Wheezing develops"
             ],
-            "explanation": "Asthma primarily affects EXHALATION. The air gets trapped behind the constricted, mucus-filled bronchioles, creating the wheezing sound as air is forced out."
+            "explanation": "Asthma primarily affects EXHALATION. The air gets trapped behind the constricted, mucus-filled bronchioles, creating the wheezing sound as air is forced out.",
+            "hint": "Guide: Asthma primarily affects EXHALATION.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q40",
@@ -521,7 +638,10 @@ window.questionBank = {
                 "Fourth-Degree"
             ],
             "answer": "Partial-Thickness (Second-Degree)",
-            "explanation": "Blisters are the hallmark of a partial-thickness burn. Superficial burns are just red (like sunburn). Full-thickness burns are charred, leathery, and often painless due to nerve destruction."
+            "explanation": "Blisters are the hallmark of a partial-thickness burn. Superficial burns are just red (like sunburn). Full-thickness burns are charred, leathery, and often painless due to nerve destruction.",
+            "hint": "Guide: Blisters are the hallmark of a partial-thickness burn. Superficial burns are just red (like sunburn).",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q41",
@@ -534,7 +654,10 @@ window.questionBank = {
                 "The exact amount of time it takes for a patient in hypovolemic shock to lose their entire circulating blood volume."
             ],
             "answer": "The critical 60-minute timeframe from the moment of injury to definitive surgical care in a hospital setting.",
-            "explanation": "Trauma patients must ideally reach the operating room within 60 minutes of the INJURY occurring, not when EMS arrives."
+            "explanation": "Trauma patients must ideally reach the operating room within 60 minutes of the INJURY occurring, not when EMS arrives.",
+            "hint": "Guide: The Golden Hour starts at the exact moment of the injury.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q42",
@@ -546,7 +669,10 @@ window.questionBank = {
                 "Yellow": "Reactivity / Instability",
                 "White": "Special Hazards (e.g. radioactive, corrosive)"
             },
-            "explanation": "The NFPA 704 diamond is a classic NREMT operations question."
+            "explanation": "The NFPA 704 diamond is a classic NREMT operations question.",
+            "hint": "Guide: The NFPA 704 diamond is a classic NREMT operations question. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "operations"
         },
         {
             "id": "q43",
@@ -559,7 +685,10 @@ window.questionBank = {
                 "Approach immediately once the skids touch the ground."
             ],
             "answer": "From the front or the sides, strictly within the pilot's field of vision.",
-            "explanation": "NEVER approach from the rear due to the invisible, deadly tail rotor. Always wait for the pilot/crew chief's signal before approaching."
+            "explanation": "NEVER approach from the rear due to the invisible, deadly tail rotor. Always wait for the pilot/crew chief's signal before approaching.",
+            "hint": "Guide: NEVER approach from the rear due to the invisible, deadly tail rotor.",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q44",
@@ -570,7 +699,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "A DNR only applies if the patient is in CARDIAC OR RESPIRATORY ARREST. If they are alive, you still treat them with all supportive care (oxygen, bleeding control, comfort)."
+            "explanation": "A DNR only applies if the patient is in CARDIAC OR RESPIRATORY ARREST. If they are alive, you still treat them with all supportive care (oxygen, bleeding control, comfort).",
+            "hint": "Guide: A DNR only means Do Not Resuscitate (no CPR). You still treat pain, breathing, and bleeding.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q45",
@@ -583,7 +715,10 @@ window.questionBank = {
                 "Insert an OPA."
             ],
             "answer": "Log roll the patient as a unit to their side and suction.",
-            "explanation": "Airway ALWAYS takes precedence. You must log roll the entire body as a unit to clear the airway while attempting to maintain spinal alignment."
+            "explanation": "Airway ALWAYS takes precedence. You must log roll the entire body as a unit to clear the airway while attempting to maintain spinal alignment.",
+            "hint": "Guide: Airway ALWAYS takes precedence.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q46",
@@ -596,7 +731,10 @@ window.questionBank = {
                 "Increased urination"
             ],
             "answer": "A sunken anterior fontanelle",
-            "explanation": "A sunken fontanelle indicates severe dehydration. A bulging fontanelle indicates increased intracranial pressure (meningitis, head trauma)."
+            "explanation": "A sunken fontanelle indicates severe dehydration. A bulging fontanelle indicates increased intracranial pressure (meningitis, head trauma).",
+            "hint": "Guide: A sunken fontanelle indicates severe dehydration.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q47",
@@ -609,7 +747,10 @@ window.questionBank = {
                 "Seizures"
             ],
             "answer": "Respiratory failure leading to respiratory arrest",
-            "explanation": "Unlike adults (whose hearts fail first), children almost always code because their airway or breathing fails first, causing severe hypoxia that eventually stops the heart."
+            "explanation": "Unlike adults (whose hearts fail first), children almost always code because their airway or breathing fails first, causing severe hypoxia that eventually stops the heart.",
+            "hint": "Guide: Unlike adults (whose hearts fail first), children almost always code because their airway or breathing fails first, causing severe hypoxia that eventually stops the heart. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q48",
@@ -622,7 +763,10 @@ window.questionBank = {
                 "A continuous positive airway pressure (CPAP) device"
             ],
             "answer": "Nitroglycerin",
-            "explanation": "Wait, trick question. Crackles = pulmonary edema = CHF. Nitroglycerin IS indicated for CHF to reduce preload. However, if the BP is below 100, or they took ED meds, it is contraindicated. But what if it's right ventricular failure vs left? Actually, the most classic trick is that Nitroglycerin is given for pulmonary edema if BP allows. Let's rephrase the options to avoid medical ambiguity."
+            "explanation": "Wait, trick question. Crackles = pulmonary edema = CHF. Nitroglycerin IS indicated for CHF to reduce preload. However, if the BP is below 100, or they took ED meds, it is contraindicated. But what if it's right ventricular failure vs left? Actually, the most classic trick is that Nitroglycerin is given for pulmonary edema if BP allows. Let's rephrase the options to avoid medical ambiguity.",
+            "hint": "Guide: Wait, trick question. Crackles = pulmonary edema = CHF. _______ IS indicated for CHF to reduce preload. However, if the BP is below 100, or they took ED meds, it is contraindicated. But what if it's right ventricular failure vs left? Actually, the most classic trick is that _______ is given for pulmonary edema if BP allows. Let's rephrase the options to avoid medical ambiguity.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q48",
@@ -635,7 +779,10 @@ window.questionBank = {
                 "A state of continuous, unstopping seizures."
             ],
             "answer": "The period of altered mental status, confusion, and exhaustion immediately following a seizure.",
-            "explanation": "Postictal means 'after the seizure'. The patient is typically deeply asleep, confused, and slowly regaining full consciousness over 5 to 30 minutes."
+            "explanation": "Postictal means 'after the seizure'. The patient is typically deeply asleep, confused, and slowly regaining full consciousness over 5 to 30 minutes.",
+            "hint": "Guide: Postictal means 'after the seizure'.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q49",
@@ -647,7 +794,10 @@ window.questionBank = {
                 "Limb Presentation (One arm/leg out)": "Do NOT attempt delivery in the field. Rapid transport with mother's hips elevated.",
                 "Nuchal Cord (Cord around neck)": "Attempt to gently slip the cord over the baby's head. If impossible, clamp and cut the cord immediately."
             },
-            "explanation": "These are the absolute exceptions where an EMT is allowed to insert fingers into the birth canal during an emergency."
+            "explanation": "These are the absolute exceptions where an EMT is allowed to insert fingers into the birth canal during an emergency.",
+            "hint": "Guide: These are the absolute exceptions where an EMT is allowed to insert fingers into the birth canal during an emergency. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q50",
@@ -660,7 +810,10 @@ window.questionBank = {
                 "AVPU"
             ],
             "answer": "SLUDGEM",
-            "explanation": "Salivation, Lacrimation, Urination, Defecation, GI Upset, Emesis, Miosis/Muscle twitching. Nerve agents cause the parasympathetic system to go into massive overdrive, leaking fluids everywhere."
+            "explanation": "Salivation, Lacrimation, Urination, Defecation, GI Upset, Emesis, Miosis/Muscle twitching. Nerve agents cause the parasympathetic system to go into massive overdrive, leaking fluids everywhere.",
+            "hint": "Guide: Salivation, Lacrimation, Urination, Defecation, GI Upset, Emesis, Miosis/Muscle twitching.",
+            "difficulty": 6,
+            "nremtCategory": "operations"
         },
         {
             "id": "q51",
@@ -673,7 +826,10 @@ window.questionBank = {
                 "No, you must transport all minors involved in motor vehicle collisions."
             ],
             "answer": "Yes, because she is an emancipated minor by virtue of having a child.",
-            "explanation": "In most states, a minor who is pregnant, a parent, married, or in the military is considered an emancipated minor and can legally consent to or refuse medical care."
+            "explanation": "In most states, a minor who is pregnant, a parent, married, or in the military is considered an emancipated minor and can legally consent to or refuse medical care.",
+            "hint": "Guide: In most states, a minor who is pregnant, a parent, married, or in the military is considered an emancipated minor and can legally consent to or refuse medical care. - use this logic to derive the answer!",
+            "difficulty": 4,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q52",
@@ -686,7 +842,10 @@ window.questionBank = {
                 "Begin CPR until the family can come to a unanimous agreement."
             ],
             "answer": "Withhold CPR and all resuscitative efforts based on the valid DNR.",
-            "explanation": "A valid DNR is a legal medical order. Family members cannot override a valid, signed DNR in the field. You must honor the patient's legal wishes."
+            "explanation": "A valid DNR is a legal medical order. Family members cannot override a valid, signed DNR in the field. You must honor the patient's legal wishes.",
+            "hint": "Guide: A valid DNR is a legal medical order. Family members cannot override a valid, signed DNR in the field.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q53",
@@ -698,7 +857,10 @@ window.questionBank = {
                 "Abandonment": "Terminating care of a patient without ensuring that care will continue at the same or higher level.",
                 "False Imprisonment": "Confining a patient against their will."
             },
-            "explanation": "Assault is the THREAT. Battery is the TOUCH. If you splint a completely competent patient's arm when they say 'Don't touch me', you have committed battery."
+            "explanation": "Assault is the THREAT. Battery is the TOUCH. If you splint a completely competent patient's arm when they say 'Don't touch me', you have committed battery.",
+            "hint": "Guide: Assault is the THREAT. Battery is the TOUCH.",
+            "difficulty": 8,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q54",
@@ -709,7 +871,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "Abandonment occurs when you hand off care to someone with a LOWER level of training. An EMR is below an EMT."
+            "explanation": "Abandonment occurs when you hand off care to someone with a LOWER level of training. An EMR is below an EMT.",
+            "hint": "Guide: Handing a critical patient to an EMR (lower level) is abandonment.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q55",
@@ -722,7 +887,10 @@ window.questionBank = {
                 "Treating a child with the verbal permission of their teacher."
             ],
             "answer": "Treating an unconscious patient found in the street.",
-            "explanation": "Implied consent is the legal assumption that an unresponsive or severely altered patient would consent to life-saving treatment if they were able to. Nodding is Expressed Consent."
+            "explanation": "Implied consent is the legal assumption that an unresponsive or severely altered patient would consent to life-saving treatment if they were able to. Nodding is Expressed Consent.",
+            "hint": "Guide: Implied consent is the legal assumption that an unresponsive or severely altered patient would consent to life-saving treatment if they were able to.",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q56",
@@ -735,7 +903,10 @@ window.questionBank = {
                 "Tear up the report and start a new one."
             ],
             "answer": "Draw a single horizontal line through the 120, initial it, and write 80.",
-            "explanation": "A PCR is a legal document. Errors must be crossed out with a single line (so the original error is still legible), initialed, and corrected."
+            "explanation": "A PCR is a legal document. Errors must be crossed out with a single line (so the original error is still legible), initialed, and corrected.",
+            "hint": "Guide: A PCR is a legal document.",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q57",
@@ -746,7 +917,10 @@ window.questionBank = {
                 "PHI (Protected Health Information)": "Any information about health status, provision of care, or payment that can be linked to a specific individual.",
                 "Mandatory Reporting": "Legal obligation to report certain things like child abuse, elder abuse, or gunshot wounds, superseding HIPAA."
             },
-            "explanation": "HIPAA is not absolute. Laws require EMS to report abuse or penetrating violent crimes directly to law enforcement."
+            "explanation": "HIPAA is not absolute. Laws require EMS to report abuse or penetrating violent crimes directly to law enforcement.",
+            "hint": "Guide: HIPAA is not absolute.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q58",
@@ -759,7 +933,10 @@ window.questionBank = {
                 "Proximate Cause (Causation)"
             ],
             "answer": "Malicious Intent",
-            "explanation": "The four elements are: Duty to Act, Breach of Duty, Damages (physical or psychological harm), and Proximate Cause (your breach directly caused the damages). Intent does not matter in negligence."
+            "explanation": "The four elements are: Duty to Act, Breach of Duty, Damages (physical or psychological harm), and Proximate Cause (your breach directly caused the damages). Intent does not matter in negligence.",
+            "hint": "Guide: The four elements are: Duty to Act, Breach of Duty, Damages (physical or psychological harm), and Proximate Cause (your breach directly caused the damages).",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q59",
@@ -770,7 +947,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "In almost all jurisdictions, an off-duty EMT has no legal 'Duty to Act' unless they are in uniform/on the clock, or they initiate care (which then creates a duty)."
+            "explanation": "In almost all jurisdictions, an off-duty EMT has no legal 'Duty to Act' unless they are in uniform/on the clock, or they initiate care (which then creates a duty).",
+            "hint": "Guide: Duty to Act only applies when you are on the clock or in your jurisdiction.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q60",
@@ -790,7 +970,10 @@ window.questionBank = {
                 "Transfer of care at the hospital.",
                 "Post-run cleanup and restock."
             ],
-            "explanation": "Preparation (checking the rig) happens before you are even dispatched. Post-run is returning the rig to a state of readiness."
+            "explanation": "Preparation (checking the rig) happens before you are even dispatched. Post-run is returning the rig to a state of readiness.",
+            "hint": "Guide: Preparation (checking the rig) happens before you are even dispatched.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q61",
@@ -803,7 +986,10 @@ window.questionBank = {
                 "No, you must induce vomiting with syrup of ipecac first."
             ],
             "answer": "No, charcoal is contraindicated for caustic/corrosive substances.",
-            "explanation": "Charcoal does not bind to strong acids or alkalis. Furthermore, if they aspirate the charcoal, or vomit the caustic chemical back up, they will burn their esophagus twice."
+            "explanation": "Charcoal does not bind to strong acids or alkalis. Furthermore, if they aspirate the charcoal, or vomit the caustic chemical back up, they will burn their esophagus twice.",
+            "hint": "Guide: Charcoal does not bind to strong acids or alkalis.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q62",
@@ -816,7 +1002,10 @@ window.questionBank = {
                 "A patient with a blood sugar above 300 mg/dL."
             ],
             "answer": "A patient with a blood sugar below 70 mg/dL who is conscious and able to swallow.",
-            "explanation": "If the patient is unconscious or unable to swallow (lacks an intact gag reflex), oral glucose is contraindicated due to severe choking/aspiration risk."
+            "explanation": "If the patient is unconscious or unable to swallow (lacks an intact gag reflex), oral glucose is contraindicated due to severe choking/aspiration risk.",
+            "hint": "Guide: If the patient is unconscious or unable to swallow (lacks an intact gag reflex), oral glucose is contraindicated due to severe choking/aspiration risk. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q63",
@@ -828,7 +1017,10 @@ window.questionBank = {
                 "Aspirin (Chewable)": "162 to 324 mg (typically 2-4 baby aspirins)",
                 "Naloxone / Narcan (Intranasal)": "2.0 to 4.0 mg total (divided between nostrils)"
             },
-            "explanation": "Memorizing exact dosages is a fundamental requirement for the NREMT cognitive exam."
+            "explanation": "Memorizing exact dosages is a fundamental requirement for the NREMT cognitive exam.",
+            "hint": "Guide: Memorizing exact dosages is a fundamental requirement for the NREMT cognitive exam. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q64",
@@ -839,7 +1031,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Nitroglycerin is a potent vasodilator. It relaxes the smooth muscle of blood vessels, dilating them. This decreases the workload of the heart and increases blood flow."
+            "explanation": "Nitroglycerin is a potent vasodilator. It relaxes the smooth muscle of blood vessels, dilating them. This decreases the workload of the heart and increases blood flow.",
+            "hint": "Guide: Nitro dilates the blood vessels; it does not increase the heart rate.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q65",
@@ -852,7 +1047,10 @@ window.questionBank = {
                 "A TIA is just another name for a massive stroke."
             ],
             "answer": "A TIA presents with symptoms that completely resolve within 24 hours without permanent damage.",
-            "explanation": "A TIA is a temporary blockage. While the symptoms resolve on their own, it is a massive red flag that a major stroke is coming soon."
+            "explanation": "A TIA is a temporary blockage. While the symptoms resolve on their own, it is a massive red flag that a major stroke is coming soon.",
+            "hint": "Guide: A TIA is a temporary blockage.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q66",
@@ -870,7 +1068,10 @@ window.questionBank = {
                 "Shine a light into the right eye and watch the right pupil constrict.",
                 "Shine a light into the right eye again and watch the LEFT pupil constrict (consensual reflex)."
             ],
-            "explanation": "Pupils Equal, Round, Reactive to Light. The consensual reflex (both pupils constricting when light hits only one) is a key neurological sign."
+            "explanation": "Pupils Equal, Round, Reactive to Light. The consensual reflex (both pupils constricting when light hits only one) is a key neurological sign.",
+            "hint": "Guide: Pupils Equal, Round, Reactive to Light.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "q67",
@@ -883,7 +1084,10 @@ window.questionBank = {
                 "No. Current AHA guidelines state to withhold oxygen if the SpO2 is > 94% and there are no signs of respiratory distress."
             ],
             "answer": "No. Current AHA guidelines state to withhold oxygen if the SpO2 is > 94% and there are no signs of respiratory distress.",
-            "explanation": "The NREMT frequently tests this new standard. Giving high-flow oxygen to a heart attack patient with normal O2 levels can actually cause vasoconstriction and worsen the infarct."
+            "explanation": "The NREMT frequently tests this new standard. Giving high-flow oxygen to a heart attack patient with normal O2 levels can actually cause vasoconstriction and worsen the infarct.",
+            "hint": "Guide: AHA guidelines state DO NOT give O2 if SpO2 is >94% and there's no distress.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q68",
@@ -895,7 +1099,10 @@ window.questionBank = {
                 "Hepatitis A": "Fecal-Oral route (Contaminated food/water).",
                 "Meningitis": "Droplet (Coughing, sneezing; standard surgical mask)."
             },
-            "explanation": "Knowing the transmission route dictates what PPE you must wear on the scene."
+            "explanation": "Knowing the transmission route dictates what PPE you must wear on the scene.",
+            "hint": "Guide: Knowing the transmission route dictates what PPE you must wear on the scene. - use this logic to derive the answer!",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q69",
@@ -908,7 +1115,10 @@ window.questionBank = {
                 "A CPAP machine requires surgical placement into the trachea, while a BVM is placed completely externally over the face."
             ],
             "answer": "A CPAP machine provides continuous positive airway pressure to a spontaneously breathing patient, while a BVM forces ventilations into an apneic or hypoventilating patient.",
-            "explanation": "CPAP requires the patient to be awake and breathing on their own to push against the continuous pressure. If they stop breathing, you MUST switch to a BVM."
+            "explanation": "CPAP requires the patient to be awake and breathing on their own to push against the continuous pressure. If they stop breathing, you MUST switch to a BVM.",
+            "hint": "Guide: CPAP requires the patient to be awake and breathing. BVM breathes for them.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q70",
@@ -919,7 +1129,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "An AED will NEVER advise a shock for asystole. Defibrillators do not jump-start the heart; they stop a chaotic rhythm (V-Fib/V-Tach) so the natural pacemaker can restart it. You cannot stop what is already stopped."
+            "explanation": "An AED will NEVER advise a shock for asystole. Defibrillators do not jump-start the heart; they stop a chaotic rhythm (V-Fib/V-Tach) so the natural pacemaker can restart it. You cannot stop what is already stopped.",
+            "hint": "Guide: An AED only shocks V-Fib and V-Tach. It will not shock a flatline.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q71",
@@ -932,7 +1145,10 @@ window.questionBank = {
                 "Two hands, laced together, on the lower half of the sternum."
             ],
             "answer": "Two thumb-encircling hands technique.",
-            "explanation": "For 1 rescuer, use two fingers. For 2 rescuers, switch to the two-thumb encircling hands technique to provide better depth and allow the second rescuer to focus on the 15:2 ventilations."
+            "explanation": "For 1 rescuer, use two fingers. For 2 rescuers, switch to the two-thumb encircling hands technique to provide better depth and allow the second rescuer to focus on the 15:2 ventilations.",
+            "hint": "Guide: For 1 rescuer, use two fingers.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q72",
@@ -945,7 +1161,10 @@ window.questionBank = {
                 "Immediately begin chest compressions at a ratio of 3:1 while providing high-flow oxygen via blow-by administration."
             ],
             "answer": "Immediately suction the baby's airway (mouth then nose) before stimulating them to cry or providing positive pressure ventilations.",
-            "explanation": "If a baby is born through meconium and is depressed (not crying), you MUST suction the airway before you stimulate them. If you stimulate them first, they will gasp and aspirate the toxic meconium into their lungs."
+            "explanation": "If a baby is born through meconium and is depressed (not crying), you MUST suction the airway before you stimulate them. If you stimulate them first, they will gasp and aspirate the toxic meconium into their lungs.",
+            "hint": "Guide: Always suction the mouth BEFORE the nose to prevent aspiration if they gasp.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q73",
@@ -957,7 +1176,10 @@ window.questionBank = {
                 "Ectopic Pregnancy": "Unilateral lower abdominal pain in a woman of childbearing age, missed period, signs of shock.",
                 "Preeclampsia": "Severe hypertension, headache, visual disturbances, and edema in a pregnant patient."
             },
-            "explanation": "The NREMT relies heavily on these specific physical presentations to differentiate OB emergencies."
+            "explanation": "The NREMT relies heavily on these specific physical presentations to differentiate OB emergencies.",
+            "hint": "Guide: The NREMT relies heavily on these specific physical presentations to differentiate OB emergencies. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q74",
@@ -968,7 +1190,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "NEVER push the cord back in. You must insert a gloved hand to lift the baby's head OFF the cord to restore blood flow, cover the exposed cord with wet dressings, and transport rapidly with hips elevated."
+            "explanation": "NEVER push the cord back in. You must insert a gloved hand to lift the baby's head OFF the cord to restore blood flow, cover the exposed cord with wet dressings, and transport rapidly with hips elevated.",
+            "hint": "Guide: Never push a prolapsed cord back in. Elevate the mother's hips and wrap the cord.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q75",
@@ -986,7 +1211,10 @@ window.questionBank = {
                 "Assess for breathing (Look, Listen, Feel).",
                 "Insert an appropriately sized OPA if unconscious and apneic."
             ],
-            "explanation": "Because a child's head is disproportionately large, lying them flat on a backboard will force their neck to flex, kinking the airway. You MUST pad the shoulders first."
+            "explanation": "Because a child's head is disproportionately large, lying them flat on a backboard will force their neck to flex, kinking the airway. You MUST pad the shoulders first.",
+            "hint": "Guide: Because a child's head is disproportionately large, lying them flat on a backboard will force their neck to flex, kinking the airway.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q76",
@@ -999,7 +1227,10 @@ window.questionBank = {
                 "Only if there is no pulse at all"
             ],
             "answer": "Below 60 bpm",
-            "explanation": "If HR < 100: Ventilate. If HR < 60 (despite adequate ventilation): Start compressions. A neonate with a heart rate of 50 is essentially in cardiac arrest."
+            "explanation": "If HR < 100: Ventilate. If HR < 60 (despite adequate ventilation): Start compressions. A neonate with a heart rate of 50 is essentially in cardiac arrest.",
+            "hint": "Guide: If HR < 100: Ventilate. If HR < ___ (despite adequate ventilation): Start compressions. A neonate with a heart rate of 50 is essentially in cardiac arrest.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q77",
@@ -1011,7 +1242,10 @@ window.questionBank = {
                 "Asthma": "Expiratory wheezing and prolonged exhalation phase.",
                 "Pertussis (Whooping Cough)": "Severe coughing spells followed by a 'whoop' sound upon inhalation."
             },
-            "explanation": "Croup and Epiglottitis are the two most commonly tested pediatric airway diseases. Drooling = Epiglottitis (Do not touch the mouth!). Barking cough = Croup."
+            "explanation": "Croup and Epiglottitis are the two most commonly tested pediatric airway diseases. Drooling = Epiglottitis (Do not touch the mouth!). Barking cough = Croup.",
+            "hint": "Guide: Croup and Epiglottitis are the two most commonly tested pediatric airway diseases. Drooling = Epiglottitis (Do not touch the mouth!).",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q78",
@@ -1024,7 +1258,10 @@ window.questionBank = {
                 "Femoral artery (Groin)"
             ],
             "answer": "Brachial artery (Upper arm)",
-            "explanation": "Infants have short, chubby necks making the carotid difficult to find. The brachial pulse on the medial aspect of the upper arm is the standard."
+            "explanation": "Infants have short, chubby necks making the carotid difficult to find. The brachial pulse on the medial aspect of the upper arm is the standard.",
+            "hint": "Guide: Infants have short, chubby necks making the carotid difficult to find.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q79",
@@ -1042,7 +1279,10 @@ window.questionBank = {
                 "Chest Compressions",
                 "Medications (Epinephrine - Paramedic level)"
             ],
-            "explanation": "The vast majority of neonates only need the first step (drying and stimulating). Very few need BVM, even fewer need compressions, and almost none need drugs."
+            "explanation": "The vast majority of neonates only need the first step (drying and stimulating). Very few need BVM, even fewer need compressions, and almost none need drugs.",
+            "hint": "Guide: The vast majority of neonates only need the first step (drying and stimulating).",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q80",
@@ -1053,7 +1293,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "You should only squeeze the bag until you see adequate chest rise. Squeezing too much will pop their lungs (pneumothorax) or force air into the stomach (gastric distention)."
+            "explanation": "You should only squeeze the bag until you see adequate chest rise. Squeezing too much will pop their lungs (pneumothorax) or force air into the stomach (gastric distention).",
+            "hint": "Guide: Only squeeze the bag enough to see gentle chest rise, preventing barotrauma.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q81",
@@ -1066,7 +1309,10 @@ window.questionBank = {
                 "A lung collapse caused by a fractured rib puncturing the pleura."
             ],
             "answer": "A lung collapse occurring without trauma, commonly in tall, thin young males.",
-            "explanation": "Spontaneous means no trauma. A weak spot (bleb) on the lung randomly pops. It is a classic NREMT question demographic."
+            "explanation": "Spontaneous means no trauma. A weak spot (bleb) on the lung randomly pops. It is a classic NREMT question demographic.",
+            "hint": "Guide: Spontaneous means no trauma. A weak spot (bleb) on the lung randomly pops.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q82",
@@ -1078,7 +1324,10 @@ window.questionBank = {
                 "Colles Fracture": "A 'silver fork' deformity of the distal radius/wrist.",
                 "Mid-shaft Femur Fracture": "Severe thigh deformity, massive swelling, and potential for rapid hemorrhagic shock."
             },
-            "explanation": "Shortened and externally rotated is the textbook definition of a hip fracture in an elderly patient."
+            "explanation": "Shortened and externally rotated is the textbook definition of a hip fracture in an elderly patient.",
+            "hint": "Guide: Shortened and externally rotated is the textbook definition of a hip fracture in an elderly patient. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q83",
@@ -1091,7 +1340,10 @@ window.questionBank = {
                 "A Subarachnoid Hemorrhage"
             ],
             "answer": "An Epidural Hematoma",
-            "explanation": "This 'lucid interval' is the hallmark of an epidural hematoma. The middle meningeal artery is bleeding fast. They wake up from the concussion, but then the arterial blood crushes the brain minutes later."
+            "explanation": "This 'lucid interval' is the hallmark of an epidural hematoma. The middle meningeal artery is bleeding fast. They wake up from the concussion, but then the arterial blood crushes the brain minutes later.",
+            "hint": "Guide: This 'lucid interval' is the hallmark of _______. The middle meningeal artery is bleeding fast. They wake up from the concussion, but then the arterial blood crushes the brain minutes later.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q84",
@@ -1102,7 +1354,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Never apply pressure to an open skull fracture or exposed brain tissue. Cover it loosely with a sterile, moist dressing."
+            "explanation": "Never apply pressure to an open skull fracture or exposed brain tissue. Cover it loosely with a sterile, moist dressing.",
+            "hint": "Guide: Never apply direct pressure to exposed brain tissue. Use a loose dressing.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q85",
@@ -1120,7 +1375,10 @@ window.questionBank = {
                 "Place the wrapped finger into a watertight plastic bag.",
                 "Place the bag containing the finger into a larger container filled with ice water."
             ],
-            "explanation": "Treat the patient first (stop bleeding). Then prep the part: wrap it, bag it, cool it. NEVER put the part directly on ice (it will freeze and die)."
+            "explanation": "Treat the patient first (stop bleeding). Then prep the part: wrap it, bag it, cool it. NEVER put the part directly on ice (it will freeze and die).",
+            "hint": "Guide: Treat the patient first (stop bleeding). Then prep the part: wrap it, bag it, cool it.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q86",
@@ -1131,7 +1389,10 @@ window.questionBank = {
                 "Decompression Sickness (The Bends)": "Ascending too quickly after a long dive; dissolved nitrogen bubbles out of the blood into the joints over several hours.",
                 "Nitrogen Narcosis": "Diving too deep; nitrogen alters brain chemistry causing an intoxicating, drunken effect."
             },
-            "explanation": "Air embolisms happen instantly upon surfacing. The Bends take hours to develop severe joint/abdominal pain."
+            "explanation": "Air embolisms happen instantly upon surfacing. The Bends take hours to develop severe joint/abdominal pain.",
+            "hint": "Guide: Air embolisms happen instantly upon surfacing.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "q87",
@@ -1144,7 +1405,10 @@ window.questionBank = {
                 "The danger of the electrical current remaining trapped inside the patient's body and shocking the responding EMTs."
             ],
             "answer": "The presence of severe internal tissue damage and potentially fatal cardiac arrhythmias that may not be externally visible.",
-            "explanation": "The visible skin burns are just the tip of the iceberg. The electricity cooks the internal organs and muscles, and stops the heart."
+            "explanation": "The visible skin burns are just the tip of the iceberg. The electricity cooks the internal organs and muscles, and stops the heart.",
+            "hint": "Guide: Electricity burns from the inside out and can cause ventricular fibrillation.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q88",
@@ -1155,7 +1419,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "A properly applied arterial tourniquet must be tight enough to occlude arterial flow, meaning the distal pulse will vanish. If there is still a pulse, it's not tight enough."
+            "explanation": "A properly applied arterial tourniquet must be tight enough to occlude arterial flow, meaning the distal pulse will vanish. If there is still a pulse, it's not tight enough.",
+            "hint": "Guide: The tourniquet must be tightened until the distal pulse disappears completely.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q89",
@@ -1173,7 +1440,10 @@ window.questionBank = {
                 "Palpate the other three quadrants gently.",
                 "Palpate the quadrant where the patient complains of pain."
             ],
-            "explanation": "Always inspect before you touch. Always palpate the painful quadrant LAST to avoid causing guarding that masks other injuries."
+            "explanation": "Always inspect before you touch. Always palpate the painful quadrant LAST to avoid causing guarding that masks other injuries.",
+            "hint": "Guide: Always inspect before you touch.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "q90",
@@ -1184,7 +1454,10 @@ window.questionBank = {
                 "Coagulopathy": "Depletion of clotting factors prevents bleeding control.",
                 "Acidosis": "Lactic acid buildup from shock ruins the cellular environment."
             },
-            "explanation": "These three factors feed into a vicious, irreversible cycle in severe trauma, which is why keeping trauma patients warm is critical."
+            "explanation": "These three factors feed into a vicious, irreversible cycle in severe trauma, which is why keeping trauma patients warm is critical.",
+            "hint": "Guide: These three factors feed into a vicious, irreversible cycle in severe trauma, which is why keeping trauma patients warm is critical. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q91",
@@ -1197,7 +1470,10 @@ window.questionBank = {
                 "Pupils becoming dilated."
             ],
             "answer": "Heart rate increasing (Tachycardia).",
-            "explanation": "The very first thing the body does when it senses a loss of perfusion is increase the heart rate to maintain cardiac output."
+            "explanation": "The very first thing the body does when it senses a loss of perfusion is increase the heart rate to maintain cardiac output.",
+            "hint": "Guide: The very first thing the body does when it senses a loss of perfusion is increase the heart rate to maintain cardiac output. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q92",
@@ -1210,7 +1486,10 @@ window.questionBank = {
                 "Use a KED while they are treading water."
             ],
             "answer": "Backboard them while they are still floating in the water, before lifting them out.",
-            "explanation": "The water provides neutral buoyancy. You slide the board under them while they are in the water and secure them before fighting gravity."
+            "explanation": "The water provides neutral buoyancy. You slide the board under them while they are in the water and secure them before fighting gravity.",
+            "hint": "Guide: The water provides neutral buoyancy.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q93",
@@ -1222,7 +1501,10 @@ window.questionBank = {
                 "Cardi-": "Heart (e.g., Cardiology)",
                 "Pulmo- / Pneumo-": "Lungs (e.g., Pulmonary, Pneumonia)"
             },
-            "explanation": "Medical terminology forms the basis of all NREMT condition descriptions."
+            "explanation": "Medical terminology forms the basis of all NREMT condition descriptions.",
+            "hint": "Guide: Medical terminology forms the basis of all NREMT condition descriptions. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q94",
@@ -1233,7 +1515,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "No Shock Advised simply means the heart is not in a shockable rhythm (V-Fib or V-Tach). It is highly likely they are in Asystole (flatline) or PEA and are still dead."
+            "explanation": "No Shock Advised simply means the heart is not in a shockable rhythm (V-Fib or V-Tach). It is highly likely they are in Asystole (flatline) or PEA and are still dead.",
+            "hint": "Guide: Black tags mean deceased or expectant. Do not waste time covering them; move to the living.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q95",
@@ -1253,7 +1538,10 @@ window.questionBank = {
                 "Slide the halves under the patient from both sides.",
                 "Click the top and bottom hinges together securely."
             ],
-            "explanation": "You must measure and adjust it BEFORE you split it apart and slide it under them."
+            "explanation": "You must measure and adjust it BEFORE you split it apart and slide it under them.",
+            "hint": "Guide: You must measure and adjust it BEFORE you split it apart and slide it under them. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "operations"
         },
         {
             "id": "q96",
@@ -1266,7 +1554,10 @@ window.questionBank = {
                 "The mother reporting a sudden, severe drop in her blood pressure accompanied by intense abdominal pain."
             ],
             "answer": "Crowning (the presentation of the baby's head or presenting part at the vaginal opening during contractions).",
-            "explanation": "Crowning means the baby is actively passing through the birth canal. Delivery will occur within minutes or seconds. Do not transport; prepare to deliver."
+            "explanation": "Crowning means the baby is actively passing through the birth canal. Delivery will occur within minutes or seconds. Do not transport; prepare to deliver.",
+            "hint": "Guide: Crowning indicates delivery is imminent; prepare to catch the baby.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q97",
@@ -1278,7 +1569,10 @@ window.questionBank = {
                 "Fibula": "The smaller, non-weight-bearing bone of the lower leg.",
                 "Patella": "The kneecap."
             },
-            "explanation": "Knowing the difference between radius and ulna helps describe specific arm fractures."
+            "explanation": "Knowing the difference between radius and ulna helps describe specific arm fractures.",
+            "hint": "Guide: Knowing the difference between radius and ulna helps describe specific arm fractures. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q98",
@@ -1289,7 +1583,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Oxygen itself is NOT flammable. However, it is an oxidizer, meaning it violently supports and accelerates combustion. Things that barely burn in room air will explode in 100% oxygen."
+            "explanation": "Oxygen itself is NOT flammable. However, it is an oxidizer, meaning it violently supports and accelerates combustion. Things that barely burn in room air will explode in 100% oxygen.",
+            "hint": "Guide: A car fire is an immediate life threat requiring Rapid Extrication, skipping the KED.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "q99",
@@ -1307,7 +1604,10 @@ window.questionBank = {
                 "Histamine causes systemic vasodilation and severe bronchoconstriction.",
                 "Patient goes into shock and respiratory failure."
             ],
-            "explanation": "Exposure -> Immune response (Histamine) -> Vasodilation/Bronchospasm -> Shock/Death."
+            "explanation": "Exposure -> Immune response (Histamine) -> Vasodilation/Bronchospasm -> Shock/Death.",
+            "hint": "Guide: Exposure -> Immune response (Histamine) -> Vasodilation/Bronchospasm -> Shock/Death. - use this logic to derive the answer!",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "q100",
@@ -1320,7 +1620,406 @@ window.questionBank = {
                 "Hook up oxygen to the BVM."
             ],
             "answer": "Turn on the AED.",
-            "explanation": "The very first step for an AED is always turning it on so it can begin giving you voice prompts. Compressions should continue while the pads are being applied."
+            "explanation": "The very first step for an AED is always turning it on so it can begin giving you voice prompts. Compressions should continue while the pads are being applied.",
+            "hint": "Guide: The very first step for an AED is always turning it on so it can begin giving you voice prompts.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q102",
+            "type": "MCQ",
+            "question": "If a patient is actively bleeding heavily from a cut on their arm, what is the best immediate action?",
+            "options": [
+                "Wait for an ambulance to arrive without touching them",
+                "Apply direct pressure to the wound with a clean cloth",
+                "Give them a glass of water",
+                "Check their temperature"
+            ],
+            "answer": "Apply direct pressure to the wound with a clean cloth",
+            "explanation": "Direct pressure is the single most effective initial step to stop external bleeding.",
+            "hint": "Guide: Think about how you would stop water leaking from a hose.",
+            "difficulty": 2,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q103",
+            "type": "MCQ",
+            "question": "What is the universal emergency phone number to call for police, fire, or EMS in the United States?",
+            "options": [
+                "411",
+                "911",
+                "311",
+                "811"
+            ],
+            "answer": "911",
+            "explanation": "911 is the national emergency number in the US.",
+            "hint": "Guide: It's the three-digit number taught to children for emergencies.",
+            "difficulty": 1,
+            "nremtCategory": "operations"
+        },
+        {
+            "id": "q104",
+            "type": "TF",
+            "question": "True or False: You should always ensure the scene is safe before rushing in to treat a patient.",
+            "answer": "True",
+            "explanation": "Scene safety is the absolute first priority of any rescuer. If you get hurt, you become a second patient.",
+            "hint": "Guide: Remember the very first step of every EMT practical skill sheet.",
+            "difficulty": 1,
+            "options": [
+                "True",
+                "False"
+            ],
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q105",
+            "type": "MCQ",
+            "question": "Which of the following items is considered standard Personal Protective Equipment (PPE) for an EMT on a medical call?",
+            "options": [
+                "A heavy winter coat",
+                "Medical exam gloves",
+                "A reflective traffic vest",
+                "A stethoscope"
+            ],
+            "answer": "Medical exam gloves",
+            "explanation": "Gloves provide the fundamental Body Substance Isolation (BSI) barrier against bloodborne pathogens.",
+            "hint": "Guide: Think about what you put on your hands before touching a sick patient.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q106",
+            "type": "MCQ",
+            "question": "If a conscious patient is clutching their throat, cannot speak, and cannot cough, what maneuver should you immediately perform?",
+            "options": [
+                "Perform CPR compressions",
+                "Administer oxygen via non-rebreather",
+                "Perform the Heimlich Maneuver (Abdominal Thrusts)",
+                "Tell them to swallow hard"
+            ],
+            "answer": "Perform the Heimlich Maneuver (Abdominal Thrusts)",
+            "explanation": "These are signs of a severe, complete airway obstruction. Abdominal thrusts are required to dislodge the object.",
+            "hint": "Guide: Think about the classic procedure for a choking victim.",
+            "difficulty": 2,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q107",
+            "type": "MCQ",
+            "question": "A 6-month-old infant weighing 8 kg is in cardiac arrest. You need to administer Epinephrine 1:10,000. The standard pediatric dose is 0.01 mg/kg. How many milliliters (mL) of the 1:10,000 solution will you administer?",
+            "options": [
+                "0.8 mL",
+                "8.0 mL",
+                "0.08 mL",
+                "1.0 mL"
+            ],
+            "answer": "0.8 mL",
+            "explanation": "Dose = 8 kg x 0.01 mg/kg = 0.08 mg. The 1:10,000 concentration is 0.1 mg / 1 mL. To find the volume: 0.08 mg / (0.1 mg/mL) = 0.8 mL.",
+            "hint": "Guide: Dose = 8 kg x 0.01 mg/kg = 0.08 mg. The 1:10,000 concentration is 0.1 mg / 1 mL. To find the volume: 0.08 mg / (0.1 mg/mL) = _______.",
+            "difficulty": 10,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q108",
+            "type": "MCQ",
+            "question": "You apply CPAP to a 70-year-old male with acute pulmonary edema. His blood pressure drops from 110/70 to 88/50 mmHg. What is the precise physiological mechanism causing this drop?",
+            "options": [
+                "The CPAP mask stimulates the vagus nerve, causing bradycardia.",
+                "High intrathoracic pressure from CPAP compresses the vena cava, drastically reducing venous return and cardiac preload.",
+                "The positive pressure forces fluid out of the alveoli directly into the systemic circulation, causing shock.",
+                "CPAP causes massive vasodilation of the peripheral arteries."
+            ],
+            "answer": "High intrathoracic pressure from CPAP compresses the vena cava, drastically reducing venous return and cardiac preload.",
+            "explanation": "Positive end-expiratory pressure (PEEP) increases pressure inside the chest cavity. If the pressure is too high, it physically squashes the inferior and superior vena cava, preventing blood from returning to the right atrium (dropping preload), which instantly drops blood pressure.",
+            "hint": "Guide: Positive pressure increases pressure inside the chest cavity. If the pressure is too high, it physically squashes the vena cava, preventing blood from returning to the right atrium (dropping _______), which instantly drops blood pressure.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q109",
+            "type": "MCQ",
+            "question": "Which of the following conditions classically presents with Beck's Triad (JVD, muffled heart sounds, and narrowing pulse pressure)?",
+            "options": [
+                "Tension Pneumothorax",
+                "Cardiac Tamponade",
+                "Traumatic Aortic Rupture",
+                "Massive Hemothorax"
+            ],
+            "answer": "Cardiac Tamponade",
+            "explanation": "Beck's Triad is the hallmark of Cardiac Tamponade, where blood fills the pericardial sac, muffling the heart sounds and squeezing the heart so it cannot expand.",
+            "hint": "Guide: Beck's Triad is the hallmark of _______, where blood fills the pericardial sac, muffling the heart sounds.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q110",
+            "type": "MCQ",
+            "question": "A trauma patient is exhibiting decerebrate posturing (arms and legs extended, wrists rotated outward). Which of the following best describes the anatomical level of the brain lesion?",
+            "options": [
+                "Cerebral cortex",
+                "Thalamus",
+                "Upper brainstem (Midbrain or Pons)",
+                "Spinal cord at C4"
+            ],
+            "answer": "Upper brainstem (Midbrain or Pons)",
+            "explanation": "Decorticate (abnormal flexion) usually indicates damage above the midbrain. Decerebrate (abnormal extension) is far more severe and indicates damage at the level of the brainstem (midbrain or upper pons).",
+            "hint": "Guide: Decorticate indicates damage above the midbrain. Decerebrate is far more severe and indicates damage at the level of the _______.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q111",
+            "type": "MCQ",
+            "question": "In the START triage system, if a walking-wounded adult patient suddenly collapses, and you find their respiratory rate is 34 breaths per minute, what is your immediate triage tag designation without checking their pulse?",
+            "options": [
+                "Red (Immediate)",
+                "Yellow (Delayed)",
+                "Green (Minor)",
+                "Black (Expectant)"
+            ],
+            "answer": "Red (Immediate)",
+            "explanation": "Under START triage, if a patient is breathing MORE than 30 times a minute, they are immediately tagged Red. You do not proceed to check perfusion or mental status.",
+            "hint": "Guide: Under START triage, if a patient is breathing MORE than _______ times a minute, they are immediately tagged _______.",
+            "difficulty": 8,
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q112",
+            "type": "MCQ",
+            "question": "You arrive at a multi-vehicle collision. Patient A is walking around confused. Patient B is pinned in a car, breathing at 36/min. Patient C is lying on the ground, not breathing, and does not breathe after you open the airway. Using START Triage, what are their tags?",
+            "options": [
+                "A: Green, B: Red, C: Black",
+                "A: Yellow, B: Red, C: Black",
+                "A: Green, B: Yellow, C: Red",
+                "A: Red, B: Yellow, C: Black"
+            ],
+            "answer": "A: Green, B: Red, C: Black",
+            "explanation": "START Triage: Walking wounded = Green. Breathing >30/min = Red (Immediate). Not breathing after airway repositioning = Black (Expectant/Dead).",
+            "hint": "Guide: Walking wounded = _______. Breathing >30/min = _______. Not breathing after airway opened = _______.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q113",
+            "type": "MCQ",
+            "question": "What is the maximum flow rate for a nasal cannula, and why should you not exceed it?",
+            "options": [
+                "4 L/min; higher flows cause oxygen toxicity.",
+                "6 L/min; higher flows dry out and irritate the nasal mucosa without significantly increasing FiO2.",
+                "8 L/min; the tubing cannot handle more pressure.",
+                "10 L/min; it exceeds the oxygen tank's regulator capacity."
+            ],
+            "answer": "6 L/min; higher flows dry out and irritate the nasal mucosa without significantly increasing FiO2.",
+            "explanation": "A nasal cannula delivers 24-44% O2 at 1-6 L/min. Above 6 L/min, the high flow dries out the nasal passages causing discomfort, nosebleeds, and does not meaningfully increase FiO2. Switch to a simple face mask.",
+            "hint": "Guide: Above _______ L/min, the high flow dries out the nasal passages. Switch to a simple face mask instead.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q114",
+            "type": "MCQ",
+            "question": "A 28-year-old female is 38 weeks pregnant and complains of a sudden, painless vaginal bleed. What is the most likely cause?",
+            "options": [
+                "Placenta previa",
+                "Placental abruption",
+                "Uterine rupture",
+                "Ectopic pregnancy"
+            ],
+            "answer": "Placenta previa",
+            "explanation": "Placenta previa presents with painless, bright red vaginal bleeding in the third trimester. The placenta covers the cervical os. Placental abruption, by contrast, is extremely painful.",
+            "hint": "Guide: Painless bright red bleeding in late pregnancy = _______. Painful bleeding = abruption.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q115",
+            "type": "MCQ",
+            "question": "When administering Epinephrine via auto-injector for anaphylaxis, where is the correct injection site?",
+            "options": [
+                "The deltoid muscle of the upper arm.",
+                "The lateral aspect of the mid-thigh.",
+                "The gluteus maximus (buttock).",
+                "Subcutaneously in the abdomen."
+            ],
+            "answer": "The lateral aspect of the mid-thigh.",
+            "explanation": "The EpiPen is designed to be injected into the vastus lateralis muscle on the lateral mid-thigh. This site provides rapid absorption due to large muscle mass and rich blood supply.",
+            "hint": "Guide: The auto-injector goes into the large muscle on the outer _______, not the arm or buttock.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q116",
+            "type": "MCQ",
+            "question": "You are called to a residence for a 70-year-old male who is alert but confused. His wife says he has been unable to speak clearly for the past 30 minutes. You notice facial droop on the right side. What is the MOST critical piece of information to relay to the hospital?",
+            "options": [
+                "The patient's medication list.",
+                "The exact time when the patient was last known to be normal.",
+                "The patient's blood pressure reading.",
+                "Whether the patient has a history of strokes."
+            ],
+            "answer": "The exact time when the patient was last known to be normal.",
+            "explanation": "For a suspected stroke, the 'last known normal' time is the single most critical piece of information because it determines eligibility for fibrinolytic (clot-busting) therapy, which has a strict time window.",
+            "hint": "Guide: Fibrinolytic therapy has a strict time window. The hospital MUST know the exact _______ the patient was last seen normal.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q117",
+            "type": "TF",
+            "question": "True or False: When ventilating a patient with a suspected spinal injury using a BVM, you should use the jaw-thrust maneuver instead of the head-tilt chin-lift.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The jaw-thrust maneuver opens the airway by displacing the mandible forward without extending the neck. The head-tilt chin-lift hyperextends the cervical spine and is contraindicated in suspected spinal injuries.",
+            "hint": "Guide: The jaw-thrust opens the airway without moving the _______. The head-tilt chin-lift hyperextends it.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q118",
+            "type": "MCQ",
+            "question": "An EMT arrives at a hazmat scene involving an unknown chemical spill. What is the FIRST action?",
+            "options": [
+                "Don full PPE and enter the hot zone to rescue patients.",
+                "Isolate the area, deny entry, and call for a hazmat team from a safe distance.",
+                "Begin triaging patients immediately.",
+                "Identify the chemical using the placard and begin decontamination."
+            ],
+            "answer": "Isolate the area, deny entry, and call for a hazmat team from a safe distance.",
+            "explanation": "EMTs are not trained to operate in hot zones. The first priority is scene safety: isolate and deny entry, stage uphill and upwind, and wait for a certified hazmat team.",
+            "hint": "Guide: EMTs are NOT trained for hot zone entry. Your first action is to _______ the area and call for specialized teams.",
+            "difficulty": 5,
+            "nremtCategory": "operations"
+        },
+        {
+            "id": "q119",
+            "type": "MCQ",
+            "question": "You are performing CPR on a 3-year-old child as a single rescuer. What is the correct compression-to-ventilation ratio?",
+            "options": [
+                "15:2",
+                "30:2",
+                "15:1",
+                "5:1"
+            ],
+            "answer": "30:2",
+            "explanation": "For a single rescuer on any patient (adult, child, or infant), the ratio is always 30:2. The 15:2 ratio is only used with TWO rescuers on a child or infant.",
+            "hint": "Guide: Single rescuer on ANY patient = _______:2. The 15:2 ratio is only for _______ rescuers on a child/infant.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q120",
+            "type": "MCQ",
+            "question": "Which of the following patients can legally refuse treatment?",
+            "options": [
+                "A 15-year-old who crashed her bicycle and has a broken arm.",
+                "An intoxicated 30-year-old male who was in a bar fight.",
+                "A 45-year-old competent, alert, and oriented adult who was rear-ended at low speed.",
+                "A 6-year-old who says he doesn't want to go to the hospital."
+            ],
+            "answer": "A 45-year-old competent, alert, and oriented adult who was rear-ended at low speed.",
+            "explanation": "Only a competent adult (alert, oriented, not under the influence) can legally refuse treatment. Minors, intoxicated patients, and those with altered mental status cannot make informed refusal decisions.",
+            "hint": "Guide: To legally refuse care, a patient must be a competent _______, who is alert, oriented, and not under the influence.",
+            "difficulty": 4,
+            "nremtCategory": "scene_safety"
+        },
+        {
+            "id": "q121",
+            "type": "MCQ",
+            "question": "What medication should an EMT administer to a patient experiencing a suspected acute coronary syndrome (ACS) who is not allergic and has no contraindications?",
+            "options": [
+                "Nitroglycerin only",
+                "Aspirin only",
+                "Aspirin 324mg (chewed)",
+                "Epinephrine 0.3mg"
+            ],
+            "answer": "Aspirin 324mg (chewed)",
+            "explanation": "Aspirin (324mg, chewed for rapid absorption) is the first-line medication for ACS. It inhibits platelet aggregation and helps prevent the clot from growing. Nitroglycerin may also be given but requires medical direction.",
+            "hint": "Guide: The first-line medication for ACS is _______ mg of aspirin, _______ not swallowed, for faster absorption.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q122",
+            "type": "MCQ",
+            "question": "During a rapid trauma assessment of the chest, you notice paradoxical movement of a segment of the chest wall. What condition does this indicate?",
+            "options": [
+                "Simple pneumothorax",
+                "Flail chest",
+                "Cardiac tamponade",
+                "Pulmonary embolism"
+            ],
+            "answer": "Flail chest",
+            "explanation": "Flail chest occurs when three or more adjacent ribs are fractured in two or more places, creating a free-floating segment. This segment moves paradoxically (inward on inhalation, outward on exhalation).",
+            "hint": "Guide: _______ or more adjacent ribs fractured in two or more places creates a free-floating segment that moves in the opposite direction of breathing.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q123",
+            "type": "MCQ",
+            "question": "What is the correct position to transport a patient in late pregnancy who is experiencing hypotension?",
+            "options": [
+                "Supine on a flat backboard.",
+                "Left lateral recumbent position, or tilt the backboard 15-30 degrees to the left.",
+                "Trendelenburg (head down, feet up).",
+                "Sitting upright at 90 degrees."
+            ],
+            "answer": "Left lateral recumbent position, or tilt the backboard 15-30 degrees to the left.",
+            "explanation": "In late pregnancy, the heavy uterus can compress the inferior vena cava when the patient is supine, reducing venous return and causing supine hypotensive syndrome. Tilting left relieves this compression.",
+            "hint": "Guide: The heavy uterus compresses the _______ when the patient is supine. Tilting to the _______ relieves this compression.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "q124",
+            "type": "MCQ",
+            "question": "Which of the following is the MOST common cause of airway obstruction in an unconscious patient?",
+            "options": [
+                "Food",
+                "Dentures",
+                "The tongue",
+                "Swollen epiglottis"
+            ],
+            "answer": "The tongue",
+            "explanation": "In an unconscious patient, the muscles of the jaw and tongue relax. The tongue falls back against the posterior pharynx, blocking the airway. This is why the head-tilt chin-lift or jaw-thrust is the first intervention.",
+            "hint": "Guide: When unconscious, the muscles relax and this structure falls back against the posterior pharynx, blocking the airway.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "q125",
+            "type": "MCQ",
+            "question": "What are the 5 rights of medication administration?",
+            "options": [
+                "Right patient, right drug, right dose, right route, right time.",
+                "Right patient, right doctor, right pharmacy, right label, right cost.",
+                "Right drug, right needle, right vein, right speed, right documentation.",
+                "Right patient, right drug, right color, right shape, right expiration."
+            ],
+            "answer": "Right patient, right drug, right dose, right route, right time.",
+            "explanation": "The 5 rights ensure medication safety: Right Patient, Right Drug, Right Dose, Right Route, and Right Time. This is a fundamental principle of pharmacology.",
+            "hint": "Guide: Patient, Drug, Dose, _______, Time.",
+            "difficulty": 3,
+            "nremtCategory": "operations"
+        },
+        {
+            "id": "q126",
+            "type": "MCQ",
+            "question": "You respond to a construction site. A worker has fallen 20 feet and landed on concrete. He is conscious but complaining of back pain. What is the MOST appropriate method of spinal immobilization?",
+            "options": [
+                "Have him walk slowly to the ambulance with a cervical collar.",
+                "Full spinal precautions: manual c-spine stabilization, cervical collar, long backboard with head blocks and straps.",
+                "Apply a KED vest and transport sitting up.",
+                "Place him in a recovery position on his side."
+            ],
+            "answer": "Full spinal precautions: manual c-spine stabilization, cervical collar, long backboard with head blocks and straps.",
+            "explanation": "A 20-foot fall onto concrete is a significant mechanism of injury for spinal trauma. Full spinal immobilization is required: manual stabilization, c-collar, long backboard, head blocks, and straps from torso to head.",
+            "hint": "Guide: A significant fall height requires full spinal precautions. Secure the _______ before the head to prevent shifting.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         }
     ],
     "understanding": [
@@ -1334,7 +2033,10 @@ window.questionBank = {
                 "Oxygenation": "The process of loading oxygen molecules onto hemoglobin molecules in the bloodstream.",
                 "Tidal Volume": "The amount of air moved in or out of the lungs during a single breath."
             },
-            "explanation": "Understanding the distinct difference between ventilation (mechanics) and respiration (gas exchange) is fundamental to managing respiratory distress."
+            "explanation": "Understanding the distinct difference between ventilation (mechanics) and respiration (gas exchange) is fundamental to managing respiratory distress.",
+            "hint": "Guide: Understanding the distinct difference between ventilation (mechanics) and respiration (gas exchange) is fundamental to managing respiratory distress. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u2",
@@ -1347,7 +2049,10 @@ window.questionBank = {
                 "Dead Space x Respiratory Rate"
             ],
             "answer": "Tidal Volume x Respiratory Rate",
-            "explanation": "Minute Volume (the total amount of air moved in and out in one minute) is calculated by multiplying the Tidal Volume by the Respiratory Rate."
+            "explanation": "Minute Volume (the total amount of air moved in and out in one minute) is calculated by multiplying the Tidal Volume by the Respiratory Rate.",
+            "hint": "Guide: Minute Volume (the total amount of air moved in and out in one minute) is calculated by multiplying the Tidal Volume by the Respiratory Rate. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u3",
@@ -1358,7 +2063,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "Dead space includes structures like the trachea and bronchi where air sits but no gas exchange occurs (approximately 150 mL in a typical adult)."
+            "explanation": "Dead space includes structures like the trachea and bronchi where air sits but no gas exchange occurs (approximately 150 mL in a typical adult).",
+            "hint": "Guide: Dead space is the air in the trachea and bronchi that doesn't reach the alveoli.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u4",
@@ -1370,7 +2078,10 @@ window.questionBank = {
                 "Ischemia": "A lack of oxygen that deprives tissues of necessary nutrients, resulting from partial or complete blockage of blood flow.",
                 "Infarction": "The death of tissue resulting from a prolonged lack of blood supply and oxygen."
             },
-            "explanation": "Ischemia is the restriction of blood supply, which leads to hypoxia in the tissue. If left untreated, it progresses to infarction (tissue death)."
+            "explanation": "Ischemia is the restriction of blood supply, which leads to hypoxia in the tissue. If left untreated, it progresses to infarction (tissue death).",
+            "hint": "Guide: Ischemia is the restriction of blood supply, which leads to hypoxia in the tissue.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u5",
@@ -1392,7 +2103,10 @@ window.questionBank = {
                 "Bronchioles",
                 "Alveoli"
             ],
-            "explanation": "Air enters the upper airway, passes the larynx (vocal cords), travels down the trachea, splits into the left/right mainstem bronchi, branches into bronchioles, and terminates at the alveoli for gas exchange."
+            "explanation": "Air enters the upper airway, passes the larynx (vocal cords), travels down the trachea, splits into the left/right mainstem bronchi, branches into bronchioles, and terminates at the alveoli for gas exchange.",
+            "hint": "Guide: Air enters the upper airway, passes the larynx (vocal cords), travels down the trachea, splits into the left/right mainstem bronchi, branches into bronchioles, and terminates at the alveoli for gas exchange. - use this logic to derive the answer!",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "u6",
@@ -1402,7 +2116,10 @@ window.questionBank = {
                 "Hyperventilation (Blowing off CO2)": "Leads to Respiratory Alkalosis (blood becomes too basic).",
                 "Hypoventilation (Retaining CO2)": "Leads to Respiratory Acidosis (blood becomes too acidic)."
             },
-            "explanation": "Carbon dioxide acts as an acid in the body (carbonic acid). Breathing too fast blows off too much acid, while breathing too slow retains it."
+            "explanation": "Carbon dioxide acts as an acid in the body (carbonic acid). Breathing too fast blows off too much acid, while breathing too slow retains it.",
+            "hint": "Guide: Carbon dioxide acts as an acid in the body (carbonic acid).",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u7",
@@ -1415,7 +2132,10 @@ window.questionBank = {
                 "High levels of oxygen in the blood"
             ],
             "answer": "High levels of carbon dioxide in the blood",
-            "explanation": "Central chemoreceptors in the medulla oblongata monitor CO2 levels and pH in the cerebrospinal fluid. A rise in CO2 triggers the impulse to breathe."
+            "explanation": "Central chemoreceptors in the medulla oblongata monitor CO2 levels and pH in the cerebrospinal fluid. A rise in CO2 triggers the impulse to breathe.",
+            "hint": "Guide: Central chemoreceptors in the medulla oblongata monitor CO2 levels and pH in the cerebrospinal fluid.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u8",
@@ -1426,7 +2146,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "Because COPD patients chronically retain CO2, their brain receptors become desensitized to it, relying instead on peripheral chemoreceptors measuring low oxygen to trigger breathing."
+            "explanation": "Because COPD patients chronically retain CO2, their brain receptors become desensitized to it, relying instead on peripheral chemoreceptors measuring low oxygen to trigger breathing.",
+            "hint": "Guide: Hypoxic drive means the body breathes because oxygen is low, not because CO2 is high.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u9",
@@ -1438,7 +2161,10 @@ window.questionBank = {
                 "Crackles (Rales)": "Fluid accumulation in the alveoli snapping open during inspiration.",
                 "Rhonchi": "Low-pitched rattling sounds caused by mucus secretions in the larger airways."
             },
-            "explanation": "Understanding the mechanical cause of lung sounds guides your treatment (e.g., Albuterol for wheezing, CPAP for crackles)."
+            "explanation": "Understanding the mechanical cause of lung sounds guides your treatment (e.g., Albuterol for wheezing, CPAP for crackles).",
+            "hint": "Guide: Understanding the mechanical cause of lung sounds guides your treatment (e.g., Albuterol for wheezing, CPAP for crackles). - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u10",
@@ -1451,7 +2177,10 @@ window.questionBank = {
                 "To stimulate the phrenic nerve and initiate a breath."
             ],
             "answer": "To reduce surface tension within the alveoli, preventing them from collapsing.",
-            "explanation": "Surfactant is a liquid protein substance that coats the alveoli; without it, the water tension would cause the delicate alveoli to collapse entirely after exhalation."
+            "explanation": "Surfactant is a liquid protein substance that coats the alveoli; without it, the water tension would cause the delicate alveoli to collapse entirely after exhalation.",
+            "hint": "Guide: Surfactant is a liquid protein substance that coats the alveoli; without it, the water tension would cause the delicate alveoli to collapse entirely after exhalation. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u11",
@@ -1463,7 +2192,10 @@ window.questionBank = {
                 "Stroke Volume": "The volume of blood pumped out of the left ventricle in a single contraction.",
                 "Cardiac Output": "The total volume of blood circulated by the heart in one minute."
             },
-            "explanation": "Cardiac Output = Stroke Volume x Heart Rate. Stroke volume is influenced by Preload, Afterload, and Contractility."
+            "explanation": "Cardiac Output = Stroke Volume x Heart Rate. Stroke volume is influenced by Preload, Afterload, and Contractility.",
+            "hint": "Guide: Cardiac Output = Stroke Volume x Heart Rate.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u12",
@@ -1487,7 +2219,10 @@ window.questionBank = {
                 "Left Atrium",
                 "Left Ventricle"
             ],
-            "explanation": "Deoxygenated blood returns via the Vena Cava -> RA -> RV -> Pulmonary Artery (to lungs). Oxygenated blood returns via Pulmonary Veins -> LA -> LV -> Aorta."
+            "explanation": "Deoxygenated blood returns via the Vena Cava -> RA -> RV -> Pulmonary Artery (to lungs). Oxygenated blood returns via Pulmonary Veins -> LA -> LV -> Aorta.",
+            "hint": "Guide: Deoxygenated blood returns via the Vena Cava -> RA -> RV -> Pulmonary Artery (to lungs).",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u13",
@@ -1500,7 +2235,10 @@ window.questionBank = {
                 "Haldane Effect"
             ],
             "answer": "Frank-Starling Law",
-            "explanation": "The Frank-Starling mechanism explains how increased preload (stretch) leads to increased contractility and stroke volume."
+            "explanation": "The Frank-Starling mechanism explains how increased preload (stretch) leads to increased contractility and stroke volume.",
+            "hint": "Guide: The Frank-Starling mechanism explains how increased preload (stretch) leads to increased contractility and stroke volume. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u14",
@@ -1510,7 +2248,10 @@ window.questionBank = {
                 "Vasoconstriction": "Increases SVR, which generally increases Blood Pressure.",
                 "Vasodilation": "Decreases SVR, which generally decreases Blood Pressure."
             },
-            "explanation": "Blood pressure is the product of Cardiac Output and Systemic Vascular Resistance (BP = CO x SVR). Changing the container size directly impacts pressure."
+            "explanation": "Blood pressure is the product of Cardiac Output and Systemic Vascular Resistance (BP = CO x SVR). Changing the container size directly impacts pressure.",
+            "hint": "Guide: Blood pressure is the product of Cardiac Output and Systemic Vascular Resistance (BP = CO x SVR).",
+            "difficulty": 6,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "u15",
@@ -1521,7 +2262,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Arteries carry blood AWAY from the heart, and veins carry blood TOWARDS the heart. The pulmonary artery carries deoxygenated blood away from the right ventricle to the lungs."
+            "explanation": "Arteries carry blood AWAY from the heart, and veins carry blood TOWARDS the heart. The pulmonary artery carries deoxygenated blood away from the right ventricle to the lungs.",
+            "hint": "Guide: Arteries carry blood AWAY from the heart. Veins carry blood TOWARD the heart. (Think Pulmonary Artery/Vein).",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u16",
@@ -1532,7 +2276,10 @@ window.questionBank = {
                 "QRS Complex": "Depolarization (contraction) of the ventricles.",
                 "T Wave": "Repolarization (resting/resetting) of the ventricles."
             },
-            "explanation": "Electrical impulses trigger mechanical contractions. The QRS complex is large because the ventricular muscle mass is much larger than the atria."
+            "explanation": "Electrical impulses trigger mechanical contractions. The QRS complex is large because the ventricular muscle mass is much larger than the atria.",
+            "hint": "Guide: Electrical impulses trigger mechanical contractions.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u17",
@@ -1545,7 +2292,10 @@ window.questionBank = {
                 "A decrease in systemic vascular resistance"
             ],
             "answer": "An increase in the force of cardiac contraction",
-            "explanation": "Inotropic refers to force of contraction. Chronotropic refers to heart rate. Dromotropic refers to the speed of electrical conduction."
+            "explanation": "Inotropic refers to force of contraction. Chronotropic refers to heart rate. Dromotropic refers to the speed of electrical conduction.",
+            "hint": "Guide: Inotropic refers to force of contraction. Chronotropic refers to heart rate.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u18",
@@ -1555,7 +2305,10 @@ window.questionBank = {
                 "Systolic Blood Pressure": "The pressure exerted against the walls of the arteries when the left ventricle contracts.",
                 "Diastolic Blood Pressure": "The pressure exerted against the walls of the arteries when the left ventricle is at rest."
             },
-            "explanation": "Systole is the active pumping phase; diastole is the resting and filling phase of the cardiac cycle."
+            "explanation": "Systole is the active pumping phase; diastole is the resting and filling phase of the cardiac cycle.",
+            "hint": "Guide: Systole is the active pumping phase; diastole is the resting and filling phase of the cardiac cycle. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "u19",
@@ -1573,7 +2326,10 @@ window.questionBank = {
                 "Bundle of His",
                 "Purkinje Fibers"
             ],
-            "explanation": "The impulse starts at the primary pacemaker (SA Node), pauses slightly at the AV Node to allow ventricular filling, travels down the Bundle of His, and terminates in the Purkinje fibers to contract the ventricles."
+            "explanation": "The impulse starts at the primary pacemaker (SA Node), pauses slightly at the AV Node to allow ventricular filling, travels down the Bundle of His, and terminates in the Purkinje fibers to contract the ventricles.",
+            "hint": "Guide: The impulse starts at the primary pacemaker (SA Node), pauses slightly at the AV Node to allow ventricular filling, travels down the Bundle of His, and terminates in the Purkinje fibers to contract the ventricles. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u20",
@@ -1586,7 +2342,10 @@ window.questionBank = {
                 "They monitor blood glucose levels and stimulate the pancreas to release insulin when high."
             ],
             "answer": "They monitor blood pressure and signal the brain to adjust heart rate and vascular tone.",
-            "explanation": "Baroreceptors detect stretch in the blood vessels. If pressure drops, they signal the sympathetic nervous system to increase heart rate and constrict vessels to compensate."
+            "explanation": "Baroreceptors detect stretch in the blood vessels. If pressure drops, they signal the sympathetic nervous system to increase heart rate and constrict vessels to compensate.",
+            "hint": "Guide: Baroreceptors detect pressure changes and tell the brain to alter the heart rate.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u21",
@@ -1596,7 +2355,10 @@ window.questionBank = {
                 "Sympathetic Nervous System": "Triggers 'Fight or Flight' (increases heart rate, dilates pupils, bronchodilation, shunts blood to muscles).",
                 "Parasympathetic Nervous System": "Triggers 'Rest and Digest' (decreases heart rate, stimulates digestion, constricts pupils)."
             },
-            "explanation": "These two systems constantly balance each other to maintain homeostasis and respond to external stress."
+            "explanation": "These two systems constantly balance each other to maintain homeostasis and respond to external stress.",
+            "hint": "Guide: These two systems constantly balance each other to maintain homeostasis and respond to external stress. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "operations"
         },
         {
             "id": "u22",
@@ -1608,7 +2370,10 @@ window.questionBank = {
                 "Distributive Shock": "Widespread dilation of the blood vessels causing blood to pool (loss of vascular tone).",
                 "Obstructive Shock": "A mechanical obstruction prevents an adequate volume of blood from filling the heart chambers."
             },
-            "explanation": "All shock is a failure of perfusion, but the failure can originate in the pump (Cardiogenic), the fluid (Hypovolemic), the pipes (Distributive), or a blockage (Obstructive)."
+            "explanation": "All shock is a failure of perfusion, but the failure can originate in the pump (Cardiogenic), the fluid (Hypovolemic), the pipes (Distributive), or a blockage (Obstructive).",
+            "hint": "Guide: All shock is a failure of perfusion, but the failure can originate in the pump (Cardiogenic), the fluid (Hypovolemic), the pipes (Distributive), or a blockage (Obstructive). - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u23",
@@ -1621,7 +2386,10 @@ window.questionBank = {
                 "Severe blood loss resulting in empty blood vessels and profound hypovolemic cardiovascular collapse."
             ],
             "answer": "Damage to the spinal cord cutting off sympathetic nervous system signals to the blood vessels.",
-            "explanation": "Without sympathetic nerve impulses (which normally keep vessels slightly constricted), the blood vessels dilate massively, dropping blood pressure."
+            "explanation": "Without sympathetic nerve impulses (which normally keep vessels slightly constricted), the blood vessels dilate massively, dropping blood pressure.",
+            "hint": "Guide: Neurogenic shock involves the loss of sympathetic tone, causing vessels to massively dilate.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u24",
@@ -1632,7 +2400,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The defining indicator that a patient has transitioned from compensated to decompensated shock is a DROP in blood pressure. Tachycardia occurs early in compensated shock."
+            "explanation": "The defining indicator that a patient has transitioned from compensated to decompensated shock is a DROP in blood pressure. Tachycardia occurs early in compensated shock.",
+            "hint": "Guide: Decompensated shock is defined by a sudden DROP in blood pressure.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u25",
@@ -1644,7 +2415,10 @@ window.questionBank = {
                 "Aerobic Metabolism": "Cellular energy production in the presence of adequate oxygen, producing massive ATP and minimal waste.",
                 "Anaerobic Metabolism": "Cellular energy production without adequate oxygen, producing minimal ATP and toxic lactic acid."
             },
-            "explanation": "Shock forces the body into anaerobic metabolism, which rapidly poisons the cells with acid and starves them of energy."
+            "explanation": "Shock forces the body into anaerobic metabolism, which rapidly poisons the cells with acid and starves them of energy.",
+            "hint": "Guide: Shock forces the body into anaerobic metabolism, which rapidly poisons the cells with acid and starves them of energy. - use this logic to derive the answer!",
+            "difficulty": 9,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u26",
@@ -1660,7 +2434,10 @@ window.questionBank = {
                 "Decompensated Shock",
                 "Irreversible Shock"
             ],
-            "explanation": "First the body compensates (maintains BP), then it fails to compensate (BP drops), and finally cell death is so profound that resuscitation is impossible."
+            "explanation": "First the body compensates (maintains BP), then it fails to compensate (BP drops), and finally cell death is so profound that resuscitation is impossible.",
+            "hint": "Guide: First the body compensates (maintains BP), then it fails to compensate (BP drops), and finally cell death is so profound that resuscitation is impossible. - use this logic to derive the answer!",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u27",
@@ -1673,7 +2450,10 @@ window.questionBank = {
                 "Nitric Oxide"
             ],
             "answer": "Lactic Acid",
-            "explanation": "Without oxygen, glucose breaks down into pyruvic acid which converts to lactic acid, creating a lethal acidic environment in shock patients."
+            "explanation": "Without oxygen, glucose breaks down into pyruvic acid which converts to lactic acid, creating a lethal acidic environment in shock patients.",
+            "hint": "Guide: Without oxygen, glucose breaks down into pyruvic acid which converts to _______, creating a lethal acidic environment in shock patients.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u28",
@@ -1684,7 +2464,10 @@ window.questionBank = {
                 "Beta 1 Receptors": "Increases heart rate and the force of cardiac contraction.",
                 "Beta 2 Receptors": "Causes bronchodilation of the smooth muscles in the lungs."
             },
-            "explanation": "A helpful mnemonic: You have 1 heart (Beta 1) and 2 lungs (Beta 2)."
+            "explanation": "A helpful mnemonic: You have 1 heart (Beta 1) and 2 lungs (Beta 2).",
+            "hint": "Guide: A helpful mnemonic: You have 1 heart (Beta 1) and 2 lungs (Beta 2). - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u29",
@@ -1697,7 +2480,10 @@ window.questionBank = {
                 "It sedates the patient and reduces their metabolic demand."
             ],
             "answer": "It stimulates alpha and beta receptors, reversing vasodilation and bronchoconstriction.",
-            "explanation": "Anaphylaxis causes deadly vasodilation and bronchoconstriction. Epinephrine forces the vessels to constrict (Alpha 1) and the bronchioles to open (Beta 2), counteracting the shock."
+            "explanation": "Anaphylaxis causes deadly vasodilation and bronchoconstriction. Epinephrine forces the vessels to constrict (Alpha 1) and the bronchioles to open (Beta 2), counteracting the shock.",
+            "hint": "Guide: Anaphylaxis causes deadly vasodilation and bronchoconstriction.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u30",
@@ -1708,7 +2494,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Septic shock is a type of Distributive shock. The volume of blood remains the same, but the blood vessels dilate massively and leak fluid into the tissues."
+            "explanation": "Septic shock is a type of Distributive shock. The volume of blood remains the same, but the blood vessels dilate massively and leak fluid into the tissues.",
+            "hint": "Guide: Septic shock is Distributive (vessels leak/dilate), not Hypovolemic.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u31",
@@ -1720,7 +2509,10 @@ window.questionBank = {
                 "Oxygen": "The critical element required to unlock large amounts of energy from glucose.",
                 "Mitochondria": "The organelle responsible for aerobic metabolism (the powerhouse of the cell)."
             },
-            "explanation": "Glucose and oxygen must both reach the cell, cross the membrane, and enter the mitochondria to produce adequate ATP."
+            "explanation": "Glucose and oxygen must both reach the cell, cross the membrane, and enter the mitochondria to produce adequate ATP.",
+            "hint": "Guide: Glucose and oxygen must both reach the cell, cross the membrane, and enter the mitochondria to produce adequate ATP. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u32",
@@ -1733,7 +2525,10 @@ window.questionBank = {
                 "The cell enters a dormant hibernation state."
             ],
             "answer": "Sodium builds up inside the cell, pulling water in until the cell swells and bursts.",
-            "explanation": "The pump requires energy (ATP) to push sodium out. Without energy, sodium floods in. Water follows sodium, causing the cell to rupture (lysis) and die."
+            "explanation": "The pump requires energy (ATP) to push sodium out. Without energy, sodium floods in. Water follows sodium, causing the cell to rupture (lysis) and die.",
+            "hint": "Guide: The pump requires energy (ATP) to push sodium out. Without energy, sodium floods in.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "u33",
@@ -1743,7 +2538,10 @@ window.questionBank = {
                 "Insulin": "Acts as a key to let glucose out of the blood and into the cells, lowering blood sugar.",
                 "Glucagon": "Stimulates the liver to release stored glycogen into the blood, raising blood sugar."
             },
-            "explanation": "Insulin moves sugar into cells. Glucagon mobilizes stored sugar out of the liver."
+            "explanation": "Insulin moves sugar into cells. Glucagon mobilizes stored sugar out of the liver.",
+            "hint": "Guide: Insulin moves sugar into cells.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u34",
@@ -1765,7 +2563,10 @@ window.questionBank = {
                 "Large Intestine",
                 "Rectum"
             ],
-            "explanation": "Food travels from the mouth down the esophagus into the stomach, then through the small intestine (where nutrients are absorbed), the large intestine (where water is absorbed), and out."
+            "explanation": "Food travels from the mouth down the esophagus into the stomach, then through the small intestine (where nutrients are absorbed), the large intestine (where water is absorbed), and out.",
+            "hint": "Guide: Food travels from the mouth down the esophagus into the stomach, then through the small intestine (where nutrients are absorbed), the large intestine (where water is absorbed), and out. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u35",
@@ -1775,7 +2576,10 @@ window.questionBank = {
                 "Type 1 Diabetes": "An autoimmune disease where the pancreas produces little to no insulin.",
                 "Type 2 Diabetes": "A condition where the pancreas produces insulin, but the body's cells develop insulin resistance."
             },
-            "explanation": "Type 1 patients absolutely require external insulin to survive. Type 2 patients can often manage it with diet, exercise, and oral medications."
+            "explanation": "Type 1 patients absolutely require external insulin to survive. Type 2 patients can often manage it with diet, exercise, and oral medications.",
+            "hint": "Guide: Type 1 patients absolutely require external insulin to survive.",
+            "difficulty": 9,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u36",
@@ -1788,7 +2592,10 @@ window.questionBank = {
                 "Lactic acid builds up rapidly due to severe systemic hypoperfusion and anaerobic metabolism."
             ],
             "answer": "The body's cells, starving without insulin, burn fat for energy, which produces acidic ketones.",
-            "explanation": "Without insulin, glucose cannot enter the cells. Starving cells burn fat instead, creating ketone bodies as a waste product, which turn the blood dangerously acidic."
+            "explanation": "Without insulin, glucose cannot enter the cells. Starving cells burn fat instead, creating ketone bodies as a waste product, which turn the blood dangerously acidic.",
+            "hint": "Guide: DKA occurs because the cells can't get sugar, so they burn fat, releasing ketones.",
+            "difficulty": 8,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u37",
@@ -1800,7 +2607,10 @@ window.questionBank = {
                 "Spleen": "Solid Organ (Highly vascular, high risk of internal bleeding).",
                 "Gallbladder": "Hollow Organ (Acts as a sac storing bile)."
             },
-            "explanation": "Solid organs are highly vascular and present a severe bleeding risk. Hollow organs present a severe risk for peritonitis and infection if their contents leak."
+            "explanation": "Solid organs are highly vascular and present a severe bleeding risk. Hollow organs present a severe risk for peritonitis and infection if their contents leak.",
+            "hint": "Guide: Solid organs are highly vascular and present a severe bleeding risk.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u38",
@@ -1811,7 +2621,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The spleen is a solid organ that filters blood and plays a role in the immune system. Rupture of the spleen leads to massive, life-threatening internal hemorrhage."
+            "explanation": "The spleen is a solid organ that filters blood and plays a role in the immune system. Rupture of the spleen leads to massive, life-threatening internal hemorrhage.",
+            "hint": "Guide: The spleen is a SOLID organ filled with blood.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u39",
@@ -1823,7 +2636,10 @@ window.questionBank = {
                 "Chronic Bronchitis": "Chronic inflammation and excessive mucus production in the bronchi.",
                 "Pneumonia": "An infection causing inflammation and fluid/pus accumulation in the alveoli."
             },
-            "explanation": "While they all cause respiratory distress, the structural cause is different, explaining why CPAP helps pulmonary edema but Albuterol helps asthma."
+            "explanation": "While they all cause respiratory distress, the structural cause is different, explaining why CPAP helps pulmonary edema but Albuterol helps asthma.",
+            "hint": "Guide: While they all cause respiratory distress, the structural cause is different, explaining why CPAP helps pulmonary edema but Albuterol helps asthma. - use this logic to derive the answer!",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u40",
@@ -1836,7 +2652,10 @@ window.questionBank = {
                 "Ascites (fluid in the abdomen)"
             ],
             "answer": "Pulmonary edema (fluid in the lungs)",
-            "explanation": "The left ventricle pumps blood to the body. If it fails, blood backs up into the lungs, causing pulmonary edema. Right-sided failure causes blood to back up into the systemic body (JVD, pedal edema)."
+            "explanation": "The left ventricle pumps blood to the body. If it fails, blood backs up into the lungs, causing pulmonary edema. Right-sided failure causes blood to back up into the systemic body (JVD, pedal edema).",
+            "hint": "Guide: The left ventricle pumps blood to the body. If it fails, blood backs up into the lungs, causing pulmonary edema.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u41",
@@ -1846,7 +2665,10 @@ window.questionBank = {
                 "Agonist": "A medication that binds to a receptor and stimulates it to cause an action.",
                 "Antagonist": "A medication that binds to a receptor and blocks it from being stimulated by other chemicals."
             },
-            "explanation": "Epinephrine is an agonist (stimulates receptors). Naloxone (Narcan) is an antagonist (blocks opioid receptors)."
+            "explanation": "Epinephrine is an agonist (stimulates receptors). Naloxone (Narcan) is an antagonist (blocks opioid receptors).",
+            "hint": "Guide: Epinephrine is an agonist (stimulates receptors).",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u42",
@@ -1856,7 +2678,10 @@ window.questionBank = {
                 "Enteral": "Medications that enter the body through the digestive tract (e.g., Oral, Sublingual, Rectal).",
                 "Parenteral": "Medications that enter the body by a route other than the digestive tract, usually via needles/syringes (e.g., IV, IM, IO)."
             },
-            "explanation": "Parenteral routes are typically much faster as they absorb directly into the circulatory system, bypassing the GI tract."
+            "explanation": "Parenteral routes are typically much faster as they absorb directly into the circulatory system, bypassing the GI tract.",
+            "hint": "Guide: Parenteral routes are typically much faster as they absorb directly into the circulatory system, bypassing the GI tract. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u43",
@@ -1869,7 +2694,10 @@ window.questionBank = {
                 "The study of identifying unknown toxins."
             ],
             "answer": "The study of how the body absorbs, distributes, metabolizes, and excretes a drug.",
-            "explanation": "Pharmacokinetics is what the body does to the drug. Pharmacodynamics is what the drug does to the body."
+            "explanation": "Pharmacokinetics is what the body does to the drug. Pharmacodynamics is what the drug does to the body.",
+            "hint": "Guide: Pharmacokinetics is what the body does to the drug.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u44",
@@ -1881,7 +2709,10 @@ window.questionBank = {
                 "Side Effects": "Any actions of a medication other than the desired ones.",
                 "Untoward Effects": "Side effects that prove harmful to the patient."
             },
-            "explanation": "Knowing a drug's contraindications is often more critical than knowing its indications to avoid killing a patient."
+            "explanation": "Knowing a drug's contraindications is often more critical than knowing its indications to avoid killing a patient.",
+            "hint": "Guide: Knowing a drug's contraindications is often more critical than knowing its indications to avoid killing a patient. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u45",
@@ -1901,7 +2732,10 @@ window.questionBank = {
                 "Left Atrium (via Foramen Ovale)",
                 "Systemic Fetal Circulation"
             ],
-            "explanation": "The fetus does not breathe air. Oxygenated blood from the placenta enters the right atrium and shoots straight across into the left atrium through the Foramen Ovale, bypassing the lungs entirely."
+            "explanation": "The fetus does not breathe air. Oxygenated blood from the placenta enters the right atrium and shoots straight across into the left atrium through the Foramen Ovale, bypassing the lungs entirely.",
+            "hint": "Guide: The fetus does not breathe air.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u46",
@@ -1913,7 +2747,10 @@ window.questionBank = {
                 "Cylinder-shaped, narrowest at the vocal cords.": "Adult",
                 "Highly flexible, softer trachea cartilage that can kink if hyperextended.": "Pediatric"
             },
-            "explanation": "Pediatric airways are not just smaller adult airways; their anatomical shape and proportions require modified techniques (like placing a towel under the shoulders to achieve a neutral sniffing position)."
+            "explanation": "Pediatric airways are not just smaller adult airways; their anatomical shape and proportions require modified techniques (like placing a towel under the shoulders to achieve a neutral sniffing position).",
+            "hint": "Guide: Pediatric airways are not just smaller adult airways; their anatomical shape and proportions require modified techniques (like placing a towel under the shoulders to achieve a neutral sniffing position). - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u47",
@@ -1926,7 +2763,10 @@ window.questionBank = {
                 "The complex metabolic process of a drug successfully crossing the blood-brain barrier for the first time."
             ],
             "answer": "The phenomenon where orally administered drugs are absorbed and pass through the liver, significantly reducing their concentration before reaching systemic circulation.",
-            "explanation": "Because oral drugs go to the liver first, much of the drug is destroyed before it ever reaches the rest of the body. Sublingual drugs bypass this by absorbing directly into the systemic veins under the tongue."
+            "explanation": "Because oral drugs go to the liver first, much of the drug is destroyed before it ever reaches the rest of the body. Sublingual drugs bypass this by absorbing directly into the systemic veins under the tongue.",
+            "hint": "Guide: First-pass metabolism occurs when the liver processes oral drugs before they reach circulation.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u48",
@@ -1937,7 +2777,10 @@ window.questionBank = {
                 "Dermis": "The inner layer of skin containing hair follicles, sweat glands, and nerve endings.",
                 "Subcutaneous Tissue": "The layer of fat and connective tissue directly beneath the skin."
             },
-            "explanation": "Understanding skin layers helps classify the depth and severity of burns (superficial vs partial-thickness vs full-thickness)."
+            "explanation": "Understanding skin layers helps classify the depth and severity of burns (superficial vs partial-thickness vs full-thickness).",
+            "hint": "Guide: Understanding skin layers helps classify the depth and severity of burns (superficial vs partial-thickness vs full-thickness). - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u49",
@@ -1948,7 +2791,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The sublingual route involves absorption into the capillary beds under the tongue, sending the drug directly into the systemic venous circulation, completely bypassing the liver's first-pass effect."
+            "explanation": "The sublingual route involves absorption into the capillary beds under the tongue, sending the drug directly into the systemic venous circulation, completely bypassing the liver's first-pass effect.",
+            "hint": "Guide: Re-read the specific symptoms mentioned. Isolate the airway vs breathing vs circulation issues.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u50",
@@ -1960,7 +2806,10 @@ window.questionBank = {
                 "-itis": "Inflammation of.",
                 "-emia": "Pertaining to the blood."
             },
-            "explanation": "Breaking down terms helps deduce conditions. E.g., Tachy-cardia (fast heart), Bronch-itis (inflammation of bronchi), Hypox-emia (low oxygen in blood)."
+            "explanation": "Breaking down terms helps deduce conditions. E.g., Tachy-cardia (fast heart), Bronch-itis (inflammation of bronchi), Hypox-emia (low oxygen in blood).",
+            "hint": "Guide: Breaking down terms helps deduce conditions.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u51",
@@ -1971,7 +2820,10 @@ window.questionBank = {
                 "Emphysema": "Destruction of the alveolar walls, causing loss of elasticity and air trapping, leading to a barrel chest (Pink Puffer).",
                 "Asthma": "Episodic, reversible airway inflammation and bronchospasm triggered by an allergen or stress."
             },
-            "explanation": "COPD consists of chronic bronchitis and emphysema. Asthma is an acute reactive airway disease."
+            "explanation": "COPD consists of chronic bronchitis and emphysema. Asthma is an acute reactive airway disease.",
+            "hint": "Guide: COPD consists of chronic bronchitis and emphysema.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u52",
@@ -1984,7 +2836,10 @@ window.questionBank = {
                 "A lifetime of excessive coughing."
             ],
             "answer": "Chronic air trapping pushing the ribs outward due to loss of alveolar elasticity.",
-            "explanation": "Because the alveoli lose their elastic recoil, air goes in but cannot be passively exhaled. The trapped air permanently expands the rib cage."
+            "explanation": "Because the alveoli lose their elastic recoil, air goes in but cannot be passively exhaled. The trapped air permanently expands the rib cage.",
+            "hint": "Guide: Because the alveoli lose their elastic recoil, air goes in but cannot be passively exhaled.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "u53",
@@ -1994,7 +2849,10 @@ window.questionBank = {
                 "Right-Sided Heart Failure": "Jugular Vein Distention (JVD), dependent edema (swollen feet/ankles), enlarged liver.",
                 "Left-Sided Heart Failure": "Pulmonary edema, severe shortness of breath, crackles in the lungs, coughing up pink frothy sputum."
             },
-            "explanation": "Left fails = fluid backs into the Lungs. Right fails = fluid backs into the Rest of the body."
+            "explanation": "Left fails = fluid backs into the Lungs. Right fails = fluid backs into the Rest of the body.",
+            "hint": "Guide: Left fails = fluid backs into the Lungs.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u54",
@@ -2005,7 +2863,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Angina is temporary ischemia (lack of oxygen) without cell death, usually resolving with rest or Nitroglycerin. A myocardial infarction (MI) is when the muscle actually dies."
+            "explanation": "Angina is temporary ischemia (lack of oxygen) without cell death, usually resolving with rest or Nitroglycerin. A myocardial infarction (MI) is when the muscle actually dies.",
+            "hint": "Guide: Angina is temporary ischemia (lack of oxygen) without cell death, usually resolving with rest or Nitroglycerin. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u55",
@@ -2025,7 +2886,10 @@ window.questionBank = {
                 "Ischemia (lack of oxygen) causes severe chest pain.",
                 "The heart muscle cells die (Infarction)."
             ],
-            "explanation": "Clot -> Occlusion -> Anaerobic metabolism -> Pain (Ischemia) -> Death (Infarction)."
+            "explanation": "Clot -> Occlusion -> Anaerobic metabolism -> Pain (Ischemia) -> Death (Infarction).",
+            "hint": "Guide: Clot -> Occlusion -> Anaerobic metabolism -> Pain (Ischemia) -> Death (Infarction). - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u56",
@@ -2037,7 +2901,10 @@ window.questionBank = {
                 "Status Epilepticus": "A prolonged seizure lasting longer than 5 minutes, or recurrent seizures without regaining consciousness.",
                 "Aura": "A visual or olfactory sensation that a patient experiences immediately before a seizure begins."
             },
-            "explanation": "Status epilepticus is a life-threatening emergency because the patient is not breathing adequately for an extended period."
+            "explanation": "Status epilepticus is a life-threatening emergency because the patient is not breathing adequately for an extended period.",
+            "hint": "Guide: Status epilepticus is a life-threatening emergency because the patient is not breathing adequately for an extended period. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u57",
@@ -2050,7 +2917,10 @@ window.questionBank = {
                 "A severe traumatic head injury causing a massive epidural hematoma to compress the brain tissue."
             ],
             "answer": "A blood clot (thrombus or embolus) blocking blood flow to a portion of the brain.",
-            "explanation": "Ischemic strokes account for roughly 80% of strokes and are caused by clots. Hemorrhagic strokes are caused by bleeding."
+            "explanation": "Ischemic strokes account for roughly 80% of strokes and are caused by clots. Hemorrhagic strokes are caused by bleeding.",
+            "hint": "Guide: An ischemic stroke is a blockage (clot), whereas a hemorrhagic stroke is bleeding.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u58",
@@ -2061,7 +2931,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "The sudden increase in intracranial pressure from the bleeding causes a sudden, blinding headache, which is a classic hallmark distinguishing it from an ischemic stroke."
+            "explanation": "The sudden increase in intracranial pressure from the bleeding causes a sudden, blinding headache, which is a classic hallmark distinguishing it from an ischemic stroke.",
+            "hint": "Guide: Re-read the specific symptoms mentioned. Isolate the airway vs breathing vs circulation issues.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u59",
@@ -2073,7 +2946,10 @@ window.questionBank = {
                 "Pancreatitis": "Inflammation of the pancreas, often caused by alcohol abuse, leading to severe pain radiating to the back.",
                 "Gastrointestinal Bleed": "Bleeding anywhere from the esophagus to the rectum, often presenting with dark, tarry stools (melena) or vomiting blood."
             },
-            "explanation": "Understanding the organ's function and location makes diagnosing the disease process easier."
+            "explanation": "Understanding the organ's function and location makes diagnosing the disease process easier.",
+            "hint": "Guide: Understanding the organ's function and location makes diagnosing the disease process easier. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u60",
@@ -2086,7 +2962,10 @@ window.questionBank = {
                 "Both conditions take several weeks to manifest any noticeable systemic or neurological symptoms."
             ],
             "answer": "Hypoglycemia develops rapidly (minutes to hours); Hyperglycemia develops slowly (days to weeks).",
-            "explanation": "The brain immediately starves without sugar (rapid onset). However, sugar takes a long time to build up to toxic levels (slow onset)."
+            "explanation": "The brain immediately starves without sugar (rapid onset). However, sugar takes a long time to build up to toxic levels (slow onset).",
+            "hint": "Guide: Hypoglycemia hits suddenly (minutes), DKA develops over days.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u61",
@@ -2104,7 +2983,10 @@ window.questionBank = {
                 "Motor (Efferent) Nerves",
                 "Muscle fibers"
             ],
-            "explanation": "Sensory (Afferent) nerves carry signals UP to the brain. Motor (Efferent) nerves carry signals DOWN to the muscles."
+            "explanation": "Sensory (Afferent) nerves carry signals UP to the brain. Motor (Efferent) nerves carry signals DOWN to the muscles.",
+            "hint": "Guide: Sensory (Afferent) nerves carry signals UP to the brain.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u62",
@@ -2116,7 +2998,10 @@ window.questionBank = {
                 "Femur": "The longest and strongest bone in the body, located in the thigh.",
                 "Tibia": "The larger, weight-bearing bone of the lower leg (shinbone)."
             },
-            "explanation": "Basic skeletal anatomy is necessary for communicating injury locations to the trauma center."
+            "explanation": "Basic skeletal anatomy is necessary for communicating injury locations to the trauma center.",
+            "hint": "Guide: Basic skeletal anatomy is necessary for communicating injury locations to the trauma center. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u63",
@@ -2129,7 +3014,10 @@ window.questionBank = {
                 "They carry oxygenated blood to the tissues."
             ],
             "answer": "They connect bones to other bones, stabilizing joints.",
-            "explanation": "Ligaments connect bone to bone. Tendons connect muscle to bone."
+            "explanation": "Ligaments connect bone to bone. Tendons connect muscle to bone.",
+            "hint": "Guide: Ligaments connect bone to bone.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u64",
@@ -2140,7 +3028,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The cervical spine has 7 vertebrae, the thoracic spine has 12, the lumbar has 5, the sacrum has 5 (fused), and the coccyx has 4 (fused). Breakfast at 7, lunch at 12, dinner at 5."
+            "explanation": "The cervical spine has 7 vertebrae, the thoracic spine has 12, the lumbar has 5, the sacrum has 5 (fused), and the coccyx has 4 (fused). Breakfast at 7, lunch at 12, dinner at 5.",
+            "hint": "Guide: The cervical spine has 7 vertebrae, the thoracic spine has 12, the lumbar has 5, the sacrum has 5 (fused), and the coccyx has 4 (fused). Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u65",
@@ -2151,7 +3042,10 @@ window.questionBank = {
                 "Smooth Muscle": "Involuntary muscle found within blood vessels and the digestive tract.",
                 "Cardiac Muscle": "Involuntary muscle with its own intrinsic electrical pacemakers (automaticity)."
             },
-            "explanation": "Understanding that blood vessels are made of smooth muscle explains how epinephrine can cause vasoconstriction."
+            "explanation": "Understanding that blood vessels are made of smooth muscle explains how epinephrine can cause vasoconstriction.",
+            "hint": "Guide: Understanding that blood vessels are made of smooth muscle explains how epinephrine can cause vasoconstriction. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u66",
@@ -2164,7 +3058,10 @@ window.questionBank = {
                 "To carry nutrients and hormones in a watery fluid."
             ],
             "answer": "To carry oxygen to the tissues and carbon dioxide away from the tissues.",
-            "explanation": "RBCs contain hemoglobin, which binds to oxygen. White blood cells fight infection. Platelets form clots. Plasma is the fluid."
+            "explanation": "RBCs contain hemoglobin, which binds to oxygen. White blood cells fight infection. Platelets form clots. Plasma is the fluid.",
+            "hint": "Guide: RBCs contain hemoglobin, which binds to oxygen. White blood cells fight infection. Platelets form clots.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u67",
@@ -2182,7 +3079,10 @@ window.questionBank = {
                 "Capillaries",
                 "Veins"
             ],
-            "explanation": "The aorta receives the direct blast from the left ventricle. Pressure drops as it moves through arteries, trickles through capillaries, and slowly flows through veins."
+            "explanation": "The aorta receives the direct blast from the left ventricle. Pressure drops as it moves through arteries, trickles through capillaries, and slowly flows through veins.",
+            "hint": "Guide: The aorta receives the direct blast from the left ventricle.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u68",
@@ -2193,7 +3093,10 @@ window.questionBank = {
                 "Transverse (Axial) Plane": "Divides the body into top (superior) and bottom (inferior) halves.",
                 "Coronal (Frontal) Plane": "Divides the body into front (anterior) and back (posterior) halves."
             },
-            "explanation": "These terms are used universally in medicine to describe locations on the body."
+            "explanation": "These terms are used universally in medicine to describe locations on the body.",
+            "hint": "Guide: These terms are used universally in medicine to describe locations on the body. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u69",
@@ -2206,7 +3109,10 @@ window.questionBank = {
                 "Distal"
             ],
             "answer": "Medial",
-            "explanation": "Medial means closer to the midline. Lateral means further away. Proximal/Distal are used for points on a limb relative to the torso."
+            "explanation": "Medial means closer to the midline. Lateral means further away. Proximal/Distal are used for points on a limb relative to the torso.",
+            "hint": "Guide: _______ means closer to the midline. Lateral means further away. Proximal/Distal are used for points on a limb relative to the torso.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u70",
@@ -2217,7 +3123,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "The epiglottis acts as a trap door over the larynx. When it becomes inflamed (epiglottitis), it can completely seal off the airway."
+            "explanation": "The epiglottis acts as a trap door over the larynx. When it becomes inflamed (epiglottitis), it can completely seal off the airway.",
+            "hint": "Guide: The epiglottis acts as a trap door over the larynx. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u71",
@@ -2229,7 +3138,10 @@ window.questionBank = {
                 "Amniotic Sac": "The fluid-filled bag of waters that protects the floating fetus.",
                 "Cervix": "The narrow neck of the uterus that dilates during labor."
             },
-            "explanation": "Knowing these terms is essential for managing childbirth emergencies."
+            "explanation": "Knowing these terms is essential for managing childbirth emergencies.",
+            "hint": "Guide: Knowing these terms is essential for managing childbirth emergencies. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u72",
@@ -2242,7 +3154,10 @@ window.questionBank = {
                 "The mother's body shunts all available oxygenated blood to the baby, leaving her own brain severely starved."
             ],
             "answer": "The weight of the enlarged uterus compresses the inferior vena cava, severely reducing blood return to the heart.",
-            "explanation": "Laying a heavily pregnant woman flat on her back crushes the main vein returning blood to the heart, dropping her blood pressure. Always roll them to the left."
+            "explanation": "Laying a heavily pregnant woman flat on her back crushes the main vein returning blood to the heart, dropping her blood pressure. Always roll them to the left.",
+            "hint": "Guide: Supine hypotensive syndrome occurs when the heavy uterus compresses the inferior vena cava.",
+            "difficulty": 8,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "u73",
@@ -2258,7 +3173,10 @@ window.questionBank = {
                 "Delivery of the baby.",
                 "Delivery of the placenta."
             ],
-            "explanation": "Stage 1 is laboring (contractions). Stage 2 is the actual birth of the child. Stage 3 is the afterbirth."
+            "explanation": "Stage 1 is laboring (contractions). Stage 2 is the actual birth of the child. Stage 3 is the afterbirth.",
+            "hint": "Guide: Stage 1 is laboring (contractions). Stage 2 is the actual birth of the child.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u74",
@@ -2270,7 +3188,10 @@ window.questionBank = {
                 "Toddler": "1 to 3 years.",
                 "Preschooler": "3 to 6 years."
             },
-            "explanation": "Vital signs and assessment techniques change drastically based on these categories."
+            "explanation": "Vital signs and assessment techniques change drastically based on these categories.",
+            "hint": "Guide: Vital signs and assessment techniques change drastically based on these categories. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "u75",
@@ -2281,7 +3202,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The anterior fontanelle typically does not close until 18 months of age. They provide a window into hydration status (sunken) and intracranial pressure (bulging)."
+            "explanation": "The anterior fontanelle typically does not close until 18 months of age. They provide a window into hydration status (sunken) and intracranial pressure (bulging).",
+            "hint": "Guide: The anterior fontanelle typically does not close until 18 months of age. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u76",
@@ -2294,7 +3218,10 @@ window.questionBank = {
                 "They have significantly larger tonsils and adenoids that completely block their oral airway until age one."
             ],
             "answer": "They have a physiological structure that makes breathing through the mouth difficult, relying almost entirely on the nose.",
-            "explanation": "Because they primarily breathe through their noses, a simple nasal congestion (like a cold) can cause severe respiratory distress in an infant."
+            "explanation": "Because they primarily breathe through their noses, a simple nasal congestion (like a cold) can cause severe respiratory distress in an infant.",
+            "hint": "Guide: Infants are obligate nose breathers because of their large tongues and high epiglottis.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u77",
@@ -2306,7 +3233,10 @@ window.questionBank = {
                 "Decreased pain sensation": "Can cause silent heart attacks or painless internal injuries.",
                 "Decreased bone density (Osteoporosis)": "Increases the risk of severe fractures from low-mechanism falls."
             },
-            "explanation": "Geriatric patients do not present with classic textbook symptoms because their aging bodies have altered physiological baselines."
+            "explanation": "Geriatric patients do not present with classic textbook symptoms because their aging bodies have altered physiological baselines.",
+            "hint": "Guide: Geriatric patients do not present with classic textbook symptoms because their aging bodies have altered physiological baselines. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u78",
@@ -2319,7 +3249,10 @@ window.questionBank = {
                 "It is the thick mucus plug in the cervix that can cause severe maternal bleeding when dislodged."
             ],
             "answer": "It is the baby's first feces, passed into the amniotic fluid, which can cause severe respiratory distress if inhaled.",
-            "explanation": "Meconium staining (green/black fluid) indicates fetal distress. If the baby is born limp, their airway must be suctioned vigorously before stimulating them to breathe."
+            "explanation": "Meconium staining (green/black fluid) indicates fetal distress. If the baby is born limp, their airway must be suctioned vigorously before stimulating them to breathe.",
+            "hint": "Guide: Meconium is fetal stool in the amniotic fluid, indicating fetal distress.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u79",
@@ -2337,7 +3270,10 @@ window.questionBank = {
                 "Severe hypoxia leads to Bradycardia.",
                 "Bradycardia causes Cardiac Arrest."
             ],
-            "explanation": "Unlike adults who have sudden arrhythmias, children slowly tire out from breathing hard, stop breathing, their heart slows down due to lack of O2, and then stops."
+            "explanation": "Unlike adults who have sudden arrhythmias, children slowly tire out from breathing hard, stop breathing, their heart slows down due to lack of O2, and then stops.",
+            "hint": "Guide: Unlike adults who have sudden arrhythmias, children slowly tire out from breathing hard, stop breathing, their heart slows down due to lack of O2, and then stops. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u80",
@@ -2349,7 +3285,10 @@ window.questionBank = {
                 "Ectopic Pregnancy": "An embryo implants outside the uterus, typically in a fallopian tube.",
                 "Preeclampsia": "Pregnancy-induced hypertension occurring after the 20th week."
             },
-            "explanation": "Knowing these definitions allows you to differentiate between them based on the patient's symptoms (e.g., painful vs painless bleeding)."
+            "explanation": "Knowing these definitions allows you to differentiate between them based on the patient's symptoms (e.g., painful vs painless bleeding).",
+            "hint": "Guide: Knowing these definitions allows you to differentiate between them based on the patient's symptoms (e.g., painful vs painless bleeding). - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u81",
@@ -2362,7 +3301,10 @@ window.questionBank = {
                 "An allergic reaction always presents with severe hypotension, while anaphylaxis primarily presents with a minor skin rash."
             ],
             "answer": "An allergic reaction is a localized inflammatory response, while anaphylaxis involves systemic, life-threatening cardiovascular or respiratory compromise.",
-            "explanation": "Anaphylaxis is defined by systemic vasodilation (shock) and bronchoconstriction (respiratory failure). A simple allergic reaction might just be hives on the arm."
+            "explanation": "Anaphylaxis is defined by systemic vasodilation (shock) and bronchoconstriction (respiratory failure). A simple allergic reaction might just be hives on the arm.",
+            "hint": "Guide: Anaphylaxis is a severe, systemic reaction, not just localized inflammation.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u82",
@@ -2372,7 +3314,10 @@ window.questionBank = {
                 "Histamine": "Causes massive vasodilation and increased capillary permeability (leaking fluid).",
                 "Leukotrienes": "Causes severe bronchoconstriction and muscle spasms in the lungs."
             },
-            "explanation": "The body releases these chemicals to fight the allergen, but the massive overreaction ends up killing the patient."
+            "explanation": "The body releases these chemicals to fight the allergen, but the massive overreaction ends up killing the patient.",
+            "hint": "Guide: The body releases these chemicals to fight the allergen, but the massive overreaction ends up killing the patient. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u83",
@@ -2383,7 +3328,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Antibiotics only kill bacteria. Viruses (like Influenza or HIV) do not respond to antibiotics."
+            "explanation": "Antibiotics only kill bacteria. Viruses (like Influenza or HIV) do not respond to antibiotics.",
+            "hint": "Guide: Antibiotics only kill bacteria. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u84",
@@ -2401,7 +3349,10 @@ window.questionBank = {
                 "Bladder",
                 "Urethra"
             ],
-            "explanation": "Kidneys filter blood into urine, which travels down the ureters to the bladder, and is excreted via the urethra."
+            "explanation": "Kidneys filter blood into urine, which travels down the ureters to the bladder, and is excreted via the urethra.",
+            "hint": "Guide: Kidneys filter blood into urine, which travels down the ureters to the bladder, and is excreted via the urethra. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u85",
@@ -2413,7 +3364,10 @@ window.questionBank = {
                 "Overdose": "A toxic dose of a drug.",
                 "Substance Abuse": "The misuse of any substance to produce a desired effect."
             },
-            "explanation": "All toxins are poisons, but not all poisons are toxins (e.g., bleach is a poison, not a toxin because it isn't biological)."
+            "explanation": "All toxins are poisons, but not all poisons are toxins (e.g., bleach is a poison, not a toxin because it isn't biological).",
+            "hint": "Guide: All toxins are poisons, but not all poisons are toxins (e.g., bleach is a poison, not a toxin because it isn't biological). - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u86",
@@ -2426,7 +3380,10 @@ window.questionBank = {
                 "It physically destroys the opioid molecules circulating within the patient's bloodstream and liver."
             ],
             "answer": "It binds competitively to opioid receptors in the brain, blocking opioids from attaching and reversing respiratory depression.",
-            "explanation": "Naloxone is an opioid antagonist. It binds tighter to the receptors than the drug does, instantly reversing the respiratory depression."
+            "explanation": "Naloxone is an opioid antagonist. It binds tighter to the receptors than the drug does, instantly reversing the respiratory depression.",
+            "hint": "Guide: Naloxone (Narcan) pushes opioids off the brain's receptors.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u87",
@@ -2437,7 +3394,10 @@ window.questionBank = {
                 "Sympathomimetics (Cocaine, Meth)": "Tachycardia, hypertension, dilated pupils, agitation, seizures.",
                 "Cholinergics (Nerve Gas, Organophosphates)": "SLUDGEM (Salivation, Lacrimation, Urination, Defecation, GI upset, Emesis, Miosis)."
             },
-            "explanation": "Recognizing the toxidrome tells you what class of drug the patient took, even if they are unconscious."
+            "explanation": "Recognizing the toxidrome tells you what class of drug the patient took, even if they are unconscious.",
+            "hint": "Guide: Recognizing the toxidrome tells you what class of drug the patient took, even if they are unconscious. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u88",
@@ -2448,7 +3408,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Delirium tremens is caused by alcohol WITHDRAWAL in chronic alcoholics. It causes terrifying hallucinations, tremors, and potentially fatal seizures."
+            "explanation": "Delirium tremens is caused by alcohol WITHDRAWAL in chronic alcoholics. It causes terrifying hallucinations, tremors, and potentially fatal seizures.",
+            "hint": "Guide: Delirium tremens is caused by alcohol WITHDRAWAL in chronic alcoholics. Think about how this connects to the statement.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u89",
@@ -2461,7 +3424,10 @@ window.questionBank = {
                 "To stimulate the rapid breakdown of muscle tissue to provide emergency energy for the immune system."
             ],
             "answer": "To raise the body's core temperature, making it a hostile environment for bacterial or viral replication.",
-            "explanation": "A fever is the body's intentional defense mechanism to cook out the invading pathogens."
+            "explanation": "A fever is the body's intentional defense mechanism to cook out the invading pathogens.",
+            "hint": "Guide: A fever is the body's attempt to create a hostile environment for the infection.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u90",
@@ -2479,7 +3445,10 @@ window.questionBank = {
                 "Subcutaneous (SQ)",
                 "Oral (PO)"
             ],
-            "explanation": "IV is instant. IM is fast because muscles are highly vascular. SQ is slower because fat has less blood flow. Oral is the slowest because it must go through digestion."
+            "explanation": "IV is instant. IM is fast because muscles are highly vascular. SQ is slower because fat has less blood flow. Oral is the slowest because it must go through digestion.",
+            "hint": "Guide: IV is instant. IM is fast because muscles are highly vascular. SQ is slower because fat has less blood flow.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u91",
@@ -2491,7 +3460,10 @@ window.questionBank = {
                 "Epidural Hematoma": "Bleeding between the skull and dura mater, typically arterial and rapidly fatal.",
                 "Cerebral Contusion": "A physical bruise of the brain tissue."
             },
-            "explanation": "Epidural hematomas involve the middle meningeal artery and cause a rapid decline (lucid interval). Subdural hematomas are venous and can take days to manifest."
+            "explanation": "Epidural hematomas involve the middle meningeal artery and cause a rapid decline (lucid interval). Subdural hematomas are venous and can take days to manifest.",
+            "hint": "Guide: Epidural hematomas involve the middle meningeal artery and cause a rapid decline (lucid interval).",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u92",
@@ -2504,7 +3476,10 @@ window.questionBank = {
                 "It completely paralyzes the diaphragm, causing the patient to stop breathing entirely on their own."
             ],
             "answer": "It severely constricts the cerebral blood vessels, dramatically reducing vital blood flow and oxygen to the brain tissue.",
-            "explanation": "Hyperventilation drives down CO2. CO2 is a vasodilator. Low CO2 causes the blood vessels in the brain to constrict so tightly that it causes ischemia (starving the brain of O2)."
+            "explanation": "Hyperventilation drives down CO2. CO2 is a vasodilator. Low CO2 causes the blood vessels in the brain to constrict so tightly that it causes ischemia (starving the brain of O2).",
+            "hint": "Guide: Hyperventilation blows off too much CO2, causing cerebral vasoconstriction and starving the brain of O2.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u93",
@@ -2515,7 +3490,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "A pneumothorax breaks the vacuum. A flail chest impairs breathing because the detached bone segment moves paradoxically, preventing the chest wall from generating the mechanical force needed to pull air in."
+            "explanation": "A pneumothorax breaks the vacuum. A flail chest impairs breathing because the detached bone segment moves paradoxically, preventing the chest wall from generating the mechanical force needed to pull air in.",
+            "hint": "Guide: A pneumothorax breaks the vacuum. Think about how this connects to the statement.",
+            "difficulty": 4,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u94",
@@ -2526,7 +3504,10 @@ window.questionBank = {
                 "Partial-Thickness (Second-Degree)": "Involves epidermis and some dermis; red, incredibly painful, blisters present.",
                 "Full-Thickness (Third-Degree)": "Extends through all layers to subcutaneous tissue/muscle; dry, leathery, charred, often painless."
             },
-            "explanation": "Full-thickness burns destroy the nerve endings, which is why the worst burns are ironically painless in the center."
+            "explanation": "Full-thickness burns destroy the nerve endings, which is why the worst burns are ironically painless in the center.",
+            "hint": "Guide: Full-thickness burns destroy the nerve endings, which is why the worst burns are ironically painless in the center. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u95",
@@ -2544,7 +3525,10 @@ window.questionBank = {
                 "Heart rate increases to maintain Cardiac Output.",
                 "Blood pressure drops as compensation fails."
             ],
-            "explanation": "Volume drops -> Vessels clamp down to keep the pipes full -> Heart beats faster to pump what's left -> Eventually the system fails and BP crashes."
+            "explanation": "Volume drops -> Vessels clamp down to keep the pipes full -> Heart beats faster to pump what's left -> Eventually the system fails and BP crashes.",
+            "hint": "Guide: Volume drops -> Vessels clamp down to keep the pipes full -> Heart beats faster to pump what's left -> Eventually the system fails and BP crashes. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "u96",
@@ -2557,7 +3541,10 @@ window.questionBank = {
                 "The severe pain from the collapsed lung causes the patient to go into profound neurogenic shock."
             ],
             "answer": "The trapped air continually increases pressure inside the chest cavity, eventually crushing the heart and completely stopping blood flow.",
-            "explanation": "While losing a lung is bad, the actual cause of death is Obstructive Shock. The pressure pushes the mediastinum over, completely kinking the massive veins returning blood to the heart."
+            "explanation": "While losing a lung is bad, the actual cause of death is Obstructive Shock. The pressure pushes the mediastinum over, completely kinking the massive veins returning blood to the heart.",
+            "hint": "Guide: Tension pneumothorax builds pressure that physically crushes the heart/vena cava.",
+            "difficulty": 8,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u97",
@@ -2568,7 +3555,10 @@ window.questionBank = {
                 "Cardiac Tamponade": "Blood filling the pericardial sac around the heart.",
                 "Subarachnoid Hemorrhage": "Bleeding into the cerebrospinal fluid surrounding the brain."
             },
-            "explanation": "Where the blood accumulates determines the specific pathology and name of the injury."
+            "explanation": "Where the blood accumulates determines the specific pathology and name of the injury.",
+            "hint": "Guide: Where the blood accumulates determines the specific pathology and name of the injury. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "u98",
@@ -2579,7 +3569,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "The primary purpose is to pull the massive, spasming thigh muscles back to their normal length. This prevents the jagged bone ends from slicing the femoral artery and causing fatal internal bleeding."
+            "explanation": "The primary purpose is to pull the massive, spasming thigh muscles back to their normal length. This prevents the jagged bone ends from slicing the femoral artery and causing fatal internal bleeding.",
+            "hint": "Guide: The primary purpose is to pull the massive, spasming thigh muscles back to their normal length. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u99",
@@ -2592,7 +3585,10 @@ window.questionBank = {
                 "Manual compressions only push air into the lungs, completely failing to circulate any blood through the body."
             ],
             "answer": "Manual compressions only generate about 25-30% of the normal cardiac output and blood pressure produced by a healthy heart.",
-            "explanation": "This is why uninterrupted, high-quality, deep compressions are vital. Every pause drops that meager 25% output down to zero instantly."
+            "explanation": "This is why uninterrupted, high-quality, deep compressions are vital. Every pause drops that meager 25% output down to zero instantly.",
+            "hint": "Guide: Even perfect CPR only provides about 25-30% of normal cardiac output.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "u100",
@@ -2604,7 +3600,402 @@ window.questionBank = {
                 "Index of Suspicion": "Your awareness and concern for potentially serious underlying injuries based on the MOI.",
                 "Golden Period": "The critical time frame where trauma patients have the highest survival rate if they reach the OR."
             },
-            "explanation": "Understanding physics (kinematics) helps build an index of suspicion for injuries you cannot see."
+            "explanation": "Understanding physics (kinematics) helps build an index of suspicion for injuries you cannot see.",
+            "hint": "Guide: Understanding physics (kinematics) helps build an index of suspicion for injuries you cannot see. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u102",
+            "type": "MCQ",
+            "question": "What organ is primarily responsible for pumping blood throughout the body?",
+            "options": [
+                "Liver",
+                "Lungs",
+                "Heart",
+                "Brain"
+            ],
+            "answer": "Heart",
+            "explanation": "The heart is the muscular organ that pumps blood through the circulatory system to deliver oxygen and nutrients.",
+            "hint": "Guide: Think about the organ in the chest that beats to circulate blood.",
+            "difficulty": 1,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u103",
+            "type": "MCQ",
+            "question": "The lungs are responsible for exchanging which two vital gases?",
+            "options": [
+                "Nitrogen and Helium",
+                "Oxygen and Carbon Dioxide",
+                "Hydrogen and Oxygen",
+                "Carbon Monoxide and Nitrogen"
+            ],
+            "answer": "Oxygen and Carbon Dioxide",
+            "explanation": "The lungs inhale oxygen for the body to use and exhale carbon dioxide as a waste product of cellular metabolism.",
+            "hint": "Guide: We breathe in _______ and breathe out _______.",
+            "difficulty": 2,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u104",
+            "type": "MCQ",
+            "question": "Which of the following describes the most basic function of the skull?",
+            "options": [
+                "To digest food",
+                "To protect the brain",
+                "To pump blood",
+                "To filter toxins"
+            ],
+            "answer": "To protect the brain",
+            "explanation": "The skull is the bony structure that forms the head and encloses/protects the brain from injury.",
+            "hint": "Guide: Think about what vital, fragile organ sits inside your head.",
+            "difficulty": 1,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u105",
+            "type": "MCQ",
+            "question": "Which specific cranial nerve is primarily responsible for the parasympathetic control of the heart rate (causing it to slow down)?",
+            "options": [
+                "Cranial Nerve V (Trigeminal)",
+                "Cranial Nerve VII (Facial)",
+                "Cranial Nerve X (Vagus)",
+                "Cranial Nerve XII (Hypoglossal)"
+            ],
+            "answer": "Cranial Nerve X (Vagus)",
+            "explanation": "The Vagus nerve (CN X) provides the primary parasympathetic innervation to the heart. When stimulated, it releases acetylcholine to lower the heart rate.",
+            "hint": "Guide: The _______ nerve (CN X) provides the primary parasympathetic innervation to the heart.",
+            "difficulty": 10,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u106",
+            "type": "MCQ",
+            "question": "In the pathophysiology of Cushing's Triad (a sign of increased intracranial pressure), what is the specific mechanical cause of the bradycardia?",
+            "options": [
+                "The brainstem herniates, severing the sympathetic nervous system completely.",
+                "The increased systemic blood pressure stretches baroreceptors in the aortic arch, which triggers a parasympathetic vagal response to slow the heart.",
+                "Blood pools in the extremities, depriving the heart of preload.",
+                "The heart muscle becomes instantly ischemic due to crushed cerebral arteries."
+            ],
+            "answer": "The increased systemic blood pressure stretches baroreceptors in the aortic arch, which triggers a parasympathetic vagal response to slow the heart.",
+            "explanation": "As ICP rises, the body drastically increases systolic blood pressure to force blood into the brain. This massive hypertension stretches the baroreceptors, which reflexively trigger the vagus nerve to slow the heart rate down.",
+            "hint": "Guide: As ICP rises, the body drastically increases systolic blood pressure to force blood into the brain. This massive hypertension stretches the baroreceptors, which reflexively trigger the vagus nerve to _______.",
+            "difficulty": 10,
+            "nremtCategory": "secondary_assessment"
+        },
+        {
+            "id": "u107",
+            "type": "MCQ",
+            "question": "Which specific clotting factor is deficient in a patient diagnosed with Hemophilia B?",
+            "options": [
+                "Factor VII",
+                "Factor VIII",
+                "Factor IX",
+                "Factor von Willebrand"
+            ],
+            "answer": "Factor IX",
+            "explanation": "Hemophilia A is a deficiency of Factor VIII, whereas Hemophilia B (Christmas disease) is a deficiency of Factor IX.",
+            "hint": "Guide: Hemophilia A is a deficiency of Factor VIII, whereas Hemophilia B is a deficiency of _______.",
+            "difficulty": 10,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u108",
+            "type": "MCQ",
+            "question": "What is the primary difference in cellular binding affinity between Naloxone and Fentanyl at the Mu-opioid receptor?",
+            "options": [
+                "Fentanyl destroys the receptor, while Naloxone rebuilds it.",
+                "Naloxone has a higher binding affinity but zero intrinsic activity (it acts as a competitive antagonist).",
+                "Naloxone permanently binds to the receptor, whereas Fentanyl is temporary.",
+                "They bind to completely different receptors; Naloxone targets Kappa receptors."
+            ],
+            "answer": "Naloxone has a higher binding affinity but zero intrinsic activity (it acts as a competitive antagonist).",
+            "explanation": "Naloxone has a stronger attraction to the Mu receptor than opioids. It aggressively knocks the opioid off the receptor and blocks it, but it does not activate the receptor itself.",
+            "hint": "Guide: Naloxone has a _______ binding affinity but zero intrinsic activity (it acts as a competitive antagonist).",
+            "difficulty": 10,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u109",
+            "type": "TF",
+            "question": "True or False: Veins generally carry oxygen-depleted blood back to the heart.",
+            "answer": "True",
+            "explanation": "Veins carry blood toward the heart. With the exception of the pulmonary vein, they carry deoxygenated blood.",
+            "hint": "Guide: Think about the general color mapping of the circulatory system (red vs blue) and direction of flow.",
+            "difficulty": 2,
+            "options": [
+                "True",
+                "False"
+            ],
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u110",
+            "type": "TF",
+            "question": "True or False: You need to drink water to stay hydrated.",
+            "answer": "True",
+            "explanation": "The human body requires water to maintain fluid balance, blood pressure, and cellular function.",
+            "hint": "Guide: Think about the most basic human survival need besides air.",
+            "difficulty": 1,
+            "options": [
+                "True",
+                "False"
+            ],
+            "nremtCategory": "secondary_assessment"
+        },
+        {
+            "id": "u111",
+            "type": "MCQ",
+            "question": "In the setting of severe hyperkalemia (high potassium), what specific change occurs on an electrocardiogram (ECG) right before the rhythm deteriorates into sine waves?",
+            "options": [
+                "Peaked T-waves and widening of the QRS complex",
+                "Massive ST-segment elevation across all leads",
+                "Narrowing of the QRS and inverted P-waves",
+                "Appearance of pathological Q-waves"
+            ],
+            "answer": "Peaked T-waves and widening of the QRS complex",
+            "explanation": "Hyperkalemia alters the resting membrane potential. It classically presents with tall, peaked T-waves, followed by a widening QRS, loss of the P-wave, and eventually a lethal sine-wave pattern.",
+            "hint": "Guide: Hyperkalemia classically presents with tall, _______, followed by a widening _______, loss of the P-wave, and eventually a lethal sine-wave pattern.",
+            "difficulty": 10,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "u112",
+            "type": "MCQ",
+            "question": "What is the physiological reason that patients in late (decompensated) shock become bradycardic instead of tachycardic?",
+            "options": [
+                "The heart muscle is too fatigued and ischemic to maintain a rapid rate due to prolonged hypoperfusion.",
+                "The parasympathetic nervous system activates to conserve energy.",
+                "The adrenal glands stop producing epinephrine entirely.",
+                "The baroreceptors in the carotid sinus become permanently desensitized."
+            ],
+            "answer": "The heart muscle is too fatigued and ischemic to maintain a rapid rate due to prolonged hypoperfusion.",
+            "explanation": "In decompensated shock, the heart has been beating rapidly for so long without adequate oxygen that the myocardium itself becomes ischemic and exhausted, losing its ability to maintain tachycardia.",
+            "hint": "Guide: In decompensated shock, the heart has been beating rapidly for so long without adequate _______ that the myocardium itself becomes ischemic and exhausted.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u113",
+            "type": "MCQ",
+            "question": "Which structure in the brain is primarily responsible for regulating body temperature?",
+            "options": [
+                "Cerebellum",
+                "Medulla Oblongata",
+                "Hypothalamus",
+                "Pons"
+            ],
+            "answer": "Hypothalamus",
+            "explanation": "The hypothalamus acts as the body's thermostat, regulating temperature through sweating, shivering, and vasodilation/vasoconstriction.",
+            "hint": "Guide: The _______ acts as the body's thermostat, controlling sweating and shivering.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u114",
+            "type": "MCQ",
+            "question": "What is the difference between a Sign and a Symptom?",
+            "options": [
+                "A sign is what the patient tells you; a symptom is what you observe.",
+                "A sign is what you can observe or measure; a symptom is what the patient reports feeling.",
+                "They are the same thing and can be used interchangeably.",
+                "A sign is always visible; a symptom requires a stethoscope."
+            ],
+            "answer": "A sign is what you can observe or measure; a symptom is what the patient reports feeling.",
+            "explanation": "Signs are objective findings (e.g., blood pressure, skin color). Symptoms are subjective complaints (e.g., pain, nausea, dizziness).",
+            "hint": "Guide: Signs are _______ findings you can measure. Symptoms are _______ complaints the patient tells you.",
+            "difficulty": 2,
+            "nremtCategory": "secondary_assessment"
+        },
+        {
+            "id": "u115",
+            "type": "MCQ",
+            "question": "In the context of pharmacology, what does the term 'contraindication' mean?",
+            "options": [
+                "A reason to administer a medication immediately.",
+                "A situation or condition that makes a particular treatment inadvisable or harmful.",
+                "The desired therapeutic effect of a medication.",
+                "The route by which a medication is administered."
+            ],
+            "answer": "A situation or condition that makes a particular treatment inadvisable or harmful.",
+            "explanation": "A contraindication is any condition that serves as a reason NOT to administer a drug because it could cause harm. For example, systolic BP below 100 is a contraindication for Nitroglycerin.",
+            "hint": "Guide: A contraindication is a reason to _______ give a medication, not a reason to give it.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "u116",
+            "type": "MCQ",
+            "question": "What is the primary function of the epiglottis?",
+            "options": [
+                "To produce speech and voice sounds.",
+                "To prevent food and liquid from entering the trachea during swallowing.",
+                "To warm and humidify inhaled air.",
+                "To filter particulate matter from the airways."
+            ],
+            "answer": "To prevent food and liquid from entering the trachea during swallowing.",
+            "explanation": "The epiglottis is a leaf-shaped flap of cartilage that covers the glottic opening during swallowing, directing food into the esophagus and away from the trachea.",
+            "hint": "Guide: Think about what structure acts as a 'trap door' to protect the airway when you swallow.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u117",
+            "type": "MCQ",
+            "question": "What is the clinical significance of Pulsus Paradoxus in a trauma patient?",
+            "options": [
+                "It indicates a simple rib fracture.",
+                "It suggests cardiac tamponade, where the systolic BP drops more than 10 mmHg during inspiration.",
+                "It confirms a diagnosis of tension pneumothorax.",
+                "It is a normal finding in healthy athletes."
+            ],
+            "answer": "It suggests cardiac tamponade, where the systolic BP drops more than 10 mmHg during inspiration.",
+            "explanation": "Pulsus paradoxus is a drop in systolic blood pressure greater than 10 mmHg during inspiration. It occurs because the fluid-filled pericardium restricts cardiac filling, and the pressure change during breathing exaggerates this effect.",
+            "hint": "Guide: Pulsus paradoxus is a drop in systolic BP greater than _______ mmHg during inspiration, classically seen in cardiac _______.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u118",
+            "type": "MCQ",
+            "question": "Which electrolyte imbalance is most commonly associated with cardiac dysrhythmias in the prehospital setting?",
+            "options": [
+                "Sodium (Na+)",
+                "Potassium (K+)",
+                "Calcium (Ca2+)",
+                "Magnesium (Mg2+)"
+            ],
+            "answer": "Potassium (K+)",
+            "explanation": "Potassium directly affects the electrical conduction of the heart. Both hyperkalemia and hypokalemia can cause life-threatening dysrhythmias including ventricular fibrillation.",
+            "hint": "Guide: This electrolyte directly affects the electrical conduction system of the heart. Too much causes peaked T-waves; too little causes U-waves.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u119",
+            "type": "TF",
+            "question": "True or False: The right lung has three lobes, while the left lung has two lobes.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "The right lung has three lobes (upper, middle, lower) and the left lung has two lobes (upper, lower). The left lung is smaller to accommodate the heart.",
+            "hint": "Guide: One lung is smaller than the other to make room for the heart. The smaller one has fewer lobes.",
+            "difficulty": 2,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u120",
+            "type": "MCQ",
+            "question": "What is the pathophysiology behind why a tension pneumothorax causes hypotension?",
+            "options": [
+                "The collapsed lung bleeds profusely into the chest cavity.",
+                "Trapped air under pressure shifts the mediastinum, kinking the vena cava and drastically reducing venous return to the heart.",
+                "The diaphragm ruptures, causing abdominal organs to compress the heart.",
+                "The intercostal arteries are severed by broken ribs."
+            ],
+            "answer": "Trapped air under pressure shifts the mediastinum, kinking the vena cava and drastically reducing venous return to the heart.",
+            "explanation": "In a tension pneumothorax, air enters the pleural space but cannot escape. The increasing pressure pushes the mediastinum to the opposite side, compressing the contralateral lung and kinking the great vessels (especially the vena cava), which severely reduces blood return to the heart.",
+            "hint": "Guide: Trapped air under pressure shifts the mediastinum, kinking the _______ and drastically reducing venous return to the heart.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u121",
+            "type": "MCQ",
+            "question": "What is the normal capillary refill time in a healthy adult?",
+            "options": [
+                "Less than 1 second",
+                "Less than 2 seconds",
+                "Less than 5 seconds",
+                "Less than 10 seconds"
+            ],
+            "answer": "Less than 2 seconds",
+            "explanation": "Normal capillary refill time is less than 2 seconds. A delayed capillary refill (>2 seconds) suggests poor peripheral perfusion and possible shock.",
+            "hint": "Guide: Normal capillary refill is less than _______ seconds. Anything longer suggests poor perfusion.",
+            "difficulty": 3,
+            "nremtCategory": "secondary_assessment"
+        },
+        {
+            "id": "u122",
+            "type": "MCQ",
+            "question": "What is the MOI/mechanism that causes a posterior hip dislocation?",
+            "options": [
+                "A fall from a standing height directly onto the buttocks.",
+                "A 'dashboard injury' where the knee strikes the dashboard, driving the femur posteriorly out of the acetabulum.",
+                "A lateral blow to the hip during a tackle.",
+                "Hyperextension of the leg while running."
+            ],
+            "answer": "A 'dashboard injury' where the knee strikes the dashboard, driving the femur posteriorly out of the acetabulum.",
+            "explanation": "Posterior hip dislocation is classically caused by a dashboard injury in an MVC. The force travels from the knee, up the femur, and drives the femoral head out the back of the hip socket.",
+            "hint": "Guide: Think about what happens in a car crash when a seated patient's knee strikes the _______.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "u123",
+            "type": "MCQ",
+            "question": "Which of the following is the MOST reliable sign of adequate breathing in an adult?",
+            "options": [
+                "A respiratory rate of 12-20 breaths per minute with adequate tidal volume.",
+                "SpO2 reading of 99%.",
+                "The patient can speak in full sentences.",
+                "Bilateral chest rise observed visually."
+            ],
+            "answer": "A respiratory rate of 12-20 breaths per minute with adequate tidal volume.",
+            "explanation": "Adequate breathing requires BOTH a normal rate (12-20 for adults) AND sufficient tidal volume (depth). SpO2 can lag behind, and speaking in sentences alone doesn't confirm adequate ventilation.",
+            "hint": "Guide: Adequate breathing requires both a normal _______ (12-20) and sufficient tidal _______ (depth).",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
+        },
+        {
+            "id": "u124",
+            "type": "MCQ",
+            "question": "What specific type of shock does a severe spinal cord injury above T6 cause?",
+            "options": [
+                "Hypovolemic shock",
+                "Cardiogenic shock",
+                "Neurogenic shock",
+                "Septic shock"
+            ],
+            "answer": "Neurogenic shock",
+            "explanation": "A spinal cord injury above T6 disrupts the sympathetic nervous system, causing massive vasodilation below the injury. This results in neurogenic shock, characterized by hypotension WITH bradycardia and warm, dry skin.",
+            "hint": "Guide: Spinal cord injury disrupts the sympathetic nervous system, causing massive vasodilation. The shock is characterized by hypotension WITH _______ and warm/dry skin.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "u125",
+            "type": "MCQ",
+            "question": "An unresponsive diabetic patient has a blood glucose of 40 mg/dL. You cannot administer oral glucose because they cannot swallow. What is the EMT's most appropriate action?",
+            "options": [
+                "Place glucose paste inside the cheek and hope it absorbs.",
+                "Administer insulin to stabilize the blood sugar.",
+                "Request ALS for IV dextrose or administer intranasal glucagon if available per protocol.",
+                "Perform CPR."
+            ],
+            "answer": "Request ALS for IV dextrose or administer intranasal glucagon if available per protocol.",
+            "explanation": "Oral glucose requires a conscious patient who can swallow. For an unresponsive hypoglycemic patient, the EMT should request ALS backup for IV/IO dextrose administration, or administer intranasal glucagon if protocols allow.",
+            "hint": "Guide: Oral glucose requires the patient to be _______ and able to swallow. If they can't, you need ALS for IV _______ or intranasal glucagon.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
+        },
+        {
+            "id": "u126",
+            "type": "TF",
+            "question": "True or False: Carbon monoxide poisoning can present with a falsely normal or high SpO2 reading on a standard pulse oximeter.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "explanation": "Standard pulse oximeters cannot distinguish between oxyhemoglobin and carboxyhemoglobin. Since CO binds to hemoglobin, the oximeter reads the CO-bound hemoglobin as if it were carrying oxygen, giving a falsely high SpO2.",
+            "hint": "Guide: Standard pulse oximeters cannot distinguish between oxy-hemoglobin and carboxy-hemoglobin. The CO-bound hemoglobin 'fools' the sensor.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         }
     ],
     "skills": [
@@ -2628,7 +4019,10 @@ window.questionBank = {
                 "Requests additional EMS assistance if necessary",
                 "Considers stabilization of the spine"
             ],
-            "explanation": "In a trauma scenario, always take PPE precautions first, then ensure scene safety, determine MOI/NOI, determine the number of patients, request EMS if needed, and finally consider spinal stabilization."
+            "explanation": "In a trauma scenario, always take PPE precautions first, then ensure scene safety, determine MOI/NOI, determine the number of patients, request EMS if needed, and finally consider spinal stabilization.",
+            "hint": "Guide: Remember the acronym BSI, then consider the environment before worrying about the patient's specific injuries.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s2",
@@ -2646,7 +4040,10 @@ window.questionBank = {
                 "Determines chief complaint/apparent life-threats",
                 "Assesses airway and breathing"
             ],
-            "explanation": "The Primary Survey starts with a general impression, checking AVPU, identifying life threats, and then moving to Airway, Breathing, and Circulation (ABCs)."
+            "explanation": "The Primary Survey starts with a general impression, checking AVPU, identifying life threats, and then moving to Airway, Breathing, and Circulation (ABCs).",
+            "hint": "Guide: You must form an impression and check responsiveness before assessing the ABCs.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s3",
@@ -2659,7 +4056,10 @@ window.questionBank = {
                 "20 seconds"
             ],
             "answer": "10 seconds",
-            "explanation": "You must check breathing and pulse simultaneously for NO MORE than 10 seconds."
+            "explanation": "You must check breathing and pulse simultaneously for NO MORE than 10 seconds.",
+            "hint": "Guide: You must check breathing and pulse simultaneously for NO MORE than _______.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s4",
@@ -2679,7 +4079,10 @@ window.questionBank = {
                 "Opens the airway manually",
                 "Inserts oropharyngeal airway"
             ],
-            "explanation": "First open the airway to check for secretions, prepare suction, suction, reopen the airway, and then insert an OPA."
+            "explanation": "First open the airway to check for secretions, prepare suction, suction, reopen the airway, and then insert an OPA.",
+            "hint": "Guide: If they are apneic with a weak pulse, you must immediately secure the airway before ventilating.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s5",
@@ -2701,7 +4104,10 @@ window.questionBank = {
                 "Adjusts regulator to assure oxygen flow rate of at least 10 L/minute",
                 "Attaches mask to patient's face and adjusts to fit snugly"
             ],
-            "explanation": "Crack the valve, assemble the regulator, attach the mask tubing, turn on flow to prefill the bag, adjust the rate (≥10 L/min), and finally attach to the patient."
+            "explanation": "Crack the valve, assemble the regulator, attach the mask tubing, turn on flow to prefill the bag, adjust the rate (≥10 L/min), and finally attach to the patient.",
+            "hint": "Guide: Crack the valve, assemble the regulator, attach the mask tubing, turn on flow to prefill the bag, adjust the rate (≥___ L/min), and finally attach to the patient.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s6",
@@ -2714,7 +4120,10 @@ window.questionBank = {
                 "Securing the arms to the long spine board device before strapping the legs and torso securely"
             ],
             "answer": "Released or ordered release of manual stabilization before it was maintained mechanically",
-            "explanation": "Releasing manual stabilization before the head is mechanically secured to the board is an immediate critical failure."
+            "explanation": "Releasing manual stabilization before the head is mechanically secured to the board is an immediate critical failure.",
+            "hint": "Guide: You must not let go of the head until mechanical devices (blocks and straps) have fully taken over.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s7",
@@ -2736,7 +4145,10 @@ window.questionBank = {
                 "Initiates steps to prevent heat loss from the patient",
                 "Indicates the need for immediate transportation"
             ],
-            "explanation": "Direct pressure first, then tourniquet. For shock: position, oxygen, keep warm, transport."
+            "explanation": "Direct pressure first, then tourniquet. For shock: position, oxygen, keep warm, transport.",
+            "hint": "Guide: Direct pressure first, then tourniquet.",
+            "difficulty": 2,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s8",
@@ -2749,7 +4161,10 @@ window.questionBank = {
                 "5 minutes"
             ],
             "answer": "2 minutes",
-            "explanation": "You should perform 2 minutes (about 5 cycles) of high-quality CPR before analyzing the rhythm again or switching compressors."
+            "explanation": "You should perform 2 minutes (about 5 cycles) of high-quality CPR before analyzing the rhythm again or switching compressors.",
+            "hint": "Guide: You should perform _______ (about 5 cycles) of high-quality CPR before analyzing the rhythm again or switching compressors.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s9",
@@ -2771,7 +4186,10 @@ window.questionBank = {
                 "Secures the entire injured extremity",
                 "Reassesses distal motor, sensory and circulatory functions"
             ],
-            "explanation": "Assess CMS first. Select splint, immobilize the joint, immobilize bones above/below, secure, then reassess CMS."
+            "explanation": "Assess CMS first. Select splint, immobilize the joint, immobilize bones above/below, secure, then reassess CMS.",
+            "hint": "Guide: Assess CMS first.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s10",
@@ -2784,7 +4202,10 @@ window.questionBank = {
                 "Wrap it tightly with a bandage"
             ],
             "answer": "Immobilize it in the position of function",
-            "explanation": "A critical criteria for Long Bone Immobilization is failing to immobilize the hand or foot in a position of function."
+            "explanation": "A critical criteria for Long Bone Immobilization is failing to immobilize the hand or foot in a position of function.",
+            "hint": "Guide: The limb must be placed in a natural resting position to prevent nerve/vessel damage.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s11",
@@ -2804,7 +4225,10 @@ window.questionBank = {
                 "Treat for shock (position properly, high-flow oxygen, prevent heat loss)",
                 "Indicate the need for immediate transportation"
             ],
-            "explanation": "In an active arterial bleed, always secure the scene/PPE first, apply direct pressure immediately, step up to a tourniquet if bleeding continues (spurting usually dictates this quickly), manage shock, and initiate rapid transport."
+            "explanation": "In an active arterial bleed, always secure the scene/PPE first, apply direct pressure immediately, step up to a tourniquet if bleeding continues (spurting usually dictates this quickly), manage shock, and initiate rapid transport.",
+            "hint": "Guide: Arterial bleeding is an immediate life threat that supersedes oxygen administration.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s12",
@@ -2824,7 +4248,10 @@ window.questionBank = {
                 "Check breathing and pulse simultaneously (max 10 seconds)",
                 "Immediately begin chest compressions"
             ],
-            "explanation": "Scene safety, check responsiveness, call for backup, check breathing/pulse, and begin compressions."
+            "explanation": "Scene safety, check responsiveness, call for backup, check breathing/pulse, and begin compressions.",
+            "hint": "Guide: Check responsiveness, request ALS, check pulse, then start compressions.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s13",
@@ -2846,7 +4273,10 @@ window.questionBank = {
                 "Severity",
                 "Time"
             ],
-            "explanation": "The mnemonic stands for Onset, Provocation, Quality, Radiation, Severity, Time."
+            "explanation": "The mnemonic stands for Onset, Provocation, Quality, Radiation, Severity, Time.",
+            "hint": "Guide: Start with what triggered it, what makes it worse, what it feels like, where it goes, how bad it is, and when it started.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s14",
@@ -2868,7 +4298,10 @@ window.questionBank = {
                 "Last oral intake",
                 "Events leading to present illness"
             ],
-            "explanation": "S-A-M-P-L-E stands for Signs/symptoms, Allergies, Medications, Past history, Last oral intake, Events."
+            "explanation": "S-A-M-P-L-E stands for Signs/symptoms, Allergies, Medications, Past history, Last oral intake, Events.",
+            "hint": "Guide: Remember the acronym: Symptoms, Allergies, Meds, Past History, Last intake, Events.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s15",
@@ -2886,7 +4319,10 @@ window.questionBank = {
                 "Secure the patient's legs to the device",
                 "Secure the patient's arms to the device"
             ],
-            "explanation": "When backboarding, always secure the torso to the device before securing the head to prevent neck manipulation if the body shifts."
+            "explanation": "When backboarding, always secure the torso to the device before securing the head to prevent neck manipulation if the body shifts.",
+            "hint": "Guide: Always secure the torso before the head to prevent the body from shifting and damaging the neck.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s16",
@@ -2899,7 +4335,10 @@ window.questionBank = {
                 "Log roll the patient to inspect the posterior thorax immediately"
             ],
             "answer": "Manage the injury which may compromise breathing/ventilation",
-            "explanation": "During the Primary Survey, any injury that compromises breathing/ventilation must be managed immediately before moving on to the secondary assessment or history."
+            "explanation": "During the Primary Survey, any injury that compromises breathing/ventilation must be managed immediately before moving on to the secondary assessment or history.",
+            "hint": "Guide: Diminished breath sounds suggest a pneumothorax or hemothorax; you must intervene before continuing the assessment.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s17",
@@ -2921,7 +4360,10 @@ window.questionBank = {
                 "Lower extremities",
                 "Upper extremities"
             ],
-            "explanation": "A standard rapid trauma assessment moves from the Head down to the Neck, Chest, Abdomen/Pelvis, and then the Extremities."
+            "explanation": "A standard rapid trauma assessment moves from the Head down to the Neck, Chest, Abdomen/Pelvis, and then the Extremities.",
+            "hint": "Guide: Work systematically from the head down to the toes, checking the back last.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s18",
@@ -2934,7 +4376,10 @@ window.questionBank = {
                 "Switch to a Nasopharyngeal Airway (NPA) without suctioning"
             ],
             "answer": "Remove the OPA, roll the patient to their side, and prepare to suction",
-            "explanation": "If a patient gags or vomits upon OPA insertion, you must remove it, clear the airway by rolling them and suctioning, and then reassess."
+            "explanation": "If a patient gags or vomits upon OPA insertion, you must remove it, clear the airway by rolling them and suctioning, and then reassess.",
+            "hint": "Guide: An intact gag reflex means the OPA is contraindicated; remove it instantly to prevent aspiration.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s19",
@@ -2954,7 +4399,10 @@ window.questionBank = {
                 "Ensure all individuals are clear of the patient and deliver shock",
                 "Immediately direct rescuer to resume chest compressions"
             ],
-            "explanation": "Power on first, attach pads, clear for analysis, clear for shock, and then immediately resume CPR without checking for a pulse."
+            "explanation": "Power on first, attach pads, clear for analysis, clear for shock, and then immediately resume CPR without checking for a pulse.",
+            "hint": "Guide: Turn it on first, then follow the voice prompts to apply pads and analyze.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s20",
@@ -2965,7 +4413,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Treating threats to airway, breathing, and circulation (ABCs) in the Primary Survey must always happen BEFORE moving on to a secondary examination."
+            "explanation": "Treating threats to airway, breathing, and circulation (ABCs) in the Primary Survey must always happen BEFORE moving on to a secondary examination.",
+            "hint": "Guide: A rapid head-to-toe is only required for critical patients or significant mechanisms of injury.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s21",
@@ -2985,7 +4436,10 @@ window.questionBank = {
                 "Immobilize the joint above and below the injury site",
                 "Reassess distal motor, sensory, and circulatory functions"
             ],
-            "explanation": "Always take manual stabilization first, check CMS (circulation, motor, sensory), apply the splint/immobilize joints, and then re-check CMS."
+            "explanation": "Always take manual stabilization first, check CMS (circulation, motor, sensory), apply the splint/immobilize joints, and then re-check CMS.",
+            "hint": "Guide: Manual stabilization and traction must be applied before the mechanical splint is positioned.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s22",
@@ -2998,7 +4452,10 @@ window.questionBank = {
                 "Apply high-flow oxygen via Non-Rebreather mask"
             ],
             "answer": "Verbalize the general impression of the patient",
-            "explanation": "The Primary Survey always begins with formulating and verbalizing a general impression of the patient as you approach."
+            "explanation": "The Primary Survey always begins with formulating and verbalizing a general impression of the patient as you approach.",
+            "hint": "Guide: Before touching the patient, you must state what you observe from a distance.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s23",
@@ -3016,7 +4473,10 @@ window.questionBank = {
                 "Check pulse, assess skin, and control major bleeding",
                 "Identify patient priority and make transport decision"
             ],
-            "explanation": "The sequence is strictly Airway, Breathing, Circulation, followed by the transport decision based on priority/GCS."
+            "explanation": "The sequence is strictly Airway, Breathing, Circulation, followed by the transport decision based on priority/GCS.",
+            "hint": "Guide: ABCs! Assess Airway, Breathing, then Circulation, followed by a transport decision.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s24",
@@ -3029,7 +4489,10 @@ window.questionBank = {
                 "Once the patient says their neck feels stable"
             ],
             "answer": "Only after the head is mechanically secured to the device with head blocks and straps",
-            "explanation": "A critical failure occurs if manual stabilization is released before mechanical stabilization (blocks and straps) is fully applied."
+            "explanation": "A critical failure occurs if manual stabilization is released before mechanical stabilization (blocks and straps) is fully applied.",
+            "hint": "Guide: A collar does NOT provide mechanical stabilization on its own; head blocks are required.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s25",
@@ -3049,7 +4512,10 @@ window.questionBank = {
                 "Immobilize the bone above and below the injury site",
                 "Reassess distal motor, sensory, and circulatory functions (after splinting)"
             ],
-            "explanation": "Manual stabilization -> Initial CMS check -> Select splint -> Immobilize -> Post-CMS check."
+            "explanation": "Manual stabilization -> Initial CMS check -> Select splint -> Immobilize -> Post-CMS check.",
+            "hint": "Guide: Always assess PMS (Pulse, Motor, Sensory) before and after applying the splint.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s26",
@@ -3060,7 +4526,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "Critical criteria state failure to initiate ventilations within 30 seconds of suctioning, or failing to cause visible chest rise, will result in failing the skill."
+            "explanation": "Critical criteria state failure to initiate ventilations within 30 seconds of suctioning, or failing to cause visible chest rise, will result in failing the skill.",
+            "hint": "Guide: Suctioning removes oxygen; you must rapidly re-oxygenate the patient within 30 seconds.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s27",
@@ -3078,7 +4547,10 @@ window.questionBank = {
                 "Reassess interventions",
                 "Provide accurate verbal report to arriving EMS unit"
             ],
-            "explanation": "During reassessment, you determine the interval, re-check vitals, check interventions, and finally give a handoff report."
+            "explanation": "During reassessment, you determine the interval, re-check vitals, check interventions, and finally give a handoff report.",
+            "hint": "Guide: Repeat the primary, repeat vitals, check interventions, then note trends.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s28",
@@ -3091,7 +4563,10 @@ window.questionBank = {
                 "Check a distal pulse"
             ],
             "answer": "Apply a tourniquet",
-            "explanation": "If direct pressure fails to control major hemorrhage, applying a tourniquet is the immediate next step before treating for shock."
+            "explanation": "If direct pressure fails to control major hemorrhage, applying a tourniquet is the immediate next step before treating for shock.",
+            "hint": "Guide: If direct pressure and dressings fail to stop massive bleeding, escalate immediately.",
+            "difficulty": 2,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s29",
@@ -3113,7 +4588,10 @@ window.questionBank = {
                 "Checks jugular veins",
                 "Palpates cervical spine"
             ],
-            "explanation": "The assessment moves systematically top-down: Scalp/Ears -> Eyes -> Face/Mouth/Nose -> Trachea -> JVD -> C-Spine."
+            "explanation": "The assessment moves systematically top-down: Scalp/Ears -> Eyes -> Face/Mouth/Nose -> Trachea -> JVD -> C-Spine.",
+            "hint": "Guide: Palpate the scalp, check the pupils, then inspect the neck for JVD or tracheal deviation.",
+            "difficulty": 5,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s30",
@@ -3126,7 +4604,10 @@ window.questionBank = {
                 "20-24 breaths per minute (1 breath every 2-3 seconds)"
             ],
             "answer": "10-12 breaths per minute (1 breath every 5-6 seconds)",
-            "explanation": "For an adult, you ventilate at a rate of 10-12 breaths per minute, which equates to one ventilation every 5-6 seconds."
+            "explanation": "For an adult, you ventilate at a rate of 10-12 breaths per minute, which equates to one ventilation every 5-6 seconds.",
+            "hint": "Guide: For an adult, you ventilate at a rate of ___-___ breaths per minute, which equates to one ventilation every ___-___ seconds.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s31",
@@ -3140,7 +4621,10 @@ window.questionBank = {
                 "Last Oral Intake": "I had soup and crackers for lunch.",
                 "Events": "I was walking up the stairs when I suddenly couldn't breathe."
             },
-            "explanation": "S=Symptoms (shortness of breath), A=Allergies (Sulfa), M=Medications (Albuterol), P=Past History (COPD), L=Last intake (soup/crackers), E=Events (walking up stairs)."
+            "explanation": "S=Symptoms (shortness of breath), A=Allergies (Sulfa), M=Medications (Albuterol), P=Past History (COPD), L=Last intake (soup/crackers), E=Events (walking up stairs).",
+            "hint": "Guide: Link 'inhaler' to medications, 'COPD' to past history, and 'soup' to last oral intake.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s32",
@@ -3154,7 +4638,10 @@ window.questionBank = {
                 "Severity": "I would rate it an 8 out of 10.",
                 "Time": "This started about 45 minutes ago."
             },
-            "explanation": "O=Onset (watching TV), P=Provocation (deep breath), Q=Quality (heavy pressure), R=Radiation (jaw), S=Severity (8/10), T=Time (45 minutes)."
+            "explanation": "O=Onset (watching TV), P=Provocation (deep breath), Q=Quality (heavy pressure), R=Radiation (jaw), S=Severity (8/10), T=Time (45 minutes).",
+            "hint": "Guide: 'Sudden' is Onset. 'Deep breath' is Provocation. 'Ache' is Quality. 'Jaw' is Radiation.",
+            "difficulty": 7,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s33",
@@ -3166,7 +4653,10 @@ window.questionBank = {
                 "Pain": "The patient does not respond to your voice, but moans when you perform a sternal rub.",
                 "Unresponsive": "The patient does not react to shouting or a sternal rub."
             },
-            "explanation": "A=Alert, V=Responds to Verbal stimuli, P=Responds to Painful stimuli, U=Completely Unresponsive."
+            "explanation": "A=Alert, V=Responds to Verbal stimuli, P=Responds to Painful stimuli, U=Completely Unresponsive.",
+            "hint": "Guide: Alert is awake. Verbal responds to voice. Pain responds to physical stimuli. Unresponsive does neither.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s34",
@@ -3178,7 +4668,10 @@ window.questionBank = {
                 "Eye: 2": "Patient's eyes remain closed to voice, but open briefly when you pinch their trapezius muscle.",
                 "Eye: 1": "Patient's eyes remain closed despite loud shouting and painful stimuli."
             },
-            "explanation": "4=Spontaneous, 3=To Speech, 2=To Pain, 1=None."
+            "explanation": "4=Spontaneous, 3=To Speech, 2=To Pain, 1=None.",
+            "hint": "Guide: 4 is spontaneous. 3 is to speech. 2 is to pain. 1 is no response.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s35",
@@ -3191,7 +4684,10 @@ window.questionBank = {
                 "Verbal: 2": "Patient only groans and mumbles incomprehensibly when asked a question.",
                 "Verbal: 1": "Patient makes no sounds at all, even with a sternal rub."
             },
-            "explanation": "5=Oriented, 4=Confused, 3=Inappropriate Words, 2=Incomprehensible Sounds, 1=None."
+            "explanation": "5=Oriented, 4=Confused, 3=Inappropriate Words, 2=Incomprehensible Sounds, 1=None.",
+            "hint": "Guide: 5 is oriented. 4 is confused. 3 is inappropriate words. 2 is incomprehensible sounds.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s36",
@@ -3205,7 +4701,10 @@ window.questionBank = {
                 "Motor: 2": "Patient's arms extend rigidly outward (decerebrate) when you apply pain.",
                 "Motor: 1": "Patient shows no motor response to any stimuli."
             },
-            "explanation": "6=Obeys Commands, 5=Localizes Pain, 4=Withdraws to Pain, 3=Abnormal Flexion, 2=Abnormal Extension, 1=None."
+            "explanation": "6=Obeys Commands, 5=Localizes Pain, 4=Withdraws to Pain, 3=Abnormal Flexion, 2=Abnormal Extension, 1=None.",
+            "hint": "Guide: 6 obeys commands. 5 localizes pain. 4 withdraws. 3 is abnormal flexion (decorticate). 2 is extension (decerebrate).",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s37",
@@ -3219,7 +4718,10 @@ window.questionBank = {
                 "Last Oral Intake": "He had a juice box 30 minutes ago.",
                 "Events": "He hit a rock on the sidewalk and tumbled over the handlebars."
             },
-            "explanation": "S=Scrape/pain, A=Bee stings, M=Vitamins, P=Previous break, L=Juice box, E=Hit a rock."
+            "explanation": "S=Scrape/pain, A=Bee stings, M=Vitamins, P=Previous break, L=Juice box, E=Hit a rock.",
+            "hint": "Guide: A bounding pulse relates to head injury. Weak/thready relates to shock.",
+            "difficulty": 9,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s38",
@@ -3233,7 +4735,10 @@ window.questionBank = {
                 "Severity": "It is about a 6 out of 10 right now.",
                 "Time": "It has been continuous since Tuesday morning."
             },
-            "explanation": "O=Gradual, P=Pressing/walking, Q=Dull cramp, R=Shoots to back, S=6/10, T=Since Tuesday."
+            "explanation": "O=Gradual, P=Pressing/walking, Q=Dull cramp, R=Shoots to back, S=6/10, T=Since Tuesday.",
+            "hint": "Guide: Wheezing is lower airway (asthma). Stridor is upper airway (obstruction/croup). Crackles is fluid (CHF).",
+            "difficulty": 7,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s39",
@@ -3247,7 +4752,10 @@ window.questionBank = {
                 "Burns": "The patient's skin is red and blistering from a chemical spill.",
                 "Lacerations": "The patient has a deep, jagged cut on their calf from a piece of glass."
             },
-            "explanation": "DCAP-BTLS stands for Deformities, Contusions, Abrasions, Punctures/Penetrations, Burns, Tenderness, Lacerations, Swelling."
+            "explanation": "DCAP-BTLS stands for Deformities, Contusions, Abrasions, Punctures/Penetrations, Burns, Tenderness, Lacerations, Swelling.",
+            "hint": "Guide: D = Deformities, C = Contusions, A = Abrasions, P = Punctures/Penetrations, B = Burns, T = Tenderness, L = Lacerations, S = Swelling.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s40",
@@ -3261,7 +4769,10 @@ window.questionBank = {
                 "Circulation": "The patient's radial pulse is rapid and weak, and their skin is cool and clammy.",
                 "Transport Decision": "Due to the patient's altered mental status and poor perfusion, you determine they are high priority."
             },
-            "explanation": "These are the distinct sequential steps you take during the Primary Survey."
+            "explanation": "These are the distinct sequential steps you take during the Primary Survey.",
+            "hint": "Guide: General impression is what you see first. Airway is the gurgling sound.",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s41",
@@ -3273,7 +4784,10 @@ window.questionBank = {
                 "Speech": "The patient's words are slurred and they have trouble repeating a simple sentence.",
                 "Time": "The patient's spouse says they were acting perfectly normal exactly 2 hours ago."
             },
-            "explanation": "FAST stands for Face, Arms, Speech, Time."
+            "explanation": "FAST stands for Face, Arms, Speech, Time.",
+            "hint": "Guide: F = Face, A = Arms, S = Speech, T = Time.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s42",
@@ -3286,7 +4800,10 @@ window.questionBank = {
                 "Aspirin": "I chewed up four of these baby pills when my chest started hurting today.",
                 "Oral Glucose": "I took a tube of this gel because my blood sugar felt low."
             },
-            "explanation": "Recognizing patient descriptions of common EMS medications is critical during history taking."
+            "explanation": "Recognizing patient descriptions of common EMS medications is critical during history taking.",
+            "hint": "Guide: Nitro is sublingual. Epi is auto-injector. Albuterol is an inhaler. Glucose is a gel.",
+            "difficulty": 8,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s43",
@@ -3299,7 +4816,10 @@ window.questionBank = {
                 "Number of Patients": "You quickly count three victims lying on the ground near the crash site.",
                 "Additional Resources": "You request a heavy rescue unit for extrication and a helicopter for rapid transport."
             },
-            "explanation": "The scene size-up includes Safety, MOI/NOI, Number of patients, and requesting Additional resources."
+            "explanation": "The scene size-up includes Safety, MOI/NOI, Number of patients, and requesting Additional resources.",
+            "hint": "Guide: Safety = Police. MOI = Crash. NOI = Abdominal pain. Resources = Helicopter.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s44",
@@ -3311,7 +4831,10 @@ window.questionBank = {
                 "Adequate breathing, but SpO2 is 92%": "Apply a nasal cannula or non-rebreather mask to administer oxygen.",
                 "Snoring respirations in an unresponsive patient": "Perform a head-tilt chin-lift or jaw-thrust and insert an OPA/NPA."
             },
-            "explanation": "Different respiratory presentations require specific interventions ranging from basic oxygenation to aggressive airway clearance and ventilation."
+            "explanation": "Different respiratory presentations require specific interventions ranging from basic oxygenation to aggressive airway clearance and ventilation.",
+            "hint": "Guide: Apnea requires a BVM. Gurgling requires suction. Snoring requires an airway adjunct.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s45",
@@ -3323,7 +4846,10 @@ window.questionBank = {
                 "Motor: 5": "You pinch their trap, and they reach up to push your hand away.",
                 "Motor: 1": "You pinch their trap, and they do not move at all."
             },
-            "explanation": "Eye 3 = to speech. Verbal 4 = confused. Motor 5 = localizes pain. Motor 1 = none."
+            "explanation": "Eye 3 = to speech. Verbal 4 = confused. Motor 5 = localizes pain. Motor 1 = none.",
+            "hint": "Guide: Eyes opening to speech is 3. Confused speech is 4. Localizing pain is 5.",
+            "difficulty": 9,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s46",
@@ -3337,7 +4863,10 @@ window.questionBank = {
                 "Last Oral Intake": "She hasn't eaten anything since breakfast.",
                 "Events": "We were just sitting on the couch and she started acting confused."
             },
-            "explanation": "This maps out a classic hypoglycemic event using the SAMPLE structure."
+            "explanation": "This maps out a classic hypoglycemic event using the SAMPLE structure.",
+            "hint": "Guide: Sweating/confused are signs. Insulin is a medication. Breakfast is oral intake.",
+            "difficulty": 7,
+            "nremtCategory": "secondary_assessment"
         },
         {
             "id": "s47",
@@ -3349,7 +4878,10 @@ window.questionBank = {
                 "Irregular": "Cardiac Arrhythmia",
                 "Absent at radial, present at carotid": "Severe hypotension / decompensated shock"
             },
-            "explanation": "Pulse quality provides critical clues during the primary survey about the underlying condition."
+            "explanation": "Pulse quality provides critical clues during the primary survey about the underlying condition.",
+            "hint": "Guide: Rapid/weak = shock. Slow/bounding = head injury. Irregular = cardiac.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s48",
@@ -3363,7 +4895,10 @@ window.questionBank = {
                 "Severity": "It's a 10 out of 10!",
                 "Time": "I've been lying here for about two hours before someone found me."
             },
-            "explanation": "OPQRST is just as useful for trauma pain assessment as it is for medical complaints."
+            "explanation": "OPQRST is just as useful for trauma pain assessment as it is for medical complaints.",
+            "hint": "Guide: Slipping is Onset. Movement is Provocation. Sharp is Quality. 10/10 is Severity.",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s49",
@@ -3375,7 +4910,10 @@ window.questionBank = {
                 "Bleeding Control / Shock Management": "Failing to apply high concentration oxygen when treating for shock.",
                 "Cardiac Arrest Management / AED": "Failing to immediately resume chest compressions after shock is delivered."
             },
-            "explanation": "Knowing the critical failures for each skill station is vital to passing the practical exam."
+            "explanation": "Knowing the critical failures for each skill station is vital to passing the practical exam.",
+            "hint": "Guide: Bleeding control failure = not applying O2. Spinal failure = letting go of the head.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s50",
@@ -3387,7 +4925,10 @@ window.questionBank = {
                 "Pain": "A patient who swats your hand away only when you perform a sternal rub.",
                 "Unresponsive": "A patient who is limp and makes no response to a sternal rub."
             },
-            "explanation": "AVPU is a quick way to triage mental status on a chaotic scene."
+            "explanation": "AVPU is a quick way to triage mental status on a chaotic scene.",
+            "hint": "Guide: Swatting hand = Pain. 'Leave me alone' = Verbal.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s51",
@@ -3407,7 +4948,10 @@ window.questionBank = {
                 "Fasten the binder and tighten until the specified click or resistance is felt.",
                 "Reassess distal motor, sensory, and circulatory functions."
             ],
-            "explanation": "Always assess CMS first, expose the area (pockets can cause pressure sores), apply over the greater trochanters (not the iliac crests), tighten, and re-assess CMS."
+            "explanation": "Always assess CMS first, expose the area (pockets can cause pressure sores), apply over the greater trochanters (not the iliac crests), tighten, and re-assess CMS.",
+            "hint": "Guide: Slide it under the knees, saw it up to the greater trochanters, then secure it tightly.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s52",
@@ -3420,7 +4964,10 @@ window.questionBank = {
                 "Once the patient says the pain has decreased."
             ],
             "answer": "Only after mechanical traction has been fully applied and secured.",
-            "explanation": "A critical failure in splinting is releasing manual stabilization or traction before the mechanical device is fully secured."
+            "explanation": "A critical failure in splinting is releasing manual stabilization or traction before the mechanical device is fully secured.",
+            "hint": "Guide: Do not let go of manual traction until the mechanical traction is locked in.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s53",
@@ -3432,7 +4979,10 @@ window.questionBank = {
                 "Vacuum Splint": "Angulated fracture of the lower leg or forearm.",
                 "Sling and Swathe": "Clavicle or shoulder injury."
             },
-            "explanation": "Using the correct device is critical. Traction splints are strictly for the femur, while vacuum splints mold to deformed injuries."
+            "explanation": "Using the correct device is critical. Traction splints are strictly for the femur, while vacuum splints mold to deformed injuries.",
+            "hint": "Guide: Traction = Femur. Binder = Pelvis. Vacuum = Angulated limbs. Sling = Shoulder.",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s54",
@@ -3443,7 +4993,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "Standard protocol is to make one attempt to gently realign a severely angulated fracture to restore circulation. If resistance is met, splint in place."
+            "explanation": "Standard protocol is to make one attempt to gently realign a severely angulated fracture to restore circulation. If resistance is met, splint in place.",
+            "hint": "Guide: If there is no pulse, you have one attempt to pull gentle traction to restore blood flow.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s55",
@@ -3463,7 +5016,10 @@ window.questionBank = {
                 "Slowly lower the patient to the ground as a unit.",
                 "Secure the patient to the board (Torso, then Head)."
             ],
-            "explanation": "Manual stabilization is always the first step, followed by the collar. Then the board is brought in, the patient is lowered, and finally secured."
+            "explanation": "Manual stabilization is always the first step, followed by the collar. Then the board is brought in, the patient is lowered, and finally secured.",
+            "hint": "Guide: Maintain C-spine, size the collar, position the board behind them, and lower them as a unit.",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s56",
@@ -3475,7 +5031,10 @@ window.questionBank = {
                 "Hemostatic Dressing": "A severe junctional hemorrhage in the groin that cannot accept a tourniquet.",
                 "Pelvic Binder": "A patient with a crushed pelvis in decompensated shock."
             },
-            "explanation": "Direct pressure is always first unless massive arterial bleeding is obvious. Junctional wounds require wound packing with hemostatic agents."
+            "explanation": "Direct pressure is always first unless massive arterial bleeding is obvious. Junctional wounds require wound packing with hemostatic agents.",
+            "hint": "Guide: Direct pressure is always first unless massive arterial bleeding is obvious.",
+            "difficulty": 2,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s57",
@@ -3488,7 +5047,10 @@ window.questionBank = {
                 "Loosen the tourniquet slightly to prevent tissue death."
             ],
             "answer": "Apply a second tourniquet directly adjacent to and proximal to the first one.",
-            "explanation": "Never remove or loosen a tourniquet. If the first fails, apply a second one directly above (proximal to) the first."
+            "explanation": "Never remove or loosen a tourniquet. If the first fails, apply a second one directly above (proximal to) the first.",
+            "hint": "Guide: Never remove or loosen a tourniquet.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s58",
@@ -3499,7 +5061,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "A cervical collar does NOT immobilize the neck; it only limits movement. You must maintain manual stabilization until the head is taped to the backboard/head blocks."
+            "explanation": "A cervical collar does NOT immobilize the neck; it only limits movement. You must maintain manual stabilization until the head is taped to the backboard/head blocks.",
+            "hint": "Guide: A cervical collar does NOT immobilize the neck; it only limits movement. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s59",
@@ -3519,7 +5084,10 @@ window.questionBank = {
                 "Assess Breathing (rate, depth, O2 therapy).",
                 "Assess Circulation (pulse, major bleeding, skin)."
             ],
-            "explanation": "General impression -> Mental Status (AVPU) -> Airway -> Breathing -> Circulation."
+            "explanation": "General impression -> Mental Status (AVPU) -> Airway -> Breathing -> Circulation.",
+            "hint": "Guide: General impression -> Mental Status (AVPU) -> Airway -> Breathing -> Circulation. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s60",
@@ -3531,7 +5099,10 @@ window.questionBank = {
                 "Head-tilt Chin-lift": "Suspected cervical spine injury.",
                 "Continuous Positive Airway Pressure (CPAP)": "Patient is unconscious or apneic."
             },
-            "explanation": "Using the wrong airway tool can kill the patient. CPAP requires spontaneous breathing; NPA can enter the brain if the skull is fractured."
+            "explanation": "Using the wrong airway tool can kill the patient. CPAP requires spontaneous breathing; NPA can enter the brain if the skull is fractured.",
+            "hint": "Guide: Using the wrong airway tool can kill the patient.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s61",
@@ -3551,7 +5122,10 @@ window.questionBank = {
                 "Instruct the patient to place the tablet under their tongue and let it dissolve.",
                 "Reassess blood pressure and pain level after 5 minutes."
             ],
-            "explanation": "BP must be checked first (>100 systolic), then contraindications (ED meds), then verify the drug, administer, and reassess."
+            "explanation": "BP must be checked first (>100 systolic), then contraindications (ED meds), then verify the drug, administer, and reassess.",
+            "hint": "Guide: BP must be checked first (>100 systolic), then contraindications (ED meds), then verify the drug, administer, and reassess. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s62",
@@ -3564,7 +5138,10 @@ window.questionBank = {
                 "Provide two rescue breaths."
             ],
             "answer": "Immediately resume chest compressions.",
-            "explanation": "If no shock is advised, do not waste time checking a pulse. Immediately resume high-quality CPR starting with compressions."
+            "explanation": "If no shock is advised, do not waste time checking a pulse. Immediately resume high-quality CPR starting with compressions.",
+            "hint": "Guide: If no shock is advised, do not waste time checking a pulse.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s63",
@@ -3576,7 +5153,10 @@ window.questionBank = {
                 "Albuterol": "Inhaled (Nebulizer)",
                 "Oral Glucose": "Buccal / Oral (PO)"
             },
-            "explanation": "Knowing the exact route is part of the 'Six Rights' of medication administration."
+            "explanation": "Knowing the exact route is part of the 'Six Rights' of medication administration.",
+            "hint": "Guide: Knowing the exact route is part of the 'Six Rights' of medication administration. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s64",
@@ -3587,7 +5167,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "You must hold the injector firmly in place for at least 3 to 10 seconds (depending on the manufacturer) to ensure all medication is delivered."
+            "explanation": "You must hold the injector firmly in place for at least 3 to 10 seconds (depending on the manufacturer) to ensure all medication is delivered.",
+            "hint": "Guide: Re-read the specific symptoms mentioned. Isolate the airway vs breathing vs circulation issues.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s65",
@@ -3607,7 +5190,10 @@ window.questionBank = {
                 "Instruct the patient to inhale deeply and press the canister.",
                 "Instruct the patient to hold their breath for as long as comfortable (up to 10 seconds)."
             ],
-            "explanation": "Verify the drug, shake it, have them empty their lungs, time the spray with their inhalation, and have them hold it to absorb."
+            "explanation": "Verify the drug, shake it, have them empty their lungs, time the spray with their inhalation, and have them hold it to absorb.",
+            "hint": "Guide: Verify the drug, shake it, have them empty their lungs, time the spray with their inhalation, and have them hold it to absorb. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s66",
@@ -3619,7 +5205,10 @@ window.questionBank = {
                 "BP: 180/100, HR: 50, Resp: Irregular": "Increased Intracranial Pressure (Cushing's Triad)",
                 "BP: 90/50, HR: 120, Temp: 102F": "Septic Shock"
             },
-            "explanation": "Compensated shock maintains BP. Decompensated shock features a crashing BP. Cushing's triad is hypertension + bradycardia."
+            "explanation": "Compensated shock maintains BP. Decompensated shock features a crashing BP. Cushing's triad is hypertension + bradycardia.",
+            "hint": "Guide: Compensated shock maintains BP. Decompensated shock features a crashing BP.",
+            "difficulty": 6,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s67",
@@ -3632,7 +5221,10 @@ window.questionBank = {
                 "Prone."
             ],
             "answer": "On her left side (Left lateral recumbent).",
-            "explanation": "Pregnant patients should be placed on their left side to prevent the uterus from compressing the inferior vena cava, which would drop blood pressure severely."
+            "explanation": "Pregnant patients should be placed on their left side to prevent the uterus from compressing the inferior vena cava, which would drop blood pressure severely.",
+            "hint": "Guide: Pregnant patients should be placed on their left side to prevent the uterus from compressing the inferior vena cava, which would drop blood pressure severely. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s68",
@@ -3643,7 +5235,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "AHA guidelines state you should only administer oxygen to stroke (or heart attack) patients if their SpO2 is below 94%. Excessive oxygen causes vasoconstriction and free radical damage."
+            "explanation": "AHA guidelines state you should only administer oxygen to stroke (or heart attack) patients if their SpO2 is below 94%. Excessive oxygen causes vasoconstriction and free radical damage.",
+            "hint": "Guide: AHA guidelines state you should only administer oxygen to stroke (or heart attack) patients if their SpO2 is below 94%. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s69",
@@ -3661,7 +5256,10 @@ window.questionBank = {
                 "Assess Speech by asking the patient to say, 'You can't teach an old dog new tricks.'",
                 "Ask the patient, 'When was the last time you felt perfectly normal?'"
             ],
-            "explanation": "The physical exam (F.A.S.) is done first, followed immediately by establishing the Time (T) of onset, which dictates transport destination."
+            "explanation": "The physical exam (F.A.S.) is done first, followed immediately by establishing the Time (T) of onset, which dictates transport destination.",
+            "hint": "Guide: The physical exam (F.A.S.) is done first, followed immediately by establishing the Time (T) of onset, which dictates transport destination. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s70",
@@ -3673,7 +5271,10 @@ window.questionBank = {
                 "Stridor in a choking patient": "Perform abdominal thrusts.",
                 "Gurgling in an unresponsive patient": "Roll patient and suction."
             },
-            "explanation": "Treatments are specific to the mechanical issue: Albuterol opens bronchi, CPAP pushes fluid out, thrusts dislodge obstructions, suction removes fluids."
+            "explanation": "Treatments are specific to the mechanical issue: Albuterol opens bronchi, CPAP pushes fluid out, thrusts dislodge obstructions, suction removes fluids.",
+            "hint": "Guide: Treatments are specific to the mechanical issue: Albuterol opens bronchi, CPAP pushes fluid out, thrusts dislodge obstructions, suction removes fluids. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s71",
@@ -3693,7 +5294,10 @@ window.questionBank = {
                 "Dry, warm, and stimulate the baby.",
                 "Clamp and cut the umbilical cord."
             ],
-            "explanation": "Prevent explosive delivery, check for cord around neck, deliver the body, dry/warm (most important for neonates), then cut cord."
+            "explanation": "Prevent explosive delivery, check for cord around neck, deliver the body, dry/warm (most important for neonates), then cut cord.",
+            "hint": "Guide: Prevent explosive delivery, check for cord around neck, deliver the body, dry/warm (most important for neonates), then cut cord. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s72",
@@ -3706,7 +5310,10 @@ window.questionBank = {
                 "Begin positive pressure ventilations only."
             ],
             "answer": "Begin chest compressions and ventilations at a 3:1 ratio.",
-            "explanation": "Neonatal resuscitation protocol: If HR < 100, ventilate. If HR drops below 60 despite ventilations, begin chest compressions at a 3:1 ratio."
+            "explanation": "Neonatal resuscitation protocol: If HR < 100, ventilate. If HR drops below 60 despite ventilations, begin chest compressions at a 3:1 ratio.",
+            "hint": "Guide: Neonatal resuscitation protocol: If HR < 100, ventilate. If HR drops below 60 despite ventilations, begin chest compressions at a ___:___ ratio.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s73",
@@ -3717,7 +5324,10 @@ window.questionBank = {
                 "Work of Breathing": "Nasal flaring, retractions, head bobbing, abnormal airway sounds.",
                 "Circulation to Skin": "Pallor, mottling, cyanosis."
             },
-            "explanation": "The PAT is an across-the-room visual assessment done before touching the child: Appearance, Work of Breathing, and Circulation."
+            "explanation": "The PAT is an across-the-room visual assessment done before touching the child: Appearance, Work of Breathing, and Circulation.",
+            "hint": "Guide: The PAT is an across-the-room visual assessment done before touching the child: Appearance, Work of Breathing, and Circulation. - use this logic to derive the answer!",
+            "difficulty": 2,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s74",
@@ -3728,7 +5338,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "For a newborn with a HR between 60-100, the treatment is Positive Pressure Ventilation (BVM). Compressions are only started if the HR falls below 60."
+            "explanation": "For a newborn with a HR between 60-100, the treatment is Positive Pressure Ventilation (BVM). Compressions are only started if the HR falls below 60.",
+            "hint": "Guide: For a newborn with a HR between 60-100, the treatment is Positive Pressure Ventilation (BVM). Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s75",
@@ -3746,7 +5359,10 @@ window.questionBank = {
                 "Begin 30 chest compressions.",
                 "Look in the mouth for the object; remove only if visible."
             ],
-            "explanation": "If a breath doesn't go in, reposition and try again. If it still fails, assume obstruction, do 30 compressions, look in the mouth, and repeat."
+            "explanation": "If a breath doesn't go in, reposition and try again. If it still fails, assume obstruction, do 30 compressions, look in the mouth, and repeat.",
+            "hint": "Guide: If a breath doesn't go in, reposition and try again. If it still fails, assume obstruction, do ___ compressions, look in the mouth, and repeat.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s76",
@@ -3758,7 +5374,10 @@ window.questionBank = {
                 "Postpartum Hemorrhage": "Perform fundal massage and allow the baby to nurse.",
                 "Limb Presentation": "Do not attempt delivery; rapid transport with mother in knee-chest position."
             },
-            "explanation": "These are the highly specific physical skills required for critical OB emergencies."
+            "explanation": "These are the highly specific physical skills required for critical OB emergencies.",
+            "hint": "Guide: These are the highly specific physical skills required for critical OB emergencies. - use this logic to derive the answer!",
+            "difficulty": 6,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s77",
@@ -3771,7 +5390,10 @@ window.questionBank = {
                 "Directly against the baby's abdomen and 2 inches away."
             ],
             "answer": "7 inches and 10 inches from the baby.",
-            "explanation": "Standard protocol is placing the first clamp about 7-10 inches from the baby, and the second clamp about 2-3 inches further down, cutting between them."
+            "explanation": "Standard protocol is placing the first clamp about 7-10 inches from the baby, and the second clamp about 2-3 inches further down, cutting between them.",
+            "hint": "Guide: Standard protocol is placing the first clamp about ___-___ inches from the baby, and the second clamp about 2-3 inches further down, cutting between them.",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s78",
@@ -3782,7 +5404,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "Children compensate extremely well. Blood pressure is the LAST thing to drop. Tachycardia and delayed capillary refill are much better early indicators."
+            "explanation": "Children compensate extremely well. Blood pressure is the LAST thing to drop. Tachycardia and delayed capillary refill are much better early indicators.",
+            "hint": "Guide: Children compensate extremely well. Think about how this connects to the statement.",
+            "difficulty": 4,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s79",
@@ -3802,7 +5427,10 @@ window.questionBank = {
                 "Rotate the airway 180 degrees into its final resting position.",
                 "Rest the flange on the patient's lips/teeth."
             ],
-            "explanation": "Measure, open, insert inverted (to avoid pushing the tongue back), rotate, and seat."
+            "explanation": "Measure, open, insert inverted (to avoid pushing the tongue back), rotate, and seat.",
+            "hint": "Guide: Measure, open, insert inverted (to avoid pushing the tongue back), rotate, and seat. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s80",
@@ -3814,7 +5442,10 @@ window.questionBank = {
                 "Toddler (1-3 years)": "90 - 150 bpm",
                 "Preschooler (3-5 years)": "80 - 140 bpm"
             },
-            "explanation": "Knowing normal pediatric vitals is essential because they are drastically higher than adults."
+            "explanation": "Knowing normal pediatric vitals is essential because they are drastically higher than adults.",
+            "hint": "Guide: Knowing normal pediatric vitals is essential because they are drastically higher than adults. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s81",
@@ -3832,7 +5463,10 @@ window.questionBank = {
                 "Flush the arm with copious amounts of water for 20 minutes.",
                 "Transport to a burn center."
             ],
-            "explanation": "NEVER put water on a dry chemical before brushing it off, as many dry chemicals react violently with water, creating severe burns."
+            "explanation": "NEVER put water on a dry chemical before brushing it off, as many dry chemicals react violently with water, creating severe burns.",
+            "hint": "Guide: NEVER put water on a dry chemical before brushing it off, as many dry chemicals react violently with water, creating severe burns. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s82",
@@ -3845,7 +5479,10 @@ window.questionBank = {
                 "A porous burn sheet."
             ],
             "answer": "An occlusive dressing taped on three sides.",
-            "explanation": "An occlusive dressing (plastic/foil) taped on three sides acts as a flutter valve, allowing air to escape the chest during exhalation but preventing air from entering during inhalation."
+            "explanation": "An occlusive dressing (plastic/foil) taped on three sides acts as a flutter valve, allowing air to escape the chest during exhalation but preventing air from entering during inhalation.",
+            "hint": "Guide: An occlusive dressing (plastic/foil) taped on three sides acts as a flutter valve, allowing air to escape the chest during exhalation but preventing air from entering during inhalation. - use this logic to derive the answer!",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s83",
@@ -3857,7 +5494,10 @@ window.questionBank = {
                 "Jellyfish Sting": "Rinse with vinegar or hot water; do not use fresh water.",
                 "Snakebite": "Keep patient calm, keep limb below heart level, do not use a tourniquet or ice."
             },
-            "explanation": "Environmental treatments rely on preventing further damage (e.g. rough handling of a cold heart causes cardiac arrest)."
+            "explanation": "Environmental treatments rely on preventing further damage (e.g. rough handling of a cold heart causes cardiac arrest).",
+            "hint": "Guide: Environmental treatments rely on preventing further damage (e.g.",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s84",
@@ -3868,7 +5508,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "NEVER rub a frostbitten area. The ice crystals in the tissue will act like tiny knives, destroying the cells."
+            "explanation": "NEVER rub a frostbitten area. The ice crystals in the tissue will act like tiny knives, destroying the cells.",
+            "hint": "Guide: NEVER rub a frostbitten area. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s85",
@@ -3886,7 +5529,10 @@ window.questionBank = {
                 "Cover with an occlusive dressing to retain moisture and heat.",
                 "Flex the patient's knees to relax the abdominal muscles."
             ],
-            "explanation": "Never push them back in. Cover with wet sterile gauze, then occlusive to lock in the wetness, and bend the knees to reduce tension on the abdominal wall."
+            "explanation": "Never push them back in. Cover with wet sterile gauze, then occlusive to lock in the wetness, and bend the knees to reduce tension on the abdominal wall.",
+            "hint": "Guide: Never push them back in.",
+            "difficulty": 7,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s86",
@@ -3897,7 +5543,10 @@ window.questionBank = {
                 "Venous Bleed": "Dark red, flowing steadily.",
                 "Capillary Bleed": "Dark red, slowly oozing."
             },
-            "explanation": "Identifying the source of bleeding dictates how aggressively you must manage it."
+            "explanation": "Identifying the source of bleeding dictates how aggressively you must manage it.",
+            "hint": "Guide: Identifying the source of bleeding dictates how aggressively you must manage it. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s87",
@@ -3910,7 +5559,10 @@ window.questionBank = {
                 "Flush the ear with sterile saline."
             ],
             "answer": "Place a loose dressing over the ear to absorb the fluid.",
-            "explanation": "Clear fluid is likely Cerebrospinal Fluid (CSF). Never pack the ear or apply pressure, as this can increase intracranial pressure or push bacteria into the brain."
+            "explanation": "Clear fluid is likely Cerebrospinal Fluid (CSF). Never pack the ear or apply pressure, as this can increase intracranial pressure or push bacteria into the brain.",
+            "hint": "Guide: Clear fluid is likely Cerebrospinal Fluid (CSF).",
+            "difficulty": 7,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s88",
@@ -3921,7 +5573,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "A helmet should be left in place UNLESS it prevents you from assessing/managing the airway, or if it does not hold the head securely."
+            "explanation": "A helmet should be left in place UNLESS it prevents you from assessing/managing the airway, or if it does not hold the head securely.",
+            "hint": "Guide: Re-read the specific symptoms mentioned. Isolate the airway vs breathing vs circulation issues.",
+            "difficulty": 3,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s89",
@@ -3941,7 +5596,10 @@ window.questionBank = {
                 "Rescuer 2 pulls the helmet gently off the head.",
                 "Rescuer 1 takes over manual stabilization from above the head."
             ],
-            "explanation": "Helmet removal requires two rescuers perfectly coordinating the transfer of manual stabilization to prevent neck movement."
+            "explanation": "Helmet removal requires two rescuers perfectly coordinating the transfer of manual stabilization to prevent neck movement.",
+            "hint": "Guide: Helmet removal requires two rescuers perfectly coordinating the transfer of manual stabilization to prevent neck movement. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s90",
@@ -3953,7 +5611,10 @@ window.questionBank = {
                 "3": "To Voice",
                 "4": "Spontaneous"
             },
-            "explanation": "Memorizing this table is absolutely mandatory for the psychomotor exam."
+            "explanation": "Memorizing this table is absolutely mandatory for the psychomotor exam.",
+            "hint": "Guide: Memorizing this table is absolutely mandatory for the psychomotor exam. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "primary_assessment"
         },
         {
             "id": "s91",
@@ -3973,7 +5634,10 @@ window.questionBank = {
                 "Begin START Triage.",
                 "Begin treating the most severely injured patients."
             ],
-            "explanation": "You must establish command and call for help before you start triaging or treating. If you get sucked into treating one patient, the incident will fail."
+            "explanation": "You must establish command and call for help before you start triaging or treating. If you get sucked into treating one patient, the incident will fail.",
+            "hint": "Guide: You must establish command and call for help before you start triaging or treating.",
+            "difficulty": 7,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s92",
@@ -3986,7 +5650,10 @@ window.questionBank = {
                 "Splinting fractures."
             ],
             "answer": "Opening the airway and applying a tourniquet.",
-            "explanation": "Triage must be rapid (30 seconds per patient). The only interventions allowed are opening an airway (head-tilt) and stopping massive bleeding."
+            "explanation": "Triage must be rapid (30 seconds per patient). The only interventions allowed are opening an airway (head-tilt) and stopping massive bleeding.",
+            "hint": "Guide: Triage must be rapid (30 seconds per patient).",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s93",
@@ -3998,7 +5665,10 @@ window.questionBank = {
                 "Green (Minor)": "Walking wounded; follows commands.",
                 "Black (Expectant)": "Apneic, even after the airway is manually opened."
             },
-            "explanation": "Red = RPM failure (Resp >30, Perfusion absent, Mental status altered). Yellow = Cannot walk, but RPM is stable. Green = Walking. Black = Dead."
+            "explanation": "Red = RPM failure (Resp >30, Perfusion absent, Mental status altered). Yellow = Cannot walk, but RPM is stable. Green = Walking. Black = Dead.",
+            "hint": "Guide: Red = RPM failure (Resp >30, Perfusion absent, Mental status altered). Yellow = Cannot walk, but RPM is stable. Green = Walking.",
+            "difficulty": 6,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s94",
@@ -4009,7 +5679,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "True",
-            "explanation": "In an MCI, 'Black' means expectant/deceased. You cannot expend resources performing CPR on one patient while 10 others die from treatable injuries."
+            "explanation": "In an MCI, 'Black' means expectant/deceased. You cannot expend resources performing CPR on one patient while 10 others die from treatable injuries.",
+            "hint": "Guide: In an MCI, 'Black' means expectant/deceased. Think about how this connects to the statement.",
+            "difficulty": 3,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s95",
@@ -4025,7 +5698,10 @@ window.questionBank = {
                 "Check Perfusion (Is radial pulse present or capillary refill < 2s?).",
                 "Check Mental Status (Can they follow simple commands?)."
             ],
-            "explanation": "The sequence is strictly R -> P -> M. If they fail at any step, they are immediately tagged RED and you move on."
+            "explanation": "The sequence is strictly R -> P -> M. If they fail at any step, they are immediately tagged RED and you move on.",
+            "hint": "Guide: The sequence is strictly R -> P -> M.",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s96",
@@ -4036,7 +5712,10 @@ window.questionBank = {
                 "Respiratory Rate": "Normal is 15-45. Tag RED if < 15 or > 45.",
                 "Mental Status": "Use AVPU instead of asking them to follow commands."
             },
-            "explanation": "Because children generally have healthy hearts and suffer from primary respiratory arrest, JumpSTART gives them 5 rescue breaths before tagging them black."
+            "explanation": "Because children generally have healthy hearts and suffer from primary respiratory arrest, JumpSTART gives them 5 rescue breaths before tagging them black.",
+            "hint": "Guide: Because children generally have healthy hearts and suffer from primary respiratory arrest, JumpSTART gives them 5 rescue breaths before tagging them black. - use this logic to derive the answer!",
+            "difficulty": 8,
+            "nremtCategory": "scene_safety"
         },
         {
             "id": "s97",
@@ -4049,7 +5728,10 @@ window.questionBank = {
                 "Stokes Basket"
             ],
             "answer": "Kendrick Extrication Device (KED)",
-            "explanation": "The KED is a half-backboard corset designed specifically to immobilize a patient in a seated position before pivoting them out of a vehicle."
+            "explanation": "The KED is a half-backboard corset designed specifically to immobilize a patient in a seated position before pivoting them out of a vehicle.",
+            "hint": "Guide: The KED is a half-backboard corset designed specifically to immobilize a patient in a seated position before pivoting them out of a vehicle. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s98",
@@ -4060,7 +5742,10 @@ window.questionBank = {
                 "False"
             ],
             "answer": "False",
-            "explanation": "If there is an immediate threat to life (fire, explosion, sinking), you perform a Rapid Extrication (dragging them out) without a KED, prioritizing life over limb."
+            "explanation": "If there is an immediate threat to life (fire, explosion, sinking), you perform a Rapid Extrication (dragging them out) without a KED, prioritizing life over limb.",
+            "hint": "Guide: Re-read the specific symptoms mentioned. Isolate the airway vs breathing vs circulation issues.",
+            "difficulty": 3,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s99",
@@ -4080,7 +5765,10 @@ window.questionBank = {
                 "Top Torso strap",
                 "Head straps"
             ],
-            "explanation": "Mnemonic: 'My Baby Looks Totally Hot' (Middle, Bottom, Legs, Top, Head). The torso is always secured before the head."
+            "explanation": "Mnemonic: 'My Baby Looks Totally Hot' (Middle, Bottom, Legs, Top, Head). The torso is always secured before the head.",
+            "hint": "Guide: Mnemonic: 'My Baby Looks Totally Hot' (Middle, Bottom, Legs, Top, Head).",
+            "difficulty": 5,
+            "nremtCategory": "treatment_transport"
         },
         {
             "id": "s100",
@@ -4092,7 +5780,10 @@ window.questionBank = {
                 "Treatment Officer": "Sets up areas (Red, Yellow, Green) and manages care for patients waiting for transport.",
                 "Transport Officer": "Coordinates with hospitals and loads patients into ambulances based on priority."
             },
-            "explanation": "Understanding the Incident Command System (ICS) prevents chaos on a mass casualty scene."
+            "explanation": "Understanding the Incident Command System (ICS) prevents chaos on a mass casualty scene.",
+            "hint": "Guide: Understanding the Incident Command System (ICS) prevents chaos on a mass casualty scene. - use this logic to derive the answer!",
+            "difficulty": 5,
+            "nremtCategory": "scene_safety"
         }
     ]
 };

@@ -13,7 +13,7 @@
         <div id="landing-screen" class="screen active">
             <header>
                 <div class="header-content">
-                    <h1>NREMT <span>Mastery</span></h1>
+                    <h1>NREMT <span id="dev-trigger">Mastery</span></h1>
                     <button id="info-btn" class="icon-btn" title="Category Information">ℹ️</button>
                 </div>
                 <p>Advanced Practical Exam Preparation</p>
@@ -44,6 +44,12 @@
                 <button id="start-quiz-btn" class="primary-btn" disabled>Start Quiz</button>
                 <button id="open-study-btn" class="secondary-btn">Study Resources</button>
             </div>
+
+            <div class="exam-cta">
+                <h2>Ready for the True Test?</h2>
+                <p>Try the Simulated NREMT Exam.</p>
+                <button id="start-exam-btn" class="primary-btn exam-start-btn">Start Test</button>
+            </div>
         </div>
 
         <!-- Quiz Screen -->
@@ -58,6 +64,7 @@
                 <div class="quiz-meta">
                     <span id="question-counter">Question 1/10</span>
                     <span id="category-badge">Skills</span>
+                    <span id="exam-timer" class="exam-timer hidden">2:00:00</span>
                 </div>
             </div>
 
@@ -68,7 +75,10 @@
                 </div>
             </div>
             
+            <div id="hint-display" class="hint-box hidden"></div>
+            
             <div class="quiz-footer">
+                <button id="hint-btn" class="primary-btn hint-btn-style">💡 Hint</button>
                 <button id="submit-btn" class="primary-btn" disabled>Submit Answer</button>
                 <button id="next-btn" class="primary-btn hidden">Next Question</button>
             </div>
@@ -106,11 +116,93 @@
                     <button class="study-tab" data-tab="airway">Airway Rules</button>
                     <button class="study-tab" data-tab="terminology">Medical Terminology</button>
                     <button class="study-tab" data-tab="pediatrics">OB & Pediatrics</button>
+                    <button class="study-tab" data-tab="trauma">Trauma Management</button>
+                    <button class="study-tab" data-tab="legal">Legal & Ethics</button>
                 </div>
                 <div class="study-content" id="study-content">
                     <!-- Content injected via JS -->
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- Exam Instructions Screen -->
+    <div id="exam-instructions-screen" class="screen">
+        <header>
+            <h1>NREMT <span>Simulated Exam</span></h1>
+            <p>Adaptive Cognitive Examination</p>
+        </header>
+        <div class="setup-container exam-instructions">
+            <div class="info-section">
+                <h3>⚠️ Exam Briefing</h3>
+                <p>This is a <strong>simulated NREMT cognitive exam</strong>. It mirrors the real test's adaptive difficulty engine and official content distribution.</p>
+            </div>
+            <div class="info-section">
+                <h4>📊 How It Works</h4>
+                <ul class="exam-rules-list">
+                    <li>The exam begins at <strong>moderate difficulty</strong>.</li>
+                    <li>A <strong>correct answer</strong> makes the next question <strong>harder</strong>.</li>
+                    <li>A <strong>wrong answer</strong> makes the next question <strong>easier</strong>.</li>
+                    <li>The exam will be between <strong>70 and 120 questions</strong>.</li>
+                    <li>You have a strict <strong>2-hour time limit</strong>.</li>
+                    <li>Hints are <strong>disabled</strong> during the exam.</li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h4>📋 Content Distribution</h4>
+                <ul class="exam-rules-list">
+                    <li><strong>Primary Assessment:</strong> 39% – 43%</li>
+                    <li><strong>Patient Treatment & Transport:</strong> 20% – 24%</li>
+                    <li><strong>Scene Size-Up & Safety:</strong> 15% – 19%</li>
+                    <li><strong>Operations:</strong> 10% – 14%</li>
+                    <li><strong>Secondary Assessment:</strong> 5% – 9%</li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h4>🏆 Scoring</h4>
+                <ul class="exam-rules-list">
+                    <li>Scored on a standardized scale: <strong>100 – 1500</strong></li>
+                    <li>Passing score: <strong>950</strong></li>
+                </ul>
+            </div>
+            <div class="exam-action-btns">
+                <button id="exam-begin-btn" class="primary-btn">Begin Exam</button>
+                <button id="exam-cancel-btn" class="secondary-btn">Return Home</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exam Results Screen -->
+    <div id="exam-results-screen" class="screen">
+        <header>
+            <h1>NREMT <span>Exam Results</span></h1>
+        </header>
+        <div class="setup-container exam-results-container">
+            <div id="exam-result-verdict" class="exam-verdict"></div>
+            <div class="exam-score-display">
+                <span id="exam-scaled-score">0</span>
+                <span class="exam-score-label">/ 1500</span>
+            </div>
+            <div class="exam-stats-grid">
+                <div class="exam-stat-card">
+                    <span class="exam-stat-value" id="exam-stat-questions">0</span>
+                    <span class="exam-stat-label">Questions</span>
+                </div>
+                <div class="exam-stat-card">
+                    <span class="exam-stat-value" id="exam-stat-correct">0</span>
+                    <span class="exam-stat-label">Correct</span>
+                </div>
+                <div class="exam-stat-card">
+                    <span class="exam-stat-value" id="exam-stat-accuracy">0%</span>
+                    <span class="exam-stat-label">Accuracy</span>
+                </div>
+                <div class="exam-stat-card">
+                    <span class="exam-stat-value" id="exam-stat-time">0:00</span>
+                    <span class="exam-stat-label">Time Used</span>
+                </div>
+            </div>
+            <div id="exam-category-breakdown" class="exam-breakdown"></div>
+            <button id="exam-return-btn" class="primary-btn" style="margin-top:2rem;">Return Home</button>
         </div>
     </div>
 
@@ -152,7 +244,43 @@
         </div>
     </div>
 
+
+    <!-- Developer Menu -->
+    <div id="dev-screen" class="screen">
+        <header>
+            <h1>DEV <span>MENU</span></h1>
+            <p>Framework Database & Override Controls</p>
+        </header>
+        
+        <div class="setup-container">
+            <h2>Initialize Difficulty Quiz</h2>
+            <div class="grid-container" id="dev-difficulty-grid">
+                <button class="setup-btn dev-diff-btn" data-diff="1">Diff 1</button>
+                <button class="setup-btn dev-diff-btn" data-diff="2">Diff 2</button>
+                <button class="setup-btn dev-diff-btn" data-diff="3">Diff 3</button>
+                <button class="setup-btn dev-diff-btn" data-diff="4">Diff 4</button>
+                <button class="setup-btn dev-diff-btn" data-diff="5">Diff 5</button>
+                <button class="setup-btn dev-diff-btn" data-diff="6">Diff 6</button>
+                <button class="setup-btn dev-diff-btn" data-diff="7">Diff 7</button>
+                <button class="setup-btn dev-diff-btn" data-diff="8">Diff 8</button>
+                <button class="setup-btn dev-diff-btn" data-diff="9">Diff 9</button>
+                <button class="setup-btn dev-diff-btn" data-diff="10">Diff 10</button>
+            </div>
+        </div>
+
+        <div class="setup-container">
+            <h2>Database Viewer</h2>
+            <button id="dev-load-db-btn" class="secondary-btn" style="margin-bottom: 1rem;">Load All Questions</button>
+            <div id="dev-db-viewer" class="hidden" style="max-height: 400px; overflow-y: auto; text-align: left; padding: 1rem; background: rgba(0,0,0,0.2); border-radius: 8px;">
+                <!-- DB injected here -->
+            </div>
+        </div>
+
+        <button id="dev-back-btn" class="primary-btn" style="margin-top: 2rem;">Return to Main Menu</button>
+    </div>
+
     <!-- Script references -->
+
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
     <script src="studyData.js"></script>
     <script src="questions.js"></script>
